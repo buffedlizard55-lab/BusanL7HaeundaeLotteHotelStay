@@ -7,12 +7,16 @@
     "location_notes": "1-min walk from Haeundae Beach; ~5-min walk to Haeundae Station (Busan Metro Line 2). Base for the Haeundae east-coast cluster.",
     "sources": [
       {
-        "label": "Lotte Hotels official site",
-        "url": "https://www.lottehotel.com/"
+        "label": "L7 HAEUNDAE by LOTTE HOTELS — official site",
+        "url": "https://www.lottehotel.com/haeundae-l7/en/"
       },
       {
-        "label": "Booking.com listing (address/location)",
-        "url": "https://www.booking.com/hotel/kr/l7-haeundae-busan.html"
+        "label": "Official room page (check-in/out, pool, restaurant)",
+        "url": "https://www.lottehotel.com/haeundae-l7/en/rooms/superior-twin.html"
+      },
+      {
+        "label": "Lotte Hotels official (prerendered mirror, address/contact)",
+        "url": "https://www.lottehotel.com/prerendered/haeundae-l7/en/index.html"
       }
     ]
   },
@@ -39,20 +43,20 @@
     },
     {
       "id": "E2",
-      "name": "Culture Day — discounted cinema",
+      "name": "Culture Day — discounted cinema (₩10,000 / ₩8,000)",
       "date": "Wed Nov 11, 2026",
       "time": "Screenings starting 17:00–21:00",
-      "venue": "Busan Cinema Center (Dureraum) & multiplexes",
+      "venue": "South Korean multiplexes (CGV / Lotte Cinema / Megabox) — national Culture Day policy",
       "area": "Centum City",
       "price": "2D ₩10,000 adult / ₩8,000 youth",
-      "status": "2nd & last Wednesday of month (Nov 11 = 2nd Wed). Regular programming ~₩7,000 otherwise.",
+      "status": "2nd & last Wednesday of the month (Nov 11 = 2nd Wed) for screenings starting 17:00–21:00: 2D ₩10,000 adult / ₩8,000 youth at multiplexes nationwide. Busan Cinema Center (Dureraum) keeps its own lower regular rates (~₩7,000) and its plaza + LED roof are free at night. ☎ Dureraum 051-780-6080.",
       "sources": [
         {
           "label": "Busan Cinema Center official",
           "url": "https://www.dureraum.org"
         },
         {
-          "label": "Culture Day twice-monthly rule (Chosun)",
+          "label": "Culture Day twice-monthly rule — Chosun (2026-04-02)",
           "url": "https://www.chosun.com/culture-life/culture_general/2026/04/02/XFEUUXICYZFWBG5WZ7Q4J2HOAQ/"
         }
       ]
@@ -108,12 +112,36 @@
       "status": "Lifts SATURDAYS ONLY, 14:00 for 15 min. Korea's only bascule bridge. Cancelled in heavy rain/wind. Arrive 13:45.",
       "sources": [
         {
-          "label": "Busan City — lift schedule notice",
-          "url": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=48703&gugun=Prev"
+          "label": "Busan City — The Seven Bridges of Busan (Saturday 14:00, 15 min)",
+          "url": "https://www.busan.go.kr/eng/the-seven-bridges-of-busan"
         },
         {
-          "label": "KTV — Saturday 14:00 lift report",
+          "label": "KTV — Saturday 14:00 lift report, 2024",
           "url": "https://m.ktv.go.kr/content/view?content_id=705652"
+        }
+      ]
+    },
+    {
+      "id": "E6",
+      "name": "Jean-Michel Othoniel — In the Labyrinth of Love (2028 WDC Busan official partner exhibition)",
+      "date": "Aug 28 – Dec 31, 2026 (every day except Mondays)",
+      "time": "10:00–18:00, last entry 17:30",
+      "venue": "F1963 Sukcheon Hall & Moonlight Garden, 20 Gurak-ro 123beon-gil, Suyeong-gu",
+      "area": "Suyeong-gu (Gwangan / Namcheon side)",
+      "price": "₩10,000 adult / ₩8,000 youth (13–18) / ₩6,000 child (3–12)",
+      "status": "CONFIRMED on the Busan city events calendar and F1963's own current-upcoming page. ~100 works, first Korean solo show of this scale; Gold Lotus in the open garden is free to see. Book via f1963.org.",
+      "sources": [
+        {
+          "label": "F1963 official — exhibition page",
+          "url": "https://www.f1963.org/ko/?c=art&s=1&gbn=viewok&ix=496"
+        },
+        {
+          "label": "Busan city official events calendar",
+          "url": "https://www.busan.go.kr/eng/bsevents/1750485"
+        },
+        {
+          "label": "F1963 official — directions (Line 3 Mangmi + village bus 2)",
+          "url": "https://www.f1963.org/ko/?c=contact&s=3"
         }
       ]
     }
@@ -299,7 +327,7 @@
       "id": "P9",
       "name": "Shinsegae Centum City & Spa Land",
       "area": "Centum City",
-      "transit": "Line 2 to Centum City (1 stop from Haeundae) or ~25-min walk",
+      "transit": "Line 2 to Centum City (3 stops from Haeundae, ~8 min) or a ~25-min beach-side walk",
       "hours": "Spa Land 08:00–23:00, last entry 22:00",
       "price": "Spa Land ₩26,000 adult / ₩21,000 student (4-hour ticket; +₩5,000/hr after; elementary age and up)",
       "status": "Verified operator page",
@@ -315,8 +343,8 @@
       "name": "Busan Cinema Center (Dureraum)",
       "area": "Centum City",
       "transit": "Line 2 to Centum City; walk from BEXCO",
-      "hours": "Open daily; roof-theater outdoor screenings are summer-only (ended Sep 1)",
-      "price": "Regular ~₩7,000; Culture Day 2D ₩10,000/₩8,000 (17:00–21:00 starts)",
+      "hours": "Open daily; roof-theater outdoor screenings are summer-only (ended Sep 1, 2026). Plaza + LED ceiling free at night.",
+      "price": "Regular programming ~₩7,000 (₩5,000 youth/senior). The ₩10,000/₩8,000 Culture Day rate is a multiplex (CGV/Lotte/Megabox) rate, not Dureraum's.",
       "status": "Verified venue",
       "sources": [
         {
@@ -335,7 +363,7 @@
       "area": "Centum City",
       "transit": "Line 2 to BEXCO/Centum City",
       "hours": "Tue–Sun 10:00–18:00, last entry 17:30; closed Mondays",
-      "price": "Free while main building closed",
+      "price": "Free during the main-building closure; the ₩3,000/₩2,000 pre-closure fee may return with the Sep 17, 2026 reopening",
       "status": "VERIFIED live Aug 30, 2026. Main BMA building still closed for renovation (docent/parking suspended until Sep 16, 2026; reopening date TBA).",
       "sources": [
         {
@@ -349,7 +377,7 @@
       "name": "Yongdusan Park & Busan Tower",
       "area": "Nampo",
       "transit": "Line 1 Jungang (exit 1) or Nampo (exit 7)",
-      "hours": "Park 24h; tower 10:00–22:00, last ticket 21:30",
+      "hours": "Park 24h; tower 10:00–22:00, last ticket 21:30 (year-round, 051-601-1800)",
       "price": "Tower ₩12,000 adult / ₩9,000 child & senior; under 3 free",
       "status": "Verified operator (BISCO site intermittently down; figures cross-checked Visit Busan)",
       "sources": [
@@ -379,7 +407,7 @@
       "name": "Gukje Market & Bupyeong Kkangtong Night Market",
       "area": "Nampo",
       "transit": "Walk from Jagalchi",
-      "hours": "Day market + evening street food",
+      "hours": "Gukje stalls mostly 09:00–20:00, closed 1st & 3rd Sundays; Kkangtong night market 19:30–23:30 daily",
       "price": "Free entry",
       "status": "Verified markets",
       "sources": [
@@ -492,7 +520,7 @@
       "name": "Busan Museum",
       "area": "Daeyeon / Nam-gu (next to UNMCK)",
       "transit": "Line 2 Daeyeon",
-      "hours": "Free; closed Mondays",
+      "hours": "Tue–Sun 09:00–18:00 (last entry 17:00); closed Mondays & Jan 1",
       "price": "Free",
       "status": "Verified city museum",
       "sources": [
@@ -678,15 +706,23 @@
     {
       "id": "P33",
       "name": "F1963 cultural complex",
-      "area": "Suyeong-gu",
-      "transit": "Line 2 Mangmi + walk",
-      "hours": "Most indoor venues closed Mondays",
-      "price": "Free entry",
+      "area": "Suyeong-gu (Gwangan / Millak)",
+      "transit": "Line 3 Mangmi Station (Exit 4) + Suyeong-gu village bus 2 to 'Sanjeong Apartment' (official F1963 directions); from Centum City: Line 2 to Suyeong (2 stops), transfer to Line 3, Mangmi (1 stop). Taxi ~10 min from Centum City.",
+      "hours": "Complex open daily; most indoor stores/venues closed Mondays. Othoniel exhibition (Sukcheon Hall + Moonlight Garden): 10:00–18:00, last entry 17:30, closed Mondays, 28 Aug–31 Dec 2026.",
+      "price": "Free entry; Othoniel ₩10,000 adult / ₩8,000 youth / ₩6,000 child",
       "status": "Verified complex",
       "sources": [
         {
-          "label": "F1963 official",
-          "url": "https://www.f1963.org"
+          "label": "F1963 official — Othoniel exhibition detail",
+          "url": "https://www.f1963.org/ko/?c=art&s=1&gbn=viewok&ix=496"
+        },
+        {
+          "label": "Busan city events calendar (exhibition listing)",
+          "url": "https://www.busan.go.kr/eng/bsevents/1750485"
+        },
+        {
+          "label": "F1963 official — directions (Line 3 Mangmi + village bus 2)",
+          "url": "https://www.f1963.org/ko/?c=contact&s=3"
         }
       ]
     },
@@ -809,9 +845,9 @@
   ],
   "flags": [
     "KOVO (volleyball) and KBL/WKBL (basketball) November home dates could not be fetched statically — their sites are JavaScript-rendered (KOVO schedule URL returns HTTP 500; KBL returns 'page not found' without JS). Re-check kovo.co.kr / kbl.or.kr / wkbl.or.kr in October 2026 before booking.",
-    "Busan Museum of Art main building: still closed for renovation as of Aug 30, 2026; docent tours & parking suspended until Sep 16, 2026; official reopening date not yet announced. Space Lee Ufan is open (Tue–Sun, free).",
+    "Busan Museum of Art (BMA): main building closed Dec 18, 2023 – Sep 16, 2026 for renovation; reopening announced for Sep 17, 2026 (CEN News, Aug 26, 2026) with 4 opening exhibitions (Future Museology, '1945-1953', 'All the Museums of Yesterday'). Space Lee Ufan open Tue–Sun 10:00–18:00. It was free while the main building was closed — admission rules may change with the reopening; check art.busan.go.kr before the trip.",
     "Busan MoCA (Eulsukdo): official site returned HTTP 500 on Aug 30, 2026; possible de-installation closure after Biennale (ended Nov 1). Check the notice board before the long ride out.",
-    "Lotte World Adventure Busan: November hours are date-specific — check the park-schedule calendar (adventurebusan.lotteworld.com) the day before.",
+    "Lotte World Adventure Busan: November hours are date-specific — today's official page shows 10:00–21:00; check the park-schedule calendar (adventurebusan.lotteworld.com) the day before. Also in the same Osiria cluster: Ahopsan Forest and Busan National Science Museum (both closed Mondays — fine for Sun Nov 15).",
     "Gwangalli M Drone Light Show is weather-dependent (cancelled for wind/rain/poor visibility). Nov 7 (fireworks night) has special programming; Nov 14 is a normal Saturday show.",
     "'Turn Toward Busan' is an annual Nov 11 11:00 ceremony at UNMCK — the cemetery itself is verified open 365 days; confirm the ceremony timing via Visit Busan closer to the date.",
     "Culture Day cinema discount (₩10,000/₩8,000) applies to screenings STARTING 17:00–21:00 on the 2nd and last Wednesday — check the actual screening time before booking.",
@@ -819,7 +855,9 @@
     "Jagalchi Market closed days (1st & 3rd Tuesdays) fall on Nov 3 & Nov 17 in 2026 — both outside the stay; the market is open for the entire visit.",
     "Several restaurants were removed from the source food guide because two official pages disagreed on hours (e.g., Shinbalwon, Nagahama Mangetsu, Haeundae Ilpum Hanwoo, Mori, LAB XXIV). If you go anyway, check hours on Naver Map the morning of.",
     "Prices/hours above were verified Aug 17–30, 2026 from official pages; re-confirm closer to travel as they can change.",
-    "Weather risk in November: Igidae/Oryukdo, drone show, Yeongdo Bridge lift and the Songdo cable car can close/cancel in wind or rain."
+    "Weather risk in November: Igidae/Oryukdo, drone show, Yeongdo Bridge lift and the Songdo cable car can close/cancel in wind or rain.",
+    "Check-out time discrepancy: the official L7 page lists 12:00 check-out (11:00 Jul–Aug), but OTA listings (booking/trip.com) say before 11:00. This plan keeps the requested before-11:00 checkout — arrive ahead of 11:00 either way.",
+    "F1963 Othoniel exhibition is closed every Monday and last entry is 17:30 — it is a late-afternoon stop, not an evening one; the free garden installation (Gold Lotus) can be seen outside closing hours."
   ],
   "food": [
     {
@@ -1021,7 +1059,7 @@
     {
       "name": "Banpin (반핀)",
       "area": "9 Dongcheon-ro 108beon-gil, Busanjin-gu",
-      "hours": "Weekdays 11:30–16:00 / 17:00–21:00. Weekends 11:15–16:00 / 17:00–21:00. (Page prints last order 15:00 — that sits inside",
+      "hours": "Weekdays 11:30–16:00 / 17:00–21:00. Weekends 11:15–16:00 / 17:00–21:00. (Page prints last order 15:00 — that sits inside the lunch window; confirm last order on the day.) Open all year.",
       "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1482",
       "category": "Korean-Chinese & Dumplings"
     },
@@ -1175,7 +1213,7 @@
     {
       "name": "Camping BBQ Clouds",
       "area": "560 Gomnae-gil, Jeonggwan-eup, Gijang-gun",
-      "hours": "Mon–Fri 13:00–17:00 / 18:00–22:00. Weekends & holidays 11:30–14:30 / 15:30–18:30 / 19:30–22:30. No closing day printed o",
+      "hours": "Mon–Fri 13:00–17:00 / 18:00–22:00. Weekends & holidays 11:30–14:30 / 15:30–18:30 / 19:30–22:30. No closing day printed on the listing.",
       "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=2156",
       "category": "Grilled Meat & Jokbal"
     },
@@ -1539,7 +1577,7 @@
     {
       "name": "TETE O NE",
       "area": "Seomyeon, Busanjin-gu",
-      "hours": "15:00–24:00 (last order 23:00); Sat 12:00–24:00 (last order 23:00); Sun 12:00–18:00 (last order 17:00). Closed Mondays a",
+      "hours": "15:00–24:00 (last order 23:00); Sat 12:00–24:00 (last order 23:00); Sun 12:00–18:00 (last order 17:00). Closed Mondays and Tuesdays.",
       "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
       "category": "Classic Korean & Specialty"
     },
@@ -1560,7 +1598,7 @@
     {
       "name": "SUSHI IRUKA",
       "area": "Marine City, Haeundae-gu",
-      "hours": "Lunch 12:00–14:00; dinner first seating from 17:30, second seating from 20:00. Open all year. (The index prints lunch as",
+      "hours": "Lunch 12:00–14:00; dinner first seating from 17:30, second seating from 20:00. Open all year. (The index prints lunch as \"12 a.m to 2 p.m.\" — a typo for 12 p.m.)",
       "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
       "category": "Classic Korean & Specialty"
     },
@@ -1707,7 +1745,7 @@
     {
       "name": "Nampo Samgyetang (남포삼계탕)",
       "area": "16 Nampo-gil, Jung-gu",
-      "hours": "Mon–Fri 11:00–20:50 (break 15:30–16:30, last order 20:20). Sat–Sun 11:00–20:50 (last order 20:20). Closed traditional ho",
+      "hours": "Mon–Fri 11:00–20:50 (break 15:30–16:30, last order 20:20). Sat–Sun 11:00–20:50 (last order 20:20). Closed traditional holidays.",
       "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1247",
       "category": "Snacks & Cafes"
     },
@@ -1890,7 +1928,7 @@
         {
           "time": "16:00",
           "what": "Haeundae Beach + Dongbaekseom coastal walk",
-          "detail": "Camellia island path with Gwangan Bridge views; APEC Nurimaru house on the island. Free. Sunset ~17:15 — good photo hour.",
+          "detail": "Camellia island path with Gwangan Bridge views; APEC Nurimaru house on the island. Free. Sunset 17:22 on Nov 9 — good photo hour (timeanddate, Nov 2026 table).",
           "link": "https://english.visitbusan.net"
         },
         {
@@ -1902,13 +1940,13 @@
         {
           "time": "19:00",
           "what": "Dinner — Dalmaji Hill options",
-          "detail": "Geobukseon Hoetjip (sliced raw fish, 11:00–23:00) or Pyeongan-do Jokbal (12:00–24:00, open late).",
+          "detail": "Geobukseon Hoetjip (sliced raw fish, 11:00–23:00; ~10 min up Dalmaji Hill) or Pyeongan-do Jokbal (12:00–24:00, open late).",
           "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
         },
         {
           "time": "20:30",
           "what": "Busan X the Sky — night view from LCT 100F",
-          "detail": "Open daily 10:00–21:00, last ticket 20:30. ₩29,000 adult / ₩26,000 child & senior. 411.6 m — highest view in Busan.",
+          "detail": "Open daily 10:00–21:00, last ticket 20:30. ₩29,000 adult / ₩26,000 child & senior. 411.6 m — highest view in Busan; queue late on busy nights.",
           "link": "https://www.busanxthesky.com/xthesky/xthesky.php"
         }
       ]
@@ -1941,7 +1979,7 @@
         {
           "time": "14:00",
           "what": "Beach Train to Songjeong Beach",
-          "detail": "1-ride ticket ₩10,000 from Mipo; or all-station ₩16,000 to roam freely. Quiet surf beach — November is a walk, not a swim.",
+          "detail": "1-ride Cheongsapo→Songjeong ₩8,000 (₩10,000 only at Mipo/Songjeong); all-station ₩16,000. Quiet surf beach — November is a walk, not a swim.",
           "link": "https://www.bluelinepark.com/fare.do"
         },
         {
@@ -1953,7 +1991,7 @@
         {
           "time": "19:00",
           "what": "Dinner — Haeundae classics",
-          "detail": "Haeundae Amso Galbijip (hanu galbi since 1964; 11:30–22:00, open Tue) or Geobukseon Hoetjip (Dalmaji, 11:00–23:00).",
+          "detail": "Haeundae Amso Galbijip (hanu galbi since 1964; 11:30–22:00; weekend break 15:15–16:30 — Tue is fine) or Geobukseon Hoetjip (Dalmaji, 11:00–23:00).",
           "link": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187036"
         },
         {
@@ -1974,13 +2012,13 @@
         {
           "time": "09:00",
           "what": "Metro Line 2: Haeundae → Daeyeon",
-          "detail": "~10 stops (~25 min), one line. Everything after is on foot or one more ride east.",
+          "detail": "~10 stops (~25 min), one line. UNMCK is an 18-min walk from Daeyeon Exit 3 (official Visit Busan), so factor that in.",
           "link": ""
         },
         {
           "time": "10:30",
           "what": "UN Memorial Cemetery (UNMCK)",
-          "detail": "Open 365 days, Oct–Apr 09:00–17:00, free. Wall of Remembrance (40,896 names).",
+          "detail": "Open 365 days; Oct–Apr 09:00–17:00, free. Wall of Remembrance (40,896 names). Keep quiet; no food/pets (etiquette rules on the official page).",
           "link": "https://www.unmck.or.kr/eng/main/"
         },
         {
@@ -1992,7 +2030,7 @@
         {
           "time": "12:00",
           "what": "Busan Museum (next door)",
-          "detail": "Municipal history museum; free; open Wednesdays.",
+          "detail": "Municipal history museum next to the cemetery; 09:00–18:00 (last entry 17:00); free; closed Mondays and Jan 1 — Wed Nov 11 is open.",
           "link": "https://museum.busan.go.kr"
         },
         {
@@ -2010,13 +2048,13 @@
         {
           "time": "15:00",
           "what": "Space Lee Ufan — art in a Lee Ufan-designed building",
-          "detail": "Tue–Sun 10:00–18:00 (last entry 17:30); FREE while the main BMA building is closed for renovation.",
+          "detail": "Space Lee Ufan: Tue–Sun 10:00–18:00 (last entry 17:30), closed Mon. ⚠️ It was free only while the main BMA building was closed; the main building's reopening was announced for Sep 17, 2026 — expect Space Lee Ufan charges to return (₩3,000/₩2,000 pre-closure) and check art.busan.go.kr for the new admission rules. Main building is right next door if open.",
           "link": "https://art.busan.go.kr/index.nm"
         },
         {
           "time": "17:30",
-          "what": "Culture Day movie at Busan Cinema Center (Dureraum)",
-          "detail": "2nd & last Wednesday of the month: 2D ₩10,000 adult / ₩8,000 youth for screenings STARTING 17:00–21:00. Check the screening calendar. World's largest LED ceiling lights the plaza free.",
+          "what": "Culture Day movie — Dureraum or a multiplex",
+          "detail": "Culture Day (2nd & last Wed): 2D ₩10,000 adult / ₩8,000 youth for screenings STARTING 17:00–21:00. The rate is a national multiplex policy (CGV/Lotte/Megabox); Busan Cinema Center (Dureraum) screens at its own lower rates (~₩7,000 regular with youth/senior ₩5,000) and its plaza + world's-largest LED roof are free to walk under at night. Check the Dureraum screening calendar for Nov 11.",
           "link": "https://www.dureraum.org"
         },
         {
@@ -2037,43 +2075,43 @@
         {
           "time": "09:00",
           "what": "Metro: Haeundae → Nampo (via Seomyeon)",
-          "detail": "Line 2 to Seomyeon (15 stops) + Line 1 to Nampo (7 stops) ≈ 45 min. Alternatively a taxi (~35–40 min).",
+          "detail": "Line 2 Haeundae→Seomyeon (16 stops) + Line 1 Seomyeon→Nampo (8 stops) ≈ 45 min incl. transfer. Alternatively a taxi (~35–40 min).",
           "link": ""
         },
         {
           "time": "11:30",
           "what": "Lunch — milmyeon in Nampo",
-          "detail": "1969 Buwondong Kalguksu (11:00–19:30, daily — often sells out ~18:00) or Nampo Samgyetang (11:00–20:50).",
+          "detail": "1969 Buwondong Kalguksu (11:00–19:30, daily — often sells out ~18:00) or Nampo Samgyetang (Mon–Fri 11:00–20:50, break 15:30–16:30).",
           "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=102&lang_cd=ko"
         },
         {
           "time": "13:30",
           "what": "Jagalchi Market",
-          "detail": "Korea's largest fish market; 05:00–22:00; open all stay (closures are Nov 3 & 17 only). Live-fish floor + rooftop deck.",
+          "detail": "Korea's largest seafood market; 05:00–22:00; closed 1st & 3rd Tuesdays (Nov 3 & 17 — outside this window). Live-fish floor + rooftop deck.",
           "link": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=69318"
         },
         {
           "time": "15:30",
           "what": "Gukje Market & Bosu-dong Book Alley",
-          "detail": "International market + second-hand book street from the Korean War era.",
+          "detail": "Gukje Market: most stalls 09:00–20:00, closed 1st & 3rd Sundays (Nov 15 is the 3rd — not today, Thu Nov 12). Bosu-dong Book Alley is one block away.",
           "link": "http://www.gukjemarket.co.kr"
         },
         {
           "time": "17:30",
           "what": "Yongdusan Park & Busan Tower",
-          "detail": "Escalator up from Gwangbok-ro; tower 10:00–22:00 (last ticket 21:30), ₩12,000 — sunset over the harbor.",
+          "detail": "Escalator up from Gwangbok-ro; tower 10:00–22:00 (last ticket 21:30), ₩12,000 adult / ₩9,000 child & senior. Sunset 17:20 on Nov 12 — time your climb and catch both.",
           "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=368&lang_cd=ko"
         },
         {
           "time": "19:30",
           "what": "Dinner — old-town classics",
-          "detail": "Hwaguk Banjeom (Korean-Chinese, 43 yrs; 11:30–15:30/17:00–21:30; open Thu) or Bugwang Dwaejigukbap (09:30–19:30; closed Sun — open Thu).",
+          "detail": "Hwaguk Banjeom (Korean-Chinese, 43 yrs; 11:30–15:30/17:00–21:30; closed 1st & 3rd Mon — open Thu) or Bugwang Dwaejigukbap (09:30–19:30; closed Sun — open Thu).",
           "link": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1516"
         },
         {
           "time": "20:30",
           "what": "Bupyeong Kkangtong Night Market",
-          "detail": "Covered evening street-food market next to Gukje.",
+          "detail": "Night market 19:30–23:30, open daily year-round, next to Gukje Market.",
           "link": "https://english.visitbusan.net"
         }
       ]
@@ -2083,12 +2121,12 @@
       "title": "Seomyeon Food & Gugak Concert Night",
       "days": "Fri Nov 13",
       "difficulty": "Busy — anchored on a confirmed concert",
-      "transit": "One metro ride in the morning (Line 2 Haeundae→Seomyeon, 15 stops, ~25–30 min); the day is then all walking (Seomyeon–Jeonpo–Busan Citizens Park–Gugak Center).",
+      "transit": "One metro ride in the morning (Line 2 Haeundae→Seomyeon, 16 stops, ~28 min); the day is then all walking (Seomyeon–Jeonpo–Busan Citizens Park–Gugak Center).",
       "steps": [
         {
           "time": "10:00",
           "what": "Metro Line 2: Haeundae → Seomyeon",
-          "detail": "15 stops (~25–30 min), one line, no transfer.",
+          "detail": "16 stops (~28 min), one line, no transfer.",
           "link": ""
         },
         {
@@ -2112,7 +2150,7 @@
         {
           "time": "16:00",
           "what": "National Gugak Center — Gugak Experience Hall",
-          "detail": "Hands-on traditional-music exhibits; Mon–Sat 09:00–21:00 (closed Sun).",
+          "detail": "Hands-on traditional-music exhibits; Mon–Sat 09:00–21:00 (closed Sun). The experience hall closes at 21:00, so it works before the 19:30 concert next door.",
           "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=2067&lang_cd=ko"
         },
         {
@@ -2134,12 +2172,12 @@
       "title": "Signature Day — Yeongdo Bridge Lift & Gwangalli Drone Show",
       "days": "Sat Nov 14",
       "difficulty": "Busiest day — two confirmed events",
-      "transit": "Two metro trips: morning Haeundae→Nampo (Line 2→Line 1 via Seomyeon, ~45 min); late afternoon Nampo→Gwangalli (Line 1→Line 2 via Seomyeon, ~35–40 min). Taxi Nampo→Gwangalli is ~15 min if preferred — the price of stacking both headline events.",
+      "transit": "Two metro trips: morning Haeundae→Nampo (Line 2 → Line 1 via Seomyeon, 24 stops, ~45–50 min); late afternoon Nampo→Gwangalli (Line 1 → Line 2 via Seomyeon, 18 stops, ~35–40 min). Taxi Nampo→Gwangalli is ~15 min if preferred — the price of stacking both headline events.",
       "steps": [
         {
           "time": "09:00",
           "what": "Metro: Haeundae → Nampo",
-          "detail": "Line 2 → Seomyeon → Line 1 → Nampo (~45 min).",
+          "detail": "Line 2 Haeundae→Seomyeon (16 stops) + Line 1 Seomyeon→Nampo (8 stops) ≈ 45–50 min incl. transfer.",
           "link": ""
         },
         {
@@ -2164,7 +2202,7 @@
           "time": "13:45",
           "what": "Yeongdo Bridge lift — 14:00–14:15",
           "detail": "CONFIRMED Saturdays only, 14:00, 15 minutes. Watch from Yurari Square (Nampo end). Korea's only bascule bridge. Free. Cancelled in heavy wind/rain.",
-          "link": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=48703&gugun=Prev"
+          "link": "https://www.busan.go.kr/eng/the-seven-bridges-of-busan"
         },
         {
           "time": "14:30",
@@ -2175,19 +2213,19 @@
         {
           "time": "16:30",
           "what": "Busan Tower sunset (optional)",
-          "detail": "10:00–22:00, last ticket 21:30, ₩12,000.",
+          "detail": "10:00–22:00, last ticket 21:30, ₩12,000. Sunset 17:18 on Nov 14. Only if the morning didn't wipe you out — the markets + bridge already fill the day.",
           "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=368&lang_cd=ko"
         },
         {
           "time": "17:30",
           "what": "Metro to Gwangalli",
-          "detail": "Line 1 Nampo → Seomyeon (7 stops) + Line 2 Seomyeon → Gwangan (10 stops) ≈ 35–40 min; Gwangan Station is a ~10-min walk to the beach.",
+          "detail": "Line 1 Nampo → Seomyeon (8 stops) + Line 2 Seomyeon → Gwangan (10 stops) ≈ 35–40 min; Gwangan Station is roughly a 10-min walk to the beach.",
           "link": ""
         },
         {
           "time": "18:30",
           "what": "Dinner on Gwangalli Beach",
-          "detail": "Gwangangukbap (24h) or Chilseong Hoetjip (12:00–22:00, sea-view raw fish) or 100.1.pyeongnaeng (17:00–19:00 dinner window).",
+          "detail": "Gwangangukbap (24h) or Chilseong Hoetjip (12:00–22:00, sea-view raw fish) or 100.1.pyeongnaeng (11:30–15:30 / 17:00–19:00 — kitchen closes 19:00, go early).",
           "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1123&lang_cd=en"
         },
         {
@@ -2200,7 +2238,7 @@
           "time": "21:00",
           "what": "Drone show (show 2)",
           "detail": "Second show at 21:00 if you want the full set; then Line 2 back to Haeundae (~12 min).",
-          "link": "https://www.nculture.org/cul/localCultureDetail.do?targetId=2786391&contentType=G"
+          "link": "https://www.gwangallimdrone.co.kr/"
         }
       ]
     },
@@ -2209,12 +2247,12 @@
       "title": "Gijang Coast — Temple, Park & Sea",
       "days": "Sun Nov 15",
       "difficulty": "Busy (one far destination day)",
-      "transit": "Taxi ~40 min each way to the Gijang coast (or bus) — a single-destination day; everything there is local. Alternative return: Gwangan is 5 stops from Haeundae on Line 2 for a Gwangalli evening.",
+      "transit": "Taxi ~40 min each way to the Gijang coast (or bus) — a single-destination day; everything there is local. Alternative return: Gwangan is 6 stops from Haeundae on Line 2 for a Gwangalli evening.",
       "steps": [
         {
           "time": "08:30",
           "what": "Haedong Yonggungsa Temple",
-          "detail": "Seaside temple on the Gijang coast; go early to beat crowds; free grounds.",
+          "detail": "Seaside temple on the Gijang coast; free; open from 04:30–19:20 (entry closes ~18:50); go early to beat crowds.",
           "link": "https://korean.visitkorea.or.kr"
         },
         {
@@ -2226,19 +2264,19 @@
         {
           "time": "14:00",
           "what": "Lunch — Gijang seafood",
-          "detail": "Mujinjang Hoetjip (11:00–21:00, open all year) or Janganjip (duck hanok house, 11:00–20:30, closed Tue — open Sun).",
+          "detail": "Mujinjang Hoetjip (raw conger eel, Gijang-eup; 11:00–21:00, open all year) or Janganjip (duck hanok house, Jangan-eup; 11:00–20:30, closed Tue — open Sun; note it is an ~1-hr drive from Haeundae, further than the coast cluster).",
           "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
         },
         {
           "time": "16:00",
           "what": "Café stop — PREST or Sea & Tree",
-          "detail": "PREST hanok café (Tue–Sun 12:00–21:00) or Sea & Tree ocean-view café (Sun 11:00–22:00).",
+          "detail": "PREST hanok café (Tue–Sun 12:00–21:00, closed Mon) or Sea & Tree ocean-view café (Wed–Sun 11:00–22:00).",
           "link": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=2068"
         },
         {
           "time": "18:00",
           "what": "Return to Haeundae; Gwangalli sunset alternative",
-          "detail": "If energy remains: Gwangan Station is 2 stops from Haeundae for a bridge-lights dinner (Gwangangukbap 24h).",
+          "detail": "If energy remains: Line 2 six stops (roughly 12 min) back east to Gwangan for a bridge-lights dinner (Gwangangukbap 24h). Sunset on Nov 15 is 17:18 — the Gwangalli lights take over after that.",
           "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1123&lang_cd=en"
         }
       ]
@@ -2248,7 +2286,7 @@
       "title": "Rest & Spa Day (swap for any busy day)",
       "days": "Flexible",
       "difficulty": "Easy",
-      "transit": "Line 2 Haeundae→Centum City is only 3 stops (~8 min) — or a ~25-min beach-side walk; otherwise hotel-adjacent.",
+      "transit": "Line 2 Haeundae→Centum City is only 3 stops (~8 min) — or a ~25-min beach-side walk; otherwise hotel-adjacent. (F1963 option: Line 2 to Namcheon + bus/taxi.)",
       "steps": [
         {
           "time": "10:00",
@@ -2265,19 +2303,19 @@
         {
           "time": "13:30",
           "what": "Spa Land jjimjilbang (2–3 hours)",
-          "detail": "08:00–23:00 (last entry 22:00); ₩26,000 adult / ₩21,000 student. ⚠️ Ticket = 4 HOURS (+₩5,000/hr after; spend ₩10,000+ inside → 6 hours). Elementary age and up only.",
+          "detail": "08:00–23:00 (last entry 22:00); ₩26,000 adult / ₩21,000 student (born 2008–2019). ⚠️ Ticket = 4 HOURS (+₩5,000/hr after; spend ₩10,000+ inside → 6 hours). Elementary age and up. Closed one weekday a month (department-store holiday). 1668-2850.",
           "link": "https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008"
         },
         {
           "time": "17:00",
-          "what": "Busan Cinema Center plaza + LED roof",
-          "detail": "Free to walk under the world's largest LED ceiling at dusk.",
-          "link": "https://www.dureraum.org"
+          "what": "Optional: F1963 — Othoniel “In the Labyrinth of Love” (last entry 17:30)",
+          "detail": "Jean-Michel Othoniel, ~100 works, first Korean solo show of this scale. 28 Aug–31 Dec 2026; 10:00–18:00, last entry 17:30; closed Mondays. ₩10,000 adult / ₩8,000 youth / ₩6,000 child. Official directions: Line 3 Mangmi (Exit 4) + Suyeong-gu village bus 2 to 'Sanjeong Apartment', or a ~10-min taxi from Centum City — sits between Centum and Millak, so it pairs with the dinner stop. ⚠️ Do not use this step on a Monday (exhibition closed weekly Mondays).",
+          "link": "https://www.f1963.org/ko/?c=art&s=1&gbn=viewok&ix=496"
         },
         {
           "time": "19:00",
           "what": "Dinner — Millak/Gwangalli waterfront",
-          "detail": "ALOI THAI (Millak; closed Tue — pick a non-Tue day) or Gwangangukbap (24h).",
+          "detail": "ALOI THAI (Millak; closed Tue — pick a non-Tue day) or Gwangangukbap (24h). (F1963 is in Suyeong-gu between Centum City and Millak — a short taxi hop from the dinner area.)",
           "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
         }
       ]
@@ -2298,13 +2336,19 @@
         {
           "time": "08:30",
           "what": "Breakfast — beachfront café / hotel option",
-          "detail": "The listed milmyeon restaurant opens at 10:00, after the planned breakfast slot; choose a breakfast option whose same-day hours you confirm before departure.",
-          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
+          "detail": "Hotel option: Floating on the 2nd floor serves breakfast buffet 07:00–10:00 daily (official L7 package pages; call or book a B&B package). Otherwise a beachfront café — note most proper breakfast options (e.g. Daeyeon Milmyeon) open at 10:00, too late for this slot.",
+          "link": "https://www.lottehotel.com/haeundae-l7/en/hotel-offers/packages/2024-04/Bed-Breakfast-Package.html"
+        },
+        {
+          "time": "09:30",
+          "what": "Pack up; last Haeundae stroll",
+          "detail": "Luggage first — check-out is before 11:00 and the lobby is small. A final 20-min walk along Haeundae Beach or up Dongbaekseom is free and easy; Hotel L7 offers luggage storage after check-out if your flight/coach is later.",
+          "link": "https://www.lottehotel.com/haeundae-l7/en/"
         },
         {
           "time": "10:00",
           "what": "SEA LIFE quick visit (optional, if time)",
-          "detail": "Mon–Fri 10:00–19:00, last entry 18:00.",
+          "detail": "SEA LIFE is under Haeundae Beach, 1 min from the hotel: Mon–Fri 10:00–19:00, last entry 18:00. A 10:00–10:45 hop is realistic only if you're fully packed first.",
           "link": "https://www.visitsealife.com/busan/plan-your-visit/before-you-visit/opening-hours/"
         },
         {

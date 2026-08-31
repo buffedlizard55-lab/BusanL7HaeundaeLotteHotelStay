@@ -2,7 +2,7 @@
 
 Every item in this planner was verified line-by-line against official sources. This file records **what was checked, when, and against which source** so each claim can be manually reviewed.
 
-**Review dates:** Base repos reviewed Aug 17–21, 2026 (see below). Live re-verification of date-critical claims: **Aug 30, 2026**.
+**Review dates:** Base repos reviewed Aug 17–21, 2026 (see below). Live re-verification of date-critical claims: **Aug 30, 2026** and **Aug 31, 2026** (second pass).
 
 ---
 
@@ -24,10 +24,11 @@ Every item in this planner was verified line-by-line against official sources. T
 | Event | Date/Time | Verification | Source (fetched) |
 |---|---|---|---|
 | Turn Toward Busan (annual ceremony) | Wed Nov 11, 11:00 | Annual UNMCK ceremony; cemetery verified open 365 days, Oct–Apr 09:00–17:00, free | unmck.or.kr/eng/main (fetched Aug 30, 2026); KoreaFun busan.md #4 |
-| Culture Day cinema discount | Wed Nov 11 (2nd Wed), screenings 17:00–21:00 | 2nd & last Wednesday rule since Apr 2026; Busan Cinema Center 2D ₩10,000/₩8,000 | dureraum.org; chosun.com 2026/04/02 (per KoreaFun #19, reviewed Aug 18) |
+| Culture Day cinema discount | Wed Nov 11 (2nd Wed), screenings 17:00–21:00 | 2nd & last Wednesday rule since Apr 2026; ₩10,000/₩8,000 applies at multiplexes (CGV/Lotte/Megabox). Dureraum keeps its own lower regular rates (~₩7,000); its plaza + LED ceiling are free at night. | dureraum.org; chosun.com 2026/04/02 (per KoreaFun #19, reviewed Aug 18) |
+| F1963 — Othoniel “In the Labyrinth of Love” | Aug 28–Dec 31, 2026; 10:00–18:00 (last entry 17:30), closed Mondays | Live-verified Aug 31, 2026 on Busan City events calendar + F1963 detail page. 2028 World Design Capital Busan partner exhibition. ₩10,000/₩8,000/₩6,000. In the stay window (Mon Nov 9 closed, so Fri Nov 13 / Sat Nov 14 / or rest-day option). | busan.go.kr/eng/bsevents/1750485; f1963.org exhibition page |
 | Gugak: Korea in Sound | Fri Nov 13, 19:30, Yeji-dang, ₩10,000 | **Live-verified Aug 30, 2026** on official performance detail page (2026.11.13, 19:30, 전석 10,000원); series 2026-05-19→2026-11-14; tickets from Oct 13, 2026 14:00 | busan.gugak.go.kr/BG/contents/BG0101020000.do?prfmSn=6088&prfmDtSn=3&schM=view |
 | Gwangalli M Drone Light Show | Sat Nov 14, 19:00 & 21:00 | Every Saturday; winter (Oct–Feb) 19:00 & 21:00; ~12 min; free; through 2026-12-31 | gwangallimdrone.co.kr; nculture.org/cul/localCultureDetail.do?targetId=2786391 |
-| Yeongdo Bridge lift | Sat Nov 14, 14:00–14:15 | Saturdays only, 14:00, 15 min; Yurari Square viewpoint | busan.go.kr/news/snsbusan04/view?dataNo=48703 (per KoreaFun #27, reviewed Aug 18) |
+| Yeongdo Bridge lift | Sat Nov 14, 14:00–14:15 | Saturdays only, 14:00, 15 min; Yurari Square viewpoint | busan.go.kr/eng/the-seven-bridges-of-busan (fetched Aug 31, 2026 — official: lifts once for 15 minutes at 2 p.m. every Saturday, pedestrian passage); KTV 2024 report m.ktv.go.kr/content/view?content_id=705652 |
 
 ---
 
@@ -70,6 +71,8 @@ Every item in this planner was verified line-by-line against official sources. T
 7. **Jagalchi Market** closure days (1st & 3rd Tuesdays) fall on Nov 3 & Nov 17, 2026 — both outside the stay. Market open the whole visit. (KTO listing; BISCO site intermittently 500.)
 8. **Busan Concert Hall** has no event Nov 9–16 — verified on the official calendar (Nov 8 Isang Yun winners' concert is the last before the stay; next is Nov 25 matinee).
 9. **Restaurants removed from source guide** because two official pages disagreed on hours (Shinbalwon, Nagahama Mangetsu, Haeundae Ilpum Hanwoo, Dongbaekseom Hoejip, Chopilsal Dwaejigui, Hapcheon Gukbapjip, Mori, LAB XXIV by Kumuda, Halmae Gukbap, Gaya Milmyeon main branch, Maga Mandu). They are NOT in the planner. If you go anyway, check hours on Naver Map.
+10. **KoreaFun #27 source URL is stale/wrong** — `busan.go.kr/news/snsbusan04/view?dataNo=48703` resolves in 2026 to a 2015 article about a Gwangalli marine-leisure event, not the bridge-lift notice. The planner therefore uses the currently-live official page instead: `busan.go.kr/eng/the-seven-bridges-of-busan` (fetched Aug 31, 2026: "lifts once for 15 minutes at 2 p.m., every Saturday") plus the KTV 2024 report. The lift fact itself is unchanged (Sat 14:00, 15 min).
+11. **CGV Centum City is NOT used as a venue.** KoreaFun contains no CGV record; only third-party blogs/namu/localmap describe it. The Culture Day entry therefore stays on the verified Busan Cinema Center (Dureraum) with a note that the ₩10,000/₩8,000 rate is a national multiplex policy. The plaza/LED roof at Dureraum is free at night.
 
 ---
 
