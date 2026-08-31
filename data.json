@@ -1,0 +1,2319 @@
+{
+  "stay": {
+    "hotel": "L7 HAEUNDAE by LOTTE HOTELS",
+    "address": "55 Haeun-daero 570beon-gil, Haeundae-gu, Busan 48094",
+    "checkin": "Mon Nov 9, 2026 (after 3:00 PM)",
+    "checkout": "Mon Nov 16, 2026 (before 11:00 AM)",
+    "location_notes": "1-min walk from Haeundae Beach; ~5-min walk to Haeundae Station (Busan Metro Line 2). Base for the Haeundae east-coast cluster.",
+    "sources": [
+      {
+        "label": "Lotte Hotels official site",
+        "url": "https://www.lottehotel.com/"
+      },
+      {
+        "label": "Booking.com listing (address/location)",
+        "url": "https://www.booking.com/hotel/kr/l7-haeundae-busan.html"
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "E1",
+      "name": "Turn Toward Busan (annual ceremony)",
+      "date": "Wed Nov 11, 2026",
+      "time": "11:00",
+      "venue": "UN Memorial Cemetery (UNMCK)",
+      "area": "Daeyeon / Nam-gu",
+      "price": "Free",
+      "status": "Annual ceremony; cemetery verified open 365 days (Oct–Apr 09:00–17:00). One-minute silence for UN Korean War dead.",
+      "sources": [
+        {
+          "label": "UNMCK official site (hours/free)",
+          "url": "https://www.unmck.or.kr/eng/main/"
+        },
+        {
+          "label": "Visit Busan UNMCK feature",
+          "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=277&lang_cd=en"
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "name": "Culture Day — discounted cinema",
+      "date": "Wed Nov 11, 2026",
+      "time": "Screenings starting 17:00–21:00",
+      "venue": "Busan Cinema Center (Dureraum) & multiplexes",
+      "area": "Centum City",
+      "price": "2D ₩10,000 adult / ₩8,000 youth",
+      "status": "2nd & last Wednesday of month (Nov 11 = 2nd Wed). Regular programming ~₩7,000 otherwise.",
+      "sources": [
+        {
+          "label": "Busan Cinema Center official",
+          "url": "https://www.dureraum.org"
+        },
+        {
+          "label": "Culture Day twice-monthly rule (Chosun)",
+          "url": "https://www.chosun.com/culture-life/culture_general/2026/04/02/XFEUUXICYZFWBG5WZ7Q4J2HOAQ/"
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "name": "Gugak: Korea in Sound (전통 레퍼토리-국악)",
+      "date": "Fri Nov 13, 2026",
+      "time": "19:30",
+      "venue": "Yeji-dang small theater, National Gugak Center Busan",
+      "area": "Busanjin-gu (Busan Citizens Park)",
+      "price": "₩10,000 all seats",
+      "status": "CONFIRMED on official calendar; series runs May 19 – Nov 14, 2026 (Nov 13–14 shows go on sale Oct 13, 2026 at 14:00). ☎ 051-811-0114.",
+      "sources": [
+        {
+          "label": "National Gugak Center Busan — performance detail (official)",
+          "url": "https://busan.gugak.go.kr/BG/contents/BG0101020000.do?prfmSn=6088&prfmDtSn=3&schM=view"
+        },
+        {
+          "label": "Center homepage — series dates",
+          "url": "https://busan.gugak.go.kr/"
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "name": "Gwangalli M Drone Light Show",
+      "date": "Sat Nov 14, 2026",
+      "time": "19:00 & 21:00 (winter schedule)",
+      "venue": "Gwangalli Beach",
+      "area": "Gwangalli / Suyeong-gu",
+      "price": "Free",
+      "status": "Every Saturday; ~12 min; 1,100+ drones; weather-dependent (wind/rain cancels). Winter (Oct–Feb) times 19:00 & 21:00.",
+      "sources": [
+        {
+          "label": "Official drone show site",
+          "url": "https://www.gwangallimdrone.co.kr/"
+        },
+        {
+          "label": "Suyeong-gu cultural listing (times)",
+          "url": "https://www.nculture.org/cul/localCultureDetail.do?targetId=2786391&contentType=G"
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "name": "Yeongdo Bridge lift",
+      "date": "Sat Nov 14, 2026",
+      "time": "14:00–14:15",
+      "venue": "Yeongdo Bridge (watch from Yurari Square, Nampo end)",
+      "area": "Nampo / Yeongdo",
+      "price": "Free",
+      "status": "Lifts SATURDAYS ONLY, 14:00 for 15 min. Korea's only bascule bridge. Cancelled in heavy rain/wind. Arrive 13:45.",
+      "sources": [
+        {
+          "label": "Busan City — lift schedule notice",
+          "url": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=48703&gugun=Prev"
+        },
+        {
+          "label": "KTV — Saturday 14:00 lift report",
+          "url": "https://m.ktv.go.kr/content/view?content_id=705652"
+        }
+      ]
+    }
+  ],
+  "events_out_of_window": [
+    {
+      "name": "Busan Fireworks Festival (21st)",
+      "date": "Sat Nov 7, 2026 — before check-in",
+      "source": "https://busanfireworks.com"
+    },
+    {
+      "name": "Busan Biennale 2026 'Dissident Chorus'",
+      "date": "Aug 29 – Nov 1, 2026 — ended",
+      "source": "https://busanbiennale.org"
+    },
+    {
+      "name": "Busan IPark vs Chungbuk Cheongju (K League 2)",
+      "date": "Sat Nov 21, 2026 — after checkout",
+      "source": "https://www.busanipark.com/match/match_schedule.php"
+    },
+    {
+      "name": "G-STAR 2026 at BEXCO",
+      "date": "Nov 19–22, 2026 — after checkout",
+      "source": "https://www.gstar.or.kr/eng/gstar/gstar_info.do"
+    },
+    {
+      "name": "Busan Concert Hall events",
+      "date": "Nov 6–8 before stay; next event Nov 25 — no in-window show",
+      "source": "https://classicbusan.busan.go.kr/Home/ko/Main"
+    },
+    {
+      "name": "Gwangbok-ro Winter Light Tree Festival",
+      "date": "Early December start — after stay",
+      "source": "https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000009&menuCd=DOM_000000204019000000&dataSid=5014"
+    }
+  ],
+  "places": [
+    {
+      "id": "P1",
+      "name": "Haeundae Beach & Dongbaekseom",
+      "area": "Haeundae",
+      "walk": "0–15 min from hotel",
+      "hours": "Free, always open (shore & island paths)",
+      "price": "Free",
+      "status": "Verified place",
+      "sources": [
+        {
+          "label": "Visit Busan",
+          "url": "https://english.visitbusan.net"
+        },
+        {
+          "label": "Haeundae-gu",
+          "url": "https://www.haeundae.go.kr"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Busan X the Sky (LCT Landmark Tower 100F)",
+      "area": "Haeundae",
+      "walk": "~10–15 min from hotel (Dalmaji-gil 30)",
+      "hours": "Daily 10:00–21:00 (last ticket 20:30)",
+      "price": "₩29,000 adult / ₩26,000 child (36mo–13) & senior 65+; under 36mo free",
+      "status": "VERIFIED live Aug 30, 2026 on operator page; 2-visit ₩34,000/₩31,000; birthday month 30% off",
+      "sources": [
+        {
+          "label": "Operator official — hours & fares",
+          "url": "https://www.busanxthesky.com/xthesky/xthesky.php"
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "SEA LIFE Busan Aquarium",
+      "area": "Haeundae",
+      "walk": "~10 min from hotel",
+      "hours": "Mon–Fri 10:00–19:00 (last entry 18:00); Sat–Sun 10:00–20:00 (last entry 19:00)",
+      "price": "Ticketed (official site)",
+      "status": "VERIFIED live Aug 30, 2026",
+      "sources": [
+        {
+          "label": "Official opening hours",
+          "url": "https://www.visitsealife.com/busan/plan-your-visit/before-you-visit/opening-hours/"
+        },
+        {
+          "label": "Official site",
+          "url": "https://www.visitsealife.com/busan"
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Haeundae Blueline Park — Beach Train & Sky Capsule",
+      "area": "Haeundae east coast (Mipo–Cheongsapo–Songjeong)",
+      "walk": "Mipo station ~20 min walk from hotel or taxi",
+      "hours": "First Beach Train 09:00; first Sky Capsule 08:30; last runs shift by season",
+      "price": "Beach Train 1 ride ₩10,000 (Mipo/Songjeong) / ₩8,000 (Cheongsapo); 2 rides ₩14,000; all-station ₩16,000. Sky Capsule ₩50,000/₩55,000/₩60,000 per capsule (2/3/4 seat).",
+      "status": "VERIFIED live Aug 30, 2026 (fares match source). Book Sky Capsule ahead — sells out.",
+      "sources": [
+        {
+          "label": "Operator fare table",
+          "url": "https://www.bluelinepark.com/fare.do"
+        },
+        {
+          "label": "Fare change notice (May 2026)",
+          "url": "https://www.bluelinepark.com/noticeView.do?idx=1614"
+        }
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Cheongsapo harbor, twin lighthouses, Daritdol Observatory",
+      "area": "Haeundae east coast",
+      "walk": "Blueline Beach Train from Mipo",
+      "hours": "Free outdoor access during posted hours",
+      "price": "Free (train fare to reach)",
+      "status": "Verified place",
+      "sources": [
+        {
+          "label": "Visit Busan",
+          "url": "https://english.visitbusan.net"
+        },
+        {
+          "label": "Haeundae-gu",
+          "url": "https://www.haeundae.go.kr"
+        }
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "Songjeong Beach",
+      "area": "Haeundae east coast",
+      "walk": "Beach Train terminus",
+      "hours": "Open (November = walk, not swim)",
+      "price": "Free",
+      "status": "Verified place",
+      "sources": [
+        {
+          "label": "Visit Busan",
+          "url": "https://english.visitbusan.net"
+        }
+      ]
+    },
+    {
+      "id": "P7",
+      "name": "Gwangalli Beach & Gwangan Bridge",
+      "area": "Gwangalli / Suyeong-gu",
+      "transit": "Metro Line 2 to Gwangan (~12 min from Haeundae)",
+      "hours": "Open; bridge lights nightly",
+      "price": "Free",
+      "status": "Verified place",
+      "sources": [
+        {
+          "label": "Visit Busan",
+          "url": "https://english.visitbusan.net"
+        },
+        {
+          "label": "Suyeong-gu",
+          "url": "https://www.suyeong.go.kr"
+        }
+      ]
+    },
+    {
+      "id": "P8",
+      "name": "Igidae Coastal Walk & Oryukdo Skywalk",
+      "area": "Nam-gu",
+      "transit": "Line 2 to Kyungsung Univ·Pukyong Univ + bus 24/27/131",
+      "hours": "Winter (Oct–May) 09:00–18:00, last admission 17:50; open daily incl. Mondays",
+      "price": "Free",
+      "status": "Verified; weather closures possible (call 051-607-6395)",
+      "sources": [
+        {
+          "label": "Nam-gu facilities corp (hours)",
+          "url": "https://bnfmc.or.kr/portal/contents.do?mId=0102010000"
+        },
+        {
+          "label": "Visit Busan",
+          "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=49&lang_cd=ko"
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "name": "Shinsegae Centum City & Spa Land",
+      "area": "Centum City",
+      "transit": "Line 2 to Centum City (1 stop from Haeundae) or ~25-min walk",
+      "hours": "Spa Land 08:00–23:00, last entry 22:00",
+      "price": "Spa Land ₩26,000 adult / ₩21,000 student (4-hour ticket; +₩5,000/hr after; elementary age and up)",
+      "status": "Verified operator page",
+      "sources": [
+        {
+          "label": "Shinsegae official (Spa Land)",
+          "url": "https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "name": "Busan Cinema Center (Dureraum)",
+      "area": "Centum City",
+      "transit": "Line 2 to Centum City; walk from BEXCO",
+      "hours": "Open daily; roof-theater outdoor screenings are summer-only (ended Sep 1)",
+      "price": "Regular ~₩7,000; Culture Day 2D ₩10,000/₩8,000 (17:00–21:00 starts)",
+      "status": "Verified venue",
+      "sources": [
+        {
+          "label": "Dureraum official",
+          "url": "https://www.dureraum.org"
+        },
+        {
+          "label": "Screening calendar",
+          "url": "http://mobile.dureraum.org/bccm/mcontents/caleMList.do?rbsIdx=27"
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "name": "Space Lee Ufan (Busan Museum of Art)",
+      "area": "Centum City",
+      "transit": "Line 2 to BEXCO/Centum City",
+      "hours": "Tue–Sun 10:00–18:00, last entry 17:30; closed Mondays",
+      "price": "Free while main building closed",
+      "status": "VERIFIED live Aug 30, 2026. Main BMA building still closed for renovation (docent/parking suspended until Sep 16, 2026; reopening date TBA).",
+      "sources": [
+        {
+          "label": "Busan Museum of Art official",
+          "url": "https://art.busan.go.kr/index.nm"
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "name": "Yongdusan Park & Busan Tower",
+      "area": "Nampo",
+      "transit": "Line 1 Jungang (exit 1) or Nampo (exit 7)",
+      "hours": "Park 24h; tower 10:00–22:00, last ticket 21:30",
+      "price": "Tower ₩12,000 adult / ₩9,000 child & senior; under 3 free",
+      "status": "Verified operator (BISCO site intermittently down; figures cross-checked Visit Busan)",
+      "sources": [
+        {
+          "label": "Visit Busan listing",
+          "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=368&lang_cd=ko"
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "name": "Jagalchi Market",
+      "area": "Nampo",
+      "transit": "Line 1 Jagalchi",
+      "hours": "05:00–22:00; closed 1st & 3rd Tuesdays (Nov 3 & 17 — both outside stay)",
+      "price": "Free entry; food priced per stall",
+      "status": "Verified market — OPEN for the entire stay",
+      "sources": [
+        {
+          "label": "KTO listing (hours/closure days)",
+          "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=69318"
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "name": "Gukje Market & Bupyeong Kkangtong Night Market",
+      "area": "Nampo",
+      "transit": "Walk from Jagalchi",
+      "hours": "Day market + evening street food",
+      "price": "Free entry",
+      "status": "Verified markets",
+      "sources": [
+        {
+          "label": "Gukje Market official",
+          "url": "http://www.gukjemarket.co.kr"
+        },
+        {
+          "label": "Visit Busan",
+          "url": "https://english.visitbusan.net"
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "name": "Bosu-dong Book Alley",
+      "area": "Nampo",
+      "transit": "Walk from Gukje",
+      "hours": "Daytime",
+      "price": "Free",
+      "status": "Verified area",
+      "sources": [
+        {
+          "label": "Visit Busan",
+          "url": "https://english.visitbusan.net"
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "name": "Gamcheon Culture Village",
+      "area": "Saha-gu (above Nampo)",
+      "transit": "Line 1 Toseong + local bus/taxi ~10 min; or taxi from Nampo",
+      "hours": "Open daily; stamp-map from info center",
+      "price": "Free (stamp map paid)",
+      "status": "Verified place — residential, keep noise down",
+      "sources": [
+        {
+          "label": "Gamcheon official",
+          "url": "https://www.gamcheon.or.kr"
+        }
+      ]
+    },
+    {
+      "id": "P17",
+      "name": "Huinnyeoul Culture Village & Jeoryeong coastal walk",
+      "area": "Yeongdo",
+      "transit": "Bus from Nampo/Busan Station side",
+      "hours": "Open; storms close lower path",
+      "price": "Free",
+      "status": "Verified place",
+      "sources": [
+        {
+          "label": "Yeongdo-gu",
+          "url": "https://www.yeongdo.go.kr"
+        }
+      ]
+    },
+    {
+      "id": "P18",
+      "name": "Taejongdae Resort Park (Danubi train)",
+      "area": "Yeongdo",
+      "transit": "Bus from Nampo (~30–40 min)",
+      "hours": "Danubi train CLOSED Mondays; winter ticketing 09:00–17:30, runs 09:20–17:30",
+      "price": "Park free; Danubi ₩4,000 adult round trip",
+      "status": "Verified operator (BISCO site intermittently down)",
+      "sources": [
+        {
+          "label": "BISCO Danubi info",
+          "url": "https://www.bisco.or.kr/taejongdae/sub/sub02/sub02_4/"
+        }
+      ]
+    },
+    {
+      "id": "P19",
+      "name": "Samjin Eomuk Main Store (fish cake)",
+      "area": "Yeongdo",
+      "transit": "Bus across Yeongdo Bridge",
+      "hours": "Daily 09:00–19:00",
+      "price": "Free entry; snacks paid",
+      "status": "Verified operator (since 1953)",
+      "sources": [
+        {
+          "label": "Visit Busan",
+          "url": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=231&lang_cd=ko"
+        },
+        {
+          "label": "Samjin Food",
+          "url": "https://www.samjinfood.com"
+        }
+      ]
+    },
+    {
+      "id": "P20",
+      "name": "UN Memorial Cemetery (UNMCK)",
+      "area": "Daeyeon / Nam-gu",
+      "transit": "Line 2 Daeyeon + walk/bus",
+      "hours": "Open 365 days; Oct–Apr 09:00–17:00",
+      "price": "Free",
+      "status": "VERIFIED live Aug 30, 2026. World's only UN cemetery; Wall of Remembrance; site of Nov 11 Turn Toward Busan.",
+      "sources": [
+        {
+          "label": "UNMCK official",
+          "url": "https://www.unmck.or.kr/eng/main/"
+        }
+      ]
+    },
+    {
+      "id": "P21",
+      "name": "Busan Museum",
+      "area": "Daeyeon / Nam-gu (next to UNMCK)",
+      "transit": "Line 2 Daeyeon",
+      "hours": "Free; closed Mondays",
+      "price": "Free",
+      "status": "Verified city museum",
+      "sources": [
+        {
+          "label": "Busan Museum official",
+          "url": "https://museum.busan.go.kr"
+        }
+      ]
+    },
+    {
+      "id": "P22",
+      "name": "Beomeosa Temple",
+      "area": "Geumjeong-gu (north Busan)",
+      "transit": "Line 1 Beomeosa + bus/walk",
+      "hours": "Grounds open daily; foliage peaks mid-November",
+      "price": "Free grounds",
+      "status": "Verified temple — use beomeo.kr (official)",
+      "sources": [
+        {
+          "label": "Beomeosa official",
+          "url": "https://www.beomeo.kr"
+        }
+      ]
+    },
+    {
+      "id": "P23",
+      "name": "Dongnae hot springs (Heosimcheong)",
+      "area": "Dongnae",
+      "transit": "Line 1/4 Oncheonjang area",
+      "hours": "Operator-controlled",
+      "price": "Ticketed bathhouse",
+      "status": "Verified operator",
+      "sources": [
+        {
+          "label": "Hotel Nongshim official",
+          "url": "https://www.hotelnongshim.com"
+        }
+      ]
+    },
+    {
+      "id": "P24",
+      "name": "Dongnae-eupseong & Chungnyeolsa",
+      "area": "Dongnae",
+      "transit": "Line 1 Dongnae/Myeongnyun area",
+      "hours": "Daytime",
+      "price": "Free",
+      "status": "Verified heritage",
+      "sources": [
+        {
+          "label": "Dongnae-gu",
+          "url": "https://www.dongnae.go.kr"
+        }
+      ]
+    },
+    {
+      "id": "P25",
+      "name": "National Gugak Center Busan + Gugak Experience Hall",
+      "area": "Busanjin-gu (Busan Citizens Park)",
+      "transit": "Line 1 Yangjeong exit 5 + bus 179/63; or walk from Beomnaegol",
+      "hours": "Experience Hall Mon–Sat 09:00–21:00, closed Sun",
+      "price": "Performance ₩10,000 (Nov 13 19:30); hall free",
+      "status": "VERIFIED live Aug 30, 2026 — Korea in Sound runs to Nov 14",
+      "sources": [
+        {
+          "label": "Gugak Center official",
+          "url": "https://busan.gugak.go.kr/"
+        },
+        {
+          "label": "Visit Busan listing",
+          "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=2067&lang_cd=ko"
+        }
+      ]
+    },
+    {
+      "id": "P26",
+      "name": "Busan Citizens Park",
+      "area": "Busanjin-gu",
+      "transit": "Walk from Seomyeon/Beomnaegol",
+      "hours": "Park hours",
+      "price": "Free",
+      "status": "Verified park (former Camp Hialeah)",
+      "sources": [
+        {
+          "label": "Citizen Park official",
+          "url": "http://www.citizenpark.or.kr"
+        }
+      ]
+    },
+    {
+      "id": "P27",
+      "name": "Jeonpo Café Street",
+      "area": "Busanjin-gu (Seomyeon edge)",
+      "transit": "Line 2 Jeonpo",
+      "hours": "Café hours vary (e.g., Casa De Lux 11:10–20:00)",
+      "price": "Free entry",
+      "status": "Verified area",
+      "sources": [
+        {
+          "label": "Visit Busan",
+          "url": "https://english.visitbusan.net"
+        }
+      ]
+    },
+    {
+      "id": "P28",
+      "name": "Haedong Yonggungsa Temple",
+      "area": "Gijang coast",
+      "transit": "Taxi/bus ~40 min from Haeundae",
+      "hours": "Open daily; go early",
+      "price": "Free grounds (paid parking)",
+      "status": "Verified temple",
+      "sources": [
+        {
+          "label": "Visit Korea listing",
+          "url": "https://korean.visitkorea.or.kr"
+        }
+      ]
+    },
+    {
+      "id": "P29",
+      "name": "Lotte World Adventure Busan",
+      "area": "Gijang / Osiria",
+      "transit": "Taxi/bus ~40 min from Haeundae",
+      "hours": "Date-specific; check park-schedule calendar (today's hours 10:00–21:00)",
+      "price": "Ticketed",
+      "status": "Verified operator — ⚠️ November hours date-specific, confirm before going",
+      "sources": [
+        {
+          "label": "Official park site",
+          "url": "https://adventurebusan.lotteworld.com/"
+        }
+      ]
+    },
+    {
+      "id": "P30",
+      "name": "Ahopsan Forest",
+      "area": "Gijang",
+      "transit": "Taxi/bus ~40–50 min",
+      "hours": "Closed Mondays; last entry before closing",
+      "price": "Ticketed",
+      "status": "Verified operator",
+      "sources": [
+        {
+          "label": "Ahopsan official",
+          "url": "http://www.ahopsan.com"
+        }
+      ]
+    },
+    {
+      "id": "P31",
+      "name": "Busan National Science Museum (Sciport)",
+      "area": "Gijang / Osiria",
+      "transit": "Taxi/bus ~40 min",
+      "hours": "Closed Mondays",
+      "price": "Ticketed",
+      "status": "Verified national museum",
+      "sources": [
+        {
+          "label": "Sciport official",
+          "url": "https://www.sciport.or.kr"
+        }
+      ]
+    },
+    {
+      "id": "P32",
+      "name": "Nakdong Estuary Eco Center / Eulsukdo",
+      "area": "Saha-gu (west)",
+      "transit": "Long ride (~1 hr)",
+      "hours": "Eco center hours; wetland open",
+      "price": "Free",
+      "status": "November = peak migratory bird season; ⚠️ MoCA de-install closure possible after Biennale (ended Nov 1) — check notice board",
+      "sources": [
+        {
+          "label": "Wetland official",
+          "url": "https://wetland.busan.go.kr"
+        },
+        {
+          "label": "MoCA notice board",
+          "url": "https://www.busan.go.kr/moca_en/newsEvent0101"
+        }
+      ]
+    },
+    {
+      "id": "P33",
+      "name": "F1963 cultural complex",
+      "area": "Suyeong-gu",
+      "transit": "Line 2 Mangmi + walk",
+      "hours": "Most indoor venues closed Mondays",
+      "price": "Free entry",
+      "status": "Verified complex",
+      "sources": [
+        {
+          "label": "F1963 official",
+          "url": "https://www.f1963.org"
+        }
+      ]
+    },
+    {
+      "id": "P34",
+      "name": "Busan City Tour Bus",
+      "area": "City-wide",
+      "transit": "Stops incl. Haeundae",
+      "hours": "Winter routes — check timetable",
+      "price": "Ticketed",
+      "status": "Verified operator",
+      "sources": [
+        {
+          "label": "City Tour Bus official",
+          "url": "https://www.citytourbusan.com"
+        }
+      ]
+    },
+    {
+      "id": "P35",
+      "name": "Songdo Marine Cable Car & Skywalk",
+      "area": "Seo-gu (west)",
+      "transit": "Line 1 Toseong + bus/taxi",
+      "hours": "Operator-controlled; weather can stop cable car",
+      "price": "Air Cruise ₩19,000 adult RT (Crystal ₩24,000)",
+      "status": "Verified operators",
+      "sources": [
+        {
+          "label": "Busan Air Cruise official",
+          "url": "http://busanaircruise.co.kr"
+        }
+      ]
+    },
+    {
+      "id": "P36",
+      "name": "Dadaepo Beach",
+      "area": "Saha-gu (far west)",
+      "transit": "Long ride",
+      "hours": "Open; Dream Fountain usually OFF in November",
+      "price": "Free",
+      "status": "Verified place — sunset, not fountain, in Nov",
+      "sources": [
+        {
+          "label": "Saha-gu",
+          "url": "https://www.saha.go.kr"
+        }
+      ]
+    },
+    {
+      "id": "P37",
+      "name": "Busan Modern History Museum / Provisional Capital Memorial Hall",
+      "area": "Nampo",
+      "transit": "Walk from Jagalchi",
+      "hours": "Free; closed Mondays",
+      "price": "Free",
+      "status": "Verified museums",
+      "sources": [
+        {
+          "label": "Busan MCH official",
+          "url": "https://www.busan.go.kr/mch"
+        },
+        {
+          "label": "Provisional capital hall",
+          "url": "https://www.busan.go.kr/mtcapital"
+        }
+      ]
+    },
+    {
+      "id": "P38",
+      "name": "Korea National Maritime Museum",
+      "area": "Yeongdo",
+      "transit": "Bus from Nampo",
+      "hours": "Free; closed Mondays",
+      "price": "Free",
+      "status": "Verified national museum",
+      "sources": [
+        {
+          "label": "KNMM official",
+          "url": "https://www.knmm.or.kr"
+        }
+      ]
+    },
+    {
+      "id": "P39",
+      "name": "Choryang Ibagu-gil & 168 Stairs monorail",
+      "area": "Dong-gu (Busan Station)",
+      "transit": "Line 1 Busan Station",
+      "hours": "Open; monorail free public lift",
+      "price": "Free",
+      "status": "Verified walk",
+      "sources": [
+        {
+          "label": "Dong-gu",
+          "url": "https://www.bsdonggu.go.kr"
+        }
+      ]
+    }
+  ],
+  "sports": [
+    {
+      "league": "K League 2 — Busan IPark",
+      "status": "No home match during Nov 9–16 (verified on club schedule: away at Cheonan Nov 8; home vs Chungbuk Cheongju Nov 21 — after checkout)",
+      "source": "https://www.busanipark.com/match/match_schedule.php"
+    },
+    {
+      "league": "V-League — OK Savings Bank Eutman",
+      "status": "2026–27 season opens Oct 31, 2026; fixtures published Aug 18, 2026. November home dates at Gangseo exist but are on a JS-rendered schedule — RE-CHECK kovo.co.kr in October. Venue is 50–70 min from Haeundae by metro (Line 3, Sports Park).",
+      "source": "https://www.kovo.co.kr"
+    },
+    {
+      "league": "KBL — Busan KCC Egis (Sajik)",
+      "status": "2026–27 schedule published Aug 10, 2026; exact Nov 9–16 home dates not statically retrievable — RE-CHECK kbl.or.kr in October. KBL pauses for FIBA window Nov 23–Dec 1.",
+      "source": "https://www.kbl.or.kr"
+    },
+    {
+      "league": "WKBL — BNK Sum (Sajik)",
+      "status": "Check wkbl.or.kr in October for November home dates.",
+      "source": "https://www.wkbl.or.kr"
+    }
+  ],
+  "flags": [
+    "KOVO (volleyball) and KBL/WKBL (basketball) November home dates could not be fetched statically — their sites are JavaScript-rendered (KOVO schedule URL returns HTTP 500; KBL returns 'page not found' without JS). Re-check kovo.co.kr / kbl.or.kr / wkbl.or.kr in October 2026 before booking.",
+    "Busan Museum of Art main building: still closed for renovation as of Aug 30, 2026; docent tours & parking suspended until Sep 16, 2026; official reopening date not yet announced. Space Lee Ufan is open (Tue–Sun, free).",
+    "Busan MoCA (Eulsukdo): official site returned HTTP 500 on Aug 30, 2026; possible de-installation closure after Biennale (ended Nov 1). Check the notice board before the long ride out.",
+    "Lotte World Adventure Busan: November hours are date-specific — check the park-schedule calendar (adventurebusan.lotteworld.com) the day before.",
+    "Gwangalli M Drone Light Show is weather-dependent (cancelled for wind/rain/poor visibility). Nov 7 (fireworks night) has special programming; Nov 14 is a normal Saturday show.",
+    "'Turn Toward Busan' is an annual Nov 11 11:00 ceremony at UNMCK — the cemetery itself is verified open 365 days; confirm the ceremony timing via Visit Busan closer to the date.",
+    "Culture Day cinema discount (₩10,000/₩8,000) applies to screenings STARTING 17:00–21:00 on the 2nd and last Wednesday — check the actual screening time before booking.",
+    "Blueline Sky Capsule sells out — book online ahead (free cancellation 3 days out; 50% charge on the day).",
+    "Jagalchi Market closed days (1st & 3rd Tuesdays) fall on Nov 3 & Nov 17 in 2026 — both outside the stay; the market is open for the entire visit.",
+    "Several restaurants were removed from the source food guide because two official pages disagreed on hours (e.g., Shinbalwon, Nagahama Mangetsu, Haeundae Ilpum Hanwoo, Mori, LAB XXIV). If you go anyway, check hours on Naver Map the morning of.",
+    "Prices/hours above were verified Aug 17–30, 2026 from official pages; re-confirm closer to travel as they can change.",
+    "Weather risk in November: Igidae/Oryukdo, drone show, Yeongdo Bridge lift and the Songdo cable car can close/cancel in wind or rain."
+  ],
+  "food": [
+    {
+      "name": "Gukje Milmyeon Main Branch (국제밀면 본점)",
+      "area": "23-6 Jungang-daero 1235beon-gil, Yeonje-gu",
+      "hours": "Daily 10:00–20:00. Closed on public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=95",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Halmae Gaya Milmyeon (할매가야밀면)",
+      "area": "56-14 Gwangbok-ro, Jung-gu",
+      "hours": "Daily 10:30–21:30. Open year-round.",
+      "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=102&lang_cd=ko",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Seo-myeon Gaegeum Milmyeon (서면개금밀면)",
+      "area": "39 Seomyeon-ro 68beon-gil, Busanjin-gu",
+      "hours": "Summer 09:00–22:00 / Winter 09:30–21:00",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=53836",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Gijang Sonkalguksu (기장손칼국수)",
+      "area": "56 Seomyeon-ro, Busanjin-gu",
+      "hours": "Daily 09:00–21:00",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=54208",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Dongnae Milmyeon (동래밀면)",
+      "area": "47 Myeongnyun-ro, Dongnae-gu",
+      "hours": "Daily 10:00–24:00",
+      "source": "https://visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=2205&lang_cd=en",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Daeyeon Milmyeon (대연밀면)",
+      "area": "1F, 55 Cheonjedeung-ro, Nam-gu",
+      "hours": "11:00–17:00 (last order 16:50). Closed Tuesdays.",
+      "source": "https://visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1510&lang_cd=en",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Samseong Milmyeon (삼성밀면)",
+      "area": "47 World Cup-daero 449beon-gil, Busanjin-gu",
+      "hours": "10:30–18:00. Closed Tuesdays.",
+      "source": "https://visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1507&lang_cd=en",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Gaya Halmae Milmyeon (가야할매밀면)",
+      "area": "32 World Cup-daero 145beon-gil, Yeonje-gu",
+      "hours": "11:00–20:00. Open 365 days.",
+      "source": "https://visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=94&lang_cd=en",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Ilmi Milmyeon (일미밀면)",
+      "area": "3 Daecheong-ro 99beon-gil, Jung-gu",
+      "hours": "Mon–Sat 11:00–19:00. Closed Sundays.",
+      "source": "https://visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=2285&lang_cd=en",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Yangpyeong Kalguksu (양평칼국수)",
+      "area": "680-1 Da-daero, Saha-gu",
+      "hours": "Mon–Fri 11:00–20:00 (break 15:30–17:00, last order 19:30). Sat 11:00–15:30 (last order 15:00). Closed Sundays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1117",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Danggam Milmyeon (당감밀면)",
+      "area": "5 Danggam-ro, Samik Apt. arcade B-dong 1F, Busanjin-gu",
+      "hours": "11:00–20:00 (last order 19:30)",
+      "source": "https://visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000201002001000&uc_seq=1108",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Haeundae Gaya Milmyeon (해운대 가야밀면)",
+      "area": "27 Jwadongsunhwan-ro, Haeundae-gu",
+      "hours": "10:00–20:50. No closing day.",
+      "source": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=187036",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "1969 Buwondong Kalguksu Busan Main Branch (1969부원동칼국수 부산본점)",
+      "area": "1F, 3 Gudeok-ro 22beon-gil, Jung-gu",
+      "hours": "11:00–19:30. Open every day (sells out early — Visit Busan says around 18:00).",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=2345",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "100.1.pyeongnaeng (백일평냉)",
+      "area": "1F, 29 Namcheonbada-ro 10beon-gil, Suyeong-gu",
+      "hours": "11:30–15:30 / 17:00–19:00. Open every day.",
+      "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301002001000&uc_seq=2359&lang_cd=en",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Halmaejip Hoeguksu (할매집회국수)",
+      "area": "25-3 Nampo-gil, Jung-gu",
+      "hours": "10:30–19:00. Closed the 2nd and 4th Tuesday of the month.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1531",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Myeonchaeum (면채움)",
+      "area": "11 Geumjeong-ro 231beon-gil, Geumjeong-gu",
+      "hours": "10:30–21:00 (last order 20:40). Open 365 days.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1509",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Busak Yakkong Milmyeon (부산약콩밀면)",
+      "area": "1F, 80 Dongmyeong-ro 145beon-gil, Nam-gu",
+      "hours": "11:00–15:30 / 17:00–19:30. Closed Mondays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1508",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Ha Gi-yeon Jinju Naengmyeon (하기연진주냉면)",
+      "area": "34 Goejeong-ro, Saha-gu",
+      "hours": "10:30–19:30 (last order 19:00). Closed Sundays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1524",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Haemul Wangchang Kalguksu (해물왕창칼국수)",
+      "area": "316 Sasang-ro, Sasang-gu",
+      "hours": "11:00–21:00. Closed Mondays and public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1518",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Jungang Momil (중앙모밀)",
+      "area": "9-1 Jungang-daero 49beon-gil, Jung-gu",
+      "hours": "11:00–19:30. Closed Wednesdays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1503",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Lee Family's Kalguksu (이가네 칼국수)",
+      "area": "27 Gwangjang-ro, Sasang-gu",
+      "hours": "11:00–21:00. Closed public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1526",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Yasumaru (야스마루)",
+      "area": "24 Jungang-daero 756beon-gil, Busanjin-gu",
+      "hours": "12:00–14:50 / 17:30–21:00. Closed Sundays and the 2nd and 4th Mondays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1502",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Daom (다옴)",
+      "area": "5F, Samjeong Tower, 672 Jungang-daero, Busanjin-gu",
+      "hours": "Mon–Thu & Sun 11:00–22:00 (last order 21:00) / Fri–Sat 11:00–22:30 (last order 21:30). Open 365 days.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1107",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Myeonok Hyangcheon",
+      "area": "U-dong, Haeundae-gu",
+      "hours": "11:00–15:30. Closed Sundays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=1841",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Gaegeum Milmyeon",
+      "area": "Gaegeum, Busanjin-gu",
+      "hours": "11:00–19:40. Closed Lunar New Year's Day and Chuseok.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Budamyeonok",
+      "area": "Jung-dong, Haeundae-gu",
+      "hours": "11:00–20:00 (last order 19:30). Closed Mondays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Hamheung Bossam Four Seasons Naengmyeon (함흥보쌈사계절냉면)",
+      "area": "42 Namhang-ro, Yeongdo-gu",
+      "hours": "Mon, Tue & Thu–Sun 10:50–20:00 (break 15:20–16:00; last order 19:30). Closed Wednesdays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000201002001000&uc_seq=1136",
+      "category": "Milmyeon & Noodles"
+    },
+    {
+      "name": "Hwaguk Banjeom (화국반점)",
+      "area": "3 Baeksan-gil, Jung-gu",
+      "hours": "11:30–15:30 / 17:00–21:30. Closed the 1st & 3rd Monday of each month.",
+      "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=1227&lang_cd=ko",
+      "category": "Korean-Chinese & Dumplings"
+    },
+    {
+      "name": "Banpin (반핀)",
+      "area": "9 Dongcheon-ro 108beon-gil, Busanjin-gu",
+      "hours": "Weekdays 11:30–16:00 / 17:00–21:00. Weekends 11:15–16:00 / 17:00–21:00. (Page prints last order 15:00 — that sits inside",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1482",
+      "category": "Korean-Chinese & Dumplings"
+    },
+    {
+      "name": "Hongseongbang (홍성방)",
+      "area": "16 Jungang-daero 179beon-gil, Dong-gu",
+      "hours": "11:00–15:00 / 17:00–21:30. Closed on public holidays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1262&lang_cd=en",
+      "category": "Korean-Chinese & Dumplings"
+    },
+    {
+      "name": "Jang Seong Hyang (장성향)",
+      "area": "29 Daeyeong-ro 243beon-gil, Dong-gu",
+      "hours": "11:30–22:00. Closed Seollal & Chuseok holidays.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=81181",
+      "category": "Korean-Chinese & Dumplings"
+    },
+    {
+      "name": "Donghwa Banjeom",
+      "area": "Bosu-dong, Jung-gu",
+      "hours": "11:30–15:00 / 17:00–21:00. Closed Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=1839",
+      "category": "Korean-Chinese & Dumplings"
+    },
+    {
+      "name": "Nampung",
+      "area": "Haeundae-gu",
+      "hours": "12:00–14:30 / 18:00–21:30; Sat & Sun 12:00–15:00 / 18:00–22:00. Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Korean-Chinese & Dumplings"
+    },
+    {
+      "name": "Sinheunggwan",
+      "area": "31-1 Jungdong 1-ro, Haeundae-gu",
+      "hours": "11:30–21:00. Closed every Monday.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002002001&uc_seq=1619",
+      "category": "Korean-Chinese & Dumplings"
+    },
+    {
+      "name": "Beijing Bicycle (북경의 자전거)",
+      "area": "14 Yongdang-ro 5beon-gil, Buk-gu",
+      "hours": "11:30–22:30 (last order 21:30). Open 365 days.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=949",
+      "category": "Korean-Chinese & Dumplings"
+    },
+    {
+      "name": "Haeundae Amso Galbijip (해운대암소갈비집)",
+      "area": "32-10 Jungdong 2-ro 10beon-gil, Haeundae-gu",
+      "hours": "11:30–22:00. Weekend break 15:15–16:30.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73814",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Geodae Galbi (거대갈비)",
+      "area": "22 Dalmaji-gil, Haeundae-gu",
+      "hours": "11:30–15:00 / 17:00–22:00. Open 365 days.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=141",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "88 Dwaeji Galbi (88돼지갈비)",
+      "area": "101-1 Gogwan-ro, Dong-gu",
+      "hours": "12:00–22:30. Open 365 days.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1536",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Busan Jokbal (부산족발)",
+      "area": "13 Gwangbok-ro, Jung-gu",
+      "hours": "Daily 10:30–01:00 (next day)",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=193340",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Pyeongan-do Jokbal (평안도족발)",
+      "area": "14 Dalmaji-gil, Haeundae-gu",
+      "hours": "12:00–24:00. Closed for the traditional holidays.",
+      "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301002001000&uc_seq=201&lang_cd=en",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Gwangalli Eonyang Bulgogi Busanjip",
+      "area": "32 Namcheonbada-ro, Suyeong-gu",
+      "hours": "11:00–21:30. Open every day.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=950",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Apgujeong Hanu Galbi (압구정한우갈비)",
+      "area": "61 Cheongnyong-ro, Geumjeong-gu",
+      "hours": "11:30–21:30. Open all year.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=192530",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Matchandeul Wangsogeumgui Haeundae (맛찬들왕소금구이 해운대)",
+      "area": "46 Haeun-daero 608beon-gil, Haeundae-gu",
+      "hours": "16:00–01:00.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=45590",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Jayeon Chogalbi (자연초갈비)",
+      "area": "14-1 Daehak-ro, Busanjin-gu",
+      "hours": "11:00–22:00. Closed the day of Seollal & Chuseok.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=55136",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Jinmi Eonyang Bulgogi",
+      "area": "Namcheon-dong, Suyeong-gu",
+      "hours": "Every day 10:30–22:00.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=2196",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Oryukdogawon",
+      "area": "Oryukdo, Nam-gu",
+      "hours": "11:30–21:30. Closed on Lunar New Year's Day and Chuseok.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Mokjangwon",
+      "area": "Yeongdo-gu",
+      "hours": "11:30–21:30. Closed on Lunar New Year's Day and Chuseok.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Gyuujeong",
+      "area": "Dalmaji, Haeundae-gu",
+      "hours": "12:00–15:00 / 17:00–23:00 (last order 22:00). Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Goseurak",
+      "area": "Jangan-eup, Gijang-gun",
+      "hours": "11:30–22:00 (last order 21:00). Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Eunha Galbi",
+      "area": "Choryang, Dong-gu",
+      "hours": "11:00–22:00. Closed the 2nd Tuesday of each month.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Camping BBQ Clouds",
+      "area": "560 Gomnae-gil, Jeonggwan-eup, Gijang-gun",
+      "hours": "Mon–Fri 13:00–17:00 / 18:00–22:00. Weekends & holidays 11:30–14:30 / 15:30–18:30 / 19:30–22:30. No closing day printed o",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=2156",
+      "category": "Grilled Meat & Jokbal"
+    },
+    {
+      "name": "Songjeong Samdae Gukbap (송정3대국밥)",
+      "area": "33 Seomyeon-ro 68beon-gil, Busanjin-gu",
+      "hours": "Open 24 hours, daily, year-round",
+      "source": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=216936",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Jamae Gukbap (자매국밥)",
+      "area": "56 Millakbondong-ro 27beon-gil, Suyeong-gu",
+      "hours": "10:00–21:00. Closed Sundays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=2365",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Jaegi Dwaeji Gukbap (재기돼지국밥)",
+      "area": "25 Jeoryeong-ro 49-gil, Yeongdo-gu",
+      "hours": "08:00–21:00 or until sold out. Closed Mondays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1837",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Ungcheonjip (웅천집)",
+      "area": "7-14 Geumgok-daero 616beon-gil",
+      "hours": "Daily 11:30–21:30. Break 15:00–16:00. Last order 20:30. Open 365 days.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1279&lang_cd=en",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Samihun (사미헌)",
+      "area": "19 Seomyeonmunhwa-ro, Busanjin-gu",
+      "hours": "11:00–21:30. Closed public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=87",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Yeongjin Sikdang (영진식당)",
+      "area": "39 Hasinbeonyeong-ro 157beon-gil, Saha-gu",
+      "hours": "09:30–15:00 / 17:00–21:30. Closed Sundays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000201002001000&uc_seq=1514",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Cor Pasta Bar (코르 파스타바)",
+      "area": "2F, 13 Dongseong-ro 25beon-gil, Busanjin-gu",
+      "hours": "12:00–14:30 / 17:00–21:00. Closed Mondays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1820&lang_cd=en",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Dongnae Halmae Pajeon (동래할매파전)",
+      "area": "43-10 Myeongryun-ro 94beon-gil, Dongnae-gu",
+      "hours": "11:30–15:00 / 17:00–21:30. Closed Mondays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1520",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Jagalchi Market (자갈치시장)",
+      "area": "52 Jagalchihaean-ro, Jung-gu",
+      "hours": "05:00–22:00. Closed the 1st & 3rd Tuesday of each month.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=69318",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Bujeon Market (부전시장)",
+      "area": "23 Jungang-daero 783beon-gil, Busanjin-gu",
+      "hours": "Daily 07:00–19:00 (varies by shop)",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301003001000&uc_seq=327&lang_cd=en",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Sinchang Gukbap (신창국밥)",
+      "area": "53 Bosu-daero, Seo-gu",
+      "hours": "09:00–21:00. Closed Sundays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=198",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Gayapocha Seonjigukbap Main Branch (가야포차선지국밥 본점)",
+      "area": "58 Gayagongwon-ro, Busanjin-gu",
+      "hours": "Open 24 hours. Closed for two days during the holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=2326",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Pohang Dwaeji Gukbap (포항돼지국밥)",
+      "area": "25 Seomyeon-ro 68beon-gil, Busanjin-gu",
+      "hours": "05:00–21:40. Open year-round.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=60053",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Geumsubokguk Haeundae Branch (금수복국)",
+      "area": "23 Jungdong 1-ro 43beon-gil, Haeundae-gu",
+      "hours": "1F open 24 hours, every day. 2F 11:00–22:00 (break 15:00–17:00; last orders 13:30 and 20:30).",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=146",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Jeju Bokguk (제주복국)",
+      "area": "481 Jeoryeong-ro, Yeongdo-gu",
+      "hours": "10:00–15:00 / 17:00–20:30. Closed on public holidays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1457&lang_cd=en",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Marine Buffet (마린뷔페)",
+      "area": "52 Chungjang-daero 9beon-gil, Jung-gu",
+      "hours": "Lunch 12:00–14:30 / Dinner 18:00–21:00. Closed Mondays.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=73574",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Jeongjitgan (정짓간)",
+      "area": "1F, 6 Bibong-ro, Saha-gu",
+      "hours": "Open 24 hours. Closed on public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1512",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Woojung's Bibimbap (우정)",
+      "area": "45-7 Jungang-daero 692beon-gil, Busanjin-gu",
+      "hours": "09:30–21:00. Open year-round.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=53652",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Ilbeonji Jagalchi Sangomjangeo (일번지자갈치산곰장어)",
+      "area": "12 Gunam-ro 41beon-gil, Haeundae-gu",
+      "hours": "11:00–01:00 (next day). Open year-round.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=74351",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Uri Dwaejigukbap (우리돼지국밥)",
+      "area": "27-1 Choyang-ro, Dong-gu",
+      "hours": "Open 24 hours. Open 365 days.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1513",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Bugwang Dwaejigukbap (부광돼지국밥)",
+      "area": "15-1 Daecheong-ro 141beon-gil, Jung-gu",
+      "hours": "09:30–19:30. Closed Sundays and public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1516",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Halmae Jaecheopguk (할매재첩국)",
+      "area": "8 Gwangnam-ro 120beon-gil, Suyeong-gu",
+      "hours": "06:00–21:00. Closed public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1519",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Wonjo Kkorigomjip (원조꼬리곰집)",
+      "area": "52 Oncheonjang-ro, Dongnae-gu",
+      "hours": "08:30–21:30 (last order 20:50). Closed Mondays and public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1522",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Park Hae-yun Tongyeong Bapsang (박해윤 통영 해물밥상)",
+      "area": "38 Yeonan-ro, Dongnae-gu",
+      "hours": "11:00–15:00 / 16:00–22:00 (last order 21:00). Closed public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1521",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Janganjip (장안집)",
+      "area": "365 Jangan-ro, Jangan-eup, Gijang-gun",
+      "hours": "11:00–20:30. Closed Tuesdays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1525",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Hanttukbaegi (한뚝배기)",
+      "area": "45-4 Jungang-daero 692beon-gil, Busanjin-gu",
+      "hours": "Open 24 hours (no closing day printed on the listing)",
+      "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=54000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Sogonggan",
+      "area": "4F, 47 Haeundaehaebyeon-ro 298beon-gil, Haeundae-gu",
+      "hours": "12:00–15:00 / 18:00–21:30. Closed Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1846&lang_cd=en",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Woobong Shabu",
+      "area": "127 Cheongsapo-ro, Haeundae-gu",
+      "hours": "11:00–15:00 / 17:00–21:00. Closed Mondays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1849&lang_cd=en",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Seoul Samgyetang (서울삼계탕)",
+      "area": "36 Nampo-gil, Jung-gu",
+      "hours": "10:00–22:30. Closed Seollal & Chuseok.",
+      "source": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=138397",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Gwangangukbap (광안국밥)",
+      "area": "1F, Daewoo I Ville, 39 Gwangan-ro 62beon-gil, Suyeong-gu",
+      "hours": "Open 24 hours. Open 365 days.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1123&lang_cd=en",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Subok Dwaejigukbap (수복돼지국밥)",
+      "area": "2F, 41-1 Gobun-ro, Yeonje-gu",
+      "hours": "08:00–21:50 (last order 21:20). Open 365 days.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1515",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Suhyang Bapsang (수향밥상)",
+      "area": "Dadae-dong, Saha-gu",
+      "hours": "09:00–16:00 / 16:30–22:00. Closed on public holidays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1517",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Samnak Hadong Jaecheopguk",
+      "area": "Samnak, Sasang-gu",
+      "hours": "05:00–21:30. Closed on public holidays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1523",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Noneun Bada (노는바다)",
+      "area": "Suyeong-gu",
+      "hours": "Mon–Thu 17:00–24:00 / Fri–Sat 17:00–01:00. Closed Sundays and 1 January.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1497",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Kyoto Donburi Main Branch (교토돈부리본점)",
+      "area": "Nam-gu",
+      "hours": "Weekdays 11:00–16:00 / 17:00–22:00; weekends 11:00–22:00. Closed on public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1495",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Chowonbokguk",
+      "area": "Nam-gu",
+      "hours": "09:00–15:00 / 17:00–21:00 (last order 20:15). Closed Lunar New Year's Day and Chuseok.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002001&uc_seq=1622",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Ton shou",
+      "area": "Gwangalli, Suyeong-gu",
+      "hours": "11:30–21:00 (last order 20:00). Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Jyugajeonghyo",
+      "area": "Haeundae-gu",
+      "hours": "18:00–23:00 (last order 22:00). Closed Tuesdays and Wednesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "HAREMA",
+      "area": "Marine City, Haeundae-gu",
+      "hours": "12:00–14:00 / 17:00–22:00; Tue & Wed 17:00–22:00 only. Closed Mondays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "palate",
+      "area": "Nam-gu",
+      "hours": "18:00–23:00; Fri, Sat & Sun 12:00–15:00 / 18:00–23:00. Closed Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Michael's Urban Farm Table",
+      "area": "Suyeong-gu",
+      "hours": "11:30–14:30 / 17:00–22:00; Sat & Sun 11:00–22:00. Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Le DORER",
+      "area": "Marine City, Haeundae-gu",
+      "hours": "17:00–21:30. Closed Wednesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Chilseong Hoetjip",
+      "area": "Gwangalli, Suyeong-gu",
+      "hours": "12:00–22:00. Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Ireok",
+      "area": "Marine City, Haeundae-gu",
+      "hours": "Open 24 hours. Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Geobukseon Hoetjip",
+      "area": "Dalmaji, Haeundae-gu",
+      "hours": "11:00–23:00. Closed on Lunar New Year's Day and Chuseok.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Cappadocia",
+      "area": "Geumjeong-gu",
+      "hours": "11:30–21:30 (last order 20:30). Closed Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "ALOI THAI RESTAURANT",
+      "area": "Millak, Suyeong-gu",
+      "hours": "11:00–15:00 / 17:00–21:00 (last order 20:20). Closed Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "DAL THAI",
+      "area": "Dalmaji, Haeundae-gu",
+      "hours": "11:30–15:00 / 16:30–21:00 (last order 20:00). Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "RAEOAK",
+      "area": "Nam-gu",
+      "hours": "10:30–21:00 (last order 20:00). Closed Mondays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Restaurant L'étang",
+      "area": "Busanjin-gu",
+      "hours": "12:00–15:00 / 18:00–21:00, by reservation only. Closed Mondays and Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "La ConTi",
+      "area": "Cheongsapo, Haeundae-gu",
+      "hours": "12:00–15:00 / 17:30–22:00 (last order 20:30). Closed Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "TETE O NE",
+      "area": "Seomyeon, Busanjin-gu",
+      "hours": "15:00–24:00 (last order 23:00); Sat 12:00–24:00 (last order 23:00); Sun 12:00–18:00 (last order 17:00). Closed Mondays a",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Zero Base",
+      "area": "Millak, Suyeong-gu",
+      "hours": "18:00–20:00 / 20:30–22:30. Closed Sundays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "YAKITORI Haegong",
+      "area": "Millak, Suyeong-gu",
+      "hours": "17:30–24:00. Closed Sundays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "SUSHI IRUKA",
+      "area": "Marine City, Haeundae-gu",
+      "hours": "Lunch 12:00–14:00; dinner first seating from 17:30, second seating from 20:00. Open all year. (The index prints lunch as",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Sushi sian",
+      "area": "Centum City, Haeundae-gu",
+      "hours": "First seating 18:00–20:00; second seating 20:00–22:00. Closed Sundays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "SHOJIN",
+      "area": "Haeundae-gu",
+      "hours": "18:00–22:00. Closed Mondays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "MOZU",
+      "area": "Marine City, Haeundae-gu",
+      "hours": "18:00–01:00 (last order 24:00). Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Donggyeong Bapsang",
+      "area": "Namcheon, Suyeong-gu",
+      "hours": "11:30–15:00 / 17:30–21:00 (last order 20:30). Closed Mondays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Tambok",
+      "area": "Ilgwang-eup, Gijang-gun",
+      "hours": "10:30–15:00; Sat & Sun 10:30–15:00 / 17:00–19:30. Closed Mondays and Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Mujinjang Hoetjip",
+      "area": "Gijang-eup, Gijang-gun",
+      "hours": "11:00–21:00. Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Ajeossi Daegutang",
+      "area": "Dalmaji, Haeundae-gu",
+      "hours": "07:00–21:00. Closed the 2nd and 4th Monday of each month.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Saechong Hoetjip",
+      "area": "Banyeo-dong, Haeundae-gu",
+      "hours": "14:00–22:00. Closed the 1st Monday and 3rd Sunday of each month.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Ssangdungi Dwaejigukbap",
+      "area": "Nam-gu",
+      "hours": "09:00–22:00. Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Tonshou PNU Branch (톤쇼우 부산대점)",
+      "area": "247-10 Geumgang-ro, Geumjeong-gu",
+      "hours": "11:00–21:00. Closed on public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1506",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Bon Gogalbi (본 고갈비)",
+      "area": "2 Chungnyeol-daero 272beon-gil, Dongnae-gu",
+      "hours": "08:00–21:30 (last order 20:30). Closed on public holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1535",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Royal Gyeongyangsik & Steak Gwangalli (로얄경양식&스테이크 광안점)",
+      "area": "2F, 29 Millaksubyeon-ro, Suyeong-gu",
+      "hours": "11:30–22:00 (last order 21:20). Open year-round.",
+      "source": "https://visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000201002001000&uc_seq=1228",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Sikdang Toseong-dong (식당 토성동)",
+      "area": "27 Gudeok-ro 124beon-gil, Seo-gu",
+      "hours": "Mon–Fri 10:00–20:30. Closed Saturdays and Sundays.",
+      "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=963",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Choryang Tongdak (초량통닭)",
+      "area": "15 Choryang-ro",
+      "hours": "Mon–Sat 16:00–23:30. Closed Sundays and traditional holidays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1260",
+      "category": "Classic Korean & Specialty"
+    },
+    {
+      "name": "Samjin Eomuk Main Store (삼진어묵 본점)",
+      "area": "36 Taejong-ro 99beon-gil, Yeongdo-gu",
+      "hours": "Daily 09:00–19:00. Open year-round.",
+      "source": "https://visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000201002001000&uc_seq=1065",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Brown Hands Baekje (브라운핸즈 백제)",
+      "area": "16 Jungang-daero 209beon-gil, Dong-gu",
+      "hours": "Daily 10:00–22:00",
+      "source": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=231&lang_cd=ko",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Choryang Ondang (초량온당)",
+      "area": "1F, 135 Choryangjung-ro, Dong-gu",
+      "hours": "12:00–19:00. Closed Sundays and Mondays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1450",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Cafe off.o",
+      "area": "860 Gijanghaean-ro, Gijang-eup, Gijang-gun",
+      "hours": "Every day 10:00–21:00 (last order 20:30).",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=2093&lang_cd=en",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Sea & Tree",
+      "area": "808 Ilgwang-ro, Ilgwang-eup, Gijang-gun",
+      "hours": "Mon & Tue 12:00–20:00 / Wed–Sun 11:00–22:00.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=1966&lang_cd=en",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "P. Ark Cafe & Bakery",
+      "area": "4F, 180 Haeyang-ro 195beon-gil, Yeongdo-gu",
+      "hours": "Monday–Sunday 10:00–23:00. Open 365 days.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1445&lang_cd=en",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Nampo Samgyetang (남포삼계탕)",
+      "area": "16 Nampo-gil, Jung-gu",
+      "hours": "Mon–Fri 11:00–20:50 (break 15:30–16:30, last order 20:20). Sat–Sun 11:00–20:50 (last order 20:20). Closed traditional ho",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1247",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Lee Family's Tteokbokki (이가네 떡볶이)",
+      "area": "48 Bupyeong 1-gil, Jung-gu",
+      "hours": "10:00–17:00. Closed Sundays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1527",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "bibibidang",
+      "area": "4F, 239-16 Dalmaji-gil, Haeundae-gu",
+      "hours": "10:30–21:30. Open every day.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1845&lang_cd=en",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Bubu Coffee",
+      "area": "Gwangbok-dong, Jung-gu",
+      "hours": "11:00–22:00. Open every day.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=1838",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "HYTTE ROASTERY",
+      "area": "Seomyeon, Busanjin-gu",
+      "hours": "12:00–20:00; Sat & Sun 10:00–20:00. Closed on public holidays and on Lunar New Year's Day and Chuseok.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "BLACKUP COFFEE",
+      "area": "Seomyeon, Busanjin-gu",
+      "hours": "10:00–22:00. Open all year.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Werk Roasters",
+      "area": "Seomyeon, Busanjin-gu",
+      "hours": "10:00–18:30 (last order 18:00). Closed Saturdays and Sundays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Momos",
+      "area": "Oncheonjang, Geumjeong-gu",
+      "hours": "08:00–18:00. Closed on Lunar New Year's Day and Chuseok.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Ops",
+      "area": "Suyeong-gu",
+      "hours": "08:00–22:00. Closed on Lunar New Year's Day and Chuseok.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Brilliant",
+      "area": "Oncheonjang, Dongnae-gu",
+      "hours": "12:00–17:00, closing early when sold out. Closed Mondays and Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "bread365",
+      "area": "Nam-gu",
+      "hours": "11:00–19:30, closing early when ingredients run out. Closed Sundays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Bonheur Pâtisserie",
+      "area": "Geodae, Yeonje-gu",
+      "hours": "11:30–19:00. Closed Mondays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "MONSIEUR VINCENT",
+      "area": "Suyeong-gu",
+      "hours": "11:00–16:20. Closed Mondays and Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "MUG Dessert LAB",
+      "area": "Marine City, Haeundae-gu",
+      "hours": "13:00–19:00 (last order 18:00). Closed Tuesdays.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "PREST",
+      "area": "28 Chaseong-ro 451beon-gil, Gijang-eup, Gijang-gun",
+      "hours": "Tue–Sun 12:00–21:00. Closed every Monday.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=2068",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Café Hill",
+      "area": "Very Very Good Bongsan Center, 32 Odongkkot-gil, Yeongdo-gu",
+      "hours": "Mon–Sat 08:00–19:00. Closed every Sunday.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=1744",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Café Mandi",
+      "area": "104-7 Ojak-ro, Saha-gu",
+      "hours": "Monday–Sunday 12:00–22:00.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=1892",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Café Dottori Roasters",
+      "area": "29-4 Sangjangan 1-gil, Jangan-eup, Gijang-gun",
+      "hours": "Mon–Fri 10:00–18:00 (last order 17:30) / Sat–Sun 10:00–19:00 (last order 18:30).",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=2094",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Piedra",
+      "area": "2F, Baeksan Mansion, 51 Gwangnam-ro, Suyeong-gu",
+      "hours": "Tue–Sun 11:00–20:00. Closed Mondays.",
+      "source": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000201001001000&uc_seq=2614",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "M543 Cafe. Gallery",
+      "area": "42-10 Gumandeok-ro 59beon-gil, Buk-gu",
+      "hours": "Tue–Sun 10:00–22:00 (last order 21:30). Closed every Monday.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=2163&lang_cd=en",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Café 385",
+      "area": "539 Taejong-ro, Yeongdo-gu",
+      "hours": "Every day 10:00–22:00 (last order 21:30).",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=2099&lang_cd=en",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "ORRD",
+      "area": "17 Daedong-ro 107beon-gil, Sasang-gu",
+      "hours": "Everyday 11:00–23:00. Open 365 days.",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=2146&lang_cd=en",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Café EL 16.52",
+      "area": "177 Amnamgongwon-ro, Seo-gu",
+      "hours": "Everyday 10:00–21:30 (last order 21:00).",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=1967&lang_cd=en",
+      "category": "Snacks & Cafes"
+    },
+    {
+      "name": "Casa De Lux",
+      "area": "Store #201, 2F, 114 Seojeon-ro 58beon-gil, Busanjin-gu",
+      "hours": "Everyday 11:10–20:00 (last order 19:30).",
+      "source": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=2087&lang_cd=en",
+      "category": "Snacks & Cafes"
+    }
+  ],
+  "itineraries": [
+    {
+      "id": "I1",
+      "title": "Arrival Evening — Haeundae Beachfront",
+      "days": "Mon Nov 9 (check-in after 15:00)",
+      "difficulty": "Easy",
+      "transit": "None — everything walkable from the hotel",
+      "steps": [
+        {
+          "time": "15:00",
+          "what": "Check in at L7 HAEUNDAE by LOTTE (after 3:00 PM)",
+          "detail": "55 Haeun-daero 570beon-gil — 1 min from Haeundae Beach, ~5 min from Haeundae Station (Line 2).",
+          "link": "https://www.lottehotel.com/"
+        },
+        {
+          "time": "16:00",
+          "what": "Haeundae Beach + Dongbaekseom coastal walk",
+          "detail": "Camellia island path with Gwangan Bridge views; APEC Nurimaru house on the island. Free. Sunset ~17:15 — good photo hour.",
+          "link": "https://english.visitbusan.net"
+        },
+        {
+          "time": "17:30",
+          "what": "SEA LIFE Busan Aquarium (optional)",
+          "detail": "Open Mon 10:00–19:00, last entry 18:00 — fits a 17:30 arrival. Under Haeundae Beach.",
+          "link": "https://www.visitsealife.com/busan/plan-your-visit/before-you-visit/opening-hours/"
+        },
+        {
+          "time": "19:00",
+          "what": "Dinner — Dalmaji Hill options",
+          "detail": "Geobukseon Hoetjip (sliced raw fish, 11:00–23:00) or Pyeongan-do Jokbal (12:00–24:00, open late).",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
+        },
+        {
+          "time": "20:30",
+          "what": "Busan X the Sky — night view from LCT 100F",
+          "detail": "Open daily 10:00–21:00, last ticket 20:30. ₩29,000 adult / ₩26,000 child & senior. 411.6 m — highest view in Busan.",
+          "link": "https://www.busanxthesky.com/xthesky/xthesky.php"
+        }
+      ]
+    },
+    {
+      "id": "I2",
+      "title": "Blueline East Coast — Sky Capsule & Beach Train",
+      "days": "Tue Nov 10",
+      "difficulty": "Busy",
+      "transit": "None required — the Blueline trains ARE the transport along the coast",
+      "steps": [
+        {
+          "time": "08:30",
+          "what": "Blueline Park — Sky Capsule (book ahead!)",
+          "detail": "First capsule entry 08:30. Mipo→Cheongsapo one-way per capsule: ₩50,000 (2p) / ₩55,000 (3p) / ₩60,000 (4p). Sells out — reserve online.",
+          "link": "https://www.bluelinepark.com/fare.do"
+        },
+        {
+          "time": "10:00",
+          "what": "Cheongsapo: twin lighthouses & Daritdol Observatory",
+          "detail": "Fishing harbor on the old railway; glass sea observatory; free.",
+          "link": "https://english.visitbusan.net"
+        },
+        {
+          "time": "12:00",
+          "what": "Lunch at Cheongsapo — Woobong Shabu",
+          "detail": "1++ hanwoo shabu in a paper pot; 11:00–15:00 / 17:00–21:00; open Tuesdays. (La ConTi is closed Tuesdays — avoid.)",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1849&lang_cd=en"
+        },
+        {
+          "time": "14:00",
+          "what": "Beach Train to Songjeong Beach",
+          "detail": "1-ride ticket ₩10,000 from Mipo; or all-station ₩16,000 to roam freely. Quiet surf beach — November is a walk, not a swim.",
+          "link": "https://www.bluelinepark.com/fare.do"
+        },
+        {
+          "time": "16:30",
+          "what": "Return to Haeundae; rest at hotel",
+          "detail": "Beach train back to Mipo (~20 min walk to hotel).",
+          "link": ""
+        },
+        {
+          "time": "19:00",
+          "what": "Dinner — Haeundae classics",
+          "detail": "Haeundae Amso Galbijip (hanu galbi since 1964; 11:30–22:00, open Tue) or Geobukseon Hoetjip (Dalmaji, 11:00–23:00).",
+          "link": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187036"
+        },
+        {
+          "time": "21:00",
+          "what": "Haeundae Market night walk (optional)",
+          "detail": "Goraesa eomuk flagship; street food.",
+          "link": "https://english.visitbusan.net"
+        }
+      ]
+    },
+    {
+      "id": "I3",
+      "title": "Remembrance Day — UNMCK & Culture Day at Centum",
+      "days": "Wed Nov 11",
+      "difficulty": "Moderate",
+      "transit": "Two metro rides on one line: Line 2 Haeundae→Daeyeon (~10 stops, ~25 min) in the morning, then Daeyeon→Centum City (7 stops back east, ~15 min) in the afternoon. Everything at each stop is on foot.",
+      "steps": [
+        {
+          "time": "09:00",
+          "what": "Metro Line 2: Haeundae → Daeyeon",
+          "detail": "~10 stops (~25 min), one line. Everything after is on foot or one more ride east.",
+          "link": ""
+        },
+        {
+          "time": "10:30",
+          "what": "UN Memorial Cemetery (UNMCK)",
+          "detail": "Open 365 days, Oct–Apr 09:00–17:00, free. Wall of Remembrance (40,896 names).",
+          "link": "https://www.unmck.or.kr/eng/main/"
+        },
+        {
+          "time": "11:00",
+          "what": "Turn Toward Busan — 1-minute silence",
+          "detail": "Annual ceremony for UN Korean War dead, observed at 11:00 KST worldwide. Free.",
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301001001000&uc_seq=277&lang_cd=en"
+        },
+        {
+          "time": "12:00",
+          "what": "Busan Museum (next door)",
+          "detail": "Municipal history museum; free; open Wednesdays.",
+          "link": "https://museum.busan.go.kr"
+        },
+        {
+          "time": "13:00",
+          "what": "Lunch — Nam-gu bowls",
+          "detail": "Daeyeon Milmyeon (11:00–17:00, last order 16:50; closed Tue — open Wed) or Ssangdungi Dwaejigukbap (09:00–22:00).",
+          "link": "https://visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1510&lang_cd=en"
+        },
+        {
+          "time": "14:30",
+          "what": "Metro to Centum City (7 stops)",
+          "detail": "Same Line 2, Daeyeon → Centum City: 7 stops east (~15 min). Continue on foot within the Centum cluster.",
+          "link": ""
+        },
+        {
+          "time": "15:00",
+          "what": "Space Lee Ufan — art in a Lee Ufan-designed building",
+          "detail": "Tue–Sun 10:00–18:00 (last entry 17:30); FREE while the main BMA building is closed for renovation.",
+          "link": "https://art.busan.go.kr/index.nm"
+        },
+        {
+          "time": "17:30",
+          "what": "Culture Day movie at Busan Cinema Center (Dureraum)",
+          "detail": "2nd & last Wednesday of the month: 2D ₩10,000 adult / ₩8,000 youth for screenings STARTING 17:00–21:00. Check the screening calendar. World's largest LED ceiling lights the plaza free.",
+          "link": "https://www.dureraum.org"
+        },
+        {
+          "time": "21:00",
+          "what": "Return to Haeundae",
+          "detail": "Line 2 Centum City → Haeundae: 3 stops (~8 min).",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "I4",
+      "title": "Nampo Old Town — Jagalchi, Gukje, Busan Tower",
+      "days": "Thu Nov 12",
+      "difficulty": "Busy",
+      "transit": "One commuter ride from Haeundae; then walk the Nampo cluster",
+      "steps": [
+        {
+          "time": "09:00",
+          "what": "Metro: Haeundae → Nampo (via Seomyeon)",
+          "detail": "Line 2 to Seomyeon (15 stops) + Line 1 to Nampo (7 stops) ≈ 45 min. Alternatively a taxi (~35–40 min).",
+          "link": ""
+        },
+        {
+          "time": "11:30",
+          "what": "Lunch — milmyeon in Nampo",
+          "detail": "1969 Buwondong Kalguksu (11:00–19:30, daily — often sells out ~18:00) or Nampo Samgyetang (11:00–20:50).",
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=102&lang_cd=ko"
+        },
+        {
+          "time": "13:30",
+          "what": "Jagalchi Market",
+          "detail": "Korea's largest fish market; 05:00–22:00; open all stay (closures are Nov 3 & 17 only). Live-fish floor + rooftop deck.",
+          "link": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=69318"
+        },
+        {
+          "time": "15:30",
+          "what": "Gukje Market & Bosu-dong Book Alley",
+          "detail": "International market + second-hand book street from the Korean War era.",
+          "link": "http://www.gukjemarket.co.kr"
+        },
+        {
+          "time": "17:30",
+          "what": "Yongdusan Park & Busan Tower",
+          "detail": "Escalator up from Gwangbok-ro; tower 10:00–22:00 (last ticket 21:30), ₩12,000 — sunset over the harbor.",
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=368&lang_cd=ko"
+        },
+        {
+          "time": "19:30",
+          "what": "Dinner — old-town classics",
+          "detail": "Hwaguk Banjeom (Korean-Chinese, 43 yrs; 11:30–15:30/17:00–21:30; open Thu) or Bugwang Dwaejigukbap (09:30–19:30; closed Sun — open Thu).",
+          "link": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=1516"
+        },
+        {
+          "time": "20:30",
+          "what": "Bupyeong Kkangtong Night Market",
+          "detail": "Covered evening street-food market next to Gukje.",
+          "link": "https://english.visitbusan.net"
+        }
+      ]
+    },
+    {
+      "id": "I5",
+      "title": "Seomyeon Food & Gugak Concert Night",
+      "days": "Fri Nov 13",
+      "difficulty": "Busy — anchored on a confirmed concert",
+      "transit": "One metro ride in the morning (Line 2 Haeundae→Seomyeon, 15 stops, ~25–30 min); the day is then all walking (Seomyeon–Jeonpo–Busan Citizens Park–Gugak Center).",
+      "steps": [
+        {
+          "time": "10:00",
+          "what": "Metro Line 2: Haeundae → Seomyeon",
+          "detail": "15 stops (~25–30 min), one line, no transfer.",
+          "link": ""
+        },
+        {
+          "time": "11:00",
+          "what": "Seomyeon food street lunch",
+          "detail": "Gijang Sonkalguksu (09:00–21:00, hand-cut noodles + gimbap) or Hanttukbaegi (24h, suyuk) or Seo-myeon Gaegeum Milmyeon (winter 09:30–21:00).",
+          "link": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=54208"
+        },
+        {
+          "time": "13:00",
+          "what": "Jeonpo Café Street",
+          "detail": "Coffee district in former machine shops; Casa De Lux (media-art café, 11:10–20:00) or BLACKUP COFFEE (10:00–22:00).",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=2087&lang_cd=en"
+        },
+        {
+          "time": "15:00",
+          "what": "Busan Citizens Park",
+          "detail": "Central park on the former Camp Hialeah site. Free.",
+          "link": "http://www.citizenpark.or.kr"
+        },
+        {
+          "time": "16:00",
+          "what": "National Gugak Center — Gugak Experience Hall",
+          "detail": "Hands-on traditional-music exhibits; Mon–Sat 09:00–21:00 (closed Sun).",
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=2067&lang_cd=ko"
+        },
+        {
+          "time": "19:30",
+          "what": "CONCERT: Gugak: Korea in Sound — Yeji-dang, ₩10,000",
+          "detail": "CONFIRMED Fri Nov 13, 19:30, small theater (276 seats). All seats ₩10,000; tickets on sale from Oct 13, 2026, 14:00. Series runs to Nov 14 — this is the final weekend. ☎ 051-811-0114.",
+          "link": "https://busan.gugak.go.kr/BG/contents/BG0101020000.do?prfmSn=6088&prfmDtSn=3&schM=view"
+        },
+        {
+          "time": "21:30",
+          "what": "Late dinner — Seomyeon",
+          "detail": "TETE O NE (dining bar, 15:00–24:00; closed Mon/Tue — open Fri) or 24h Hanttukbaegi.",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
+        }
+      ]
+    },
+    {
+      "id": "I6",
+      "title": "Signature Day — Yeongdo Bridge Lift & Gwangalli Drone Show",
+      "days": "Sat Nov 14",
+      "difficulty": "Busiest day — two confirmed events",
+      "transit": "Two metro trips: morning Haeundae→Nampo (Line 2→Line 1 via Seomyeon, ~45 min); late afternoon Nampo→Gwangalli (Line 1→Line 2 via Seomyeon, ~35–40 min). Taxi Nampo→Gwangalli is ~15 min if preferred — the price of stacking both headline events.",
+      "steps": [
+        {
+          "time": "09:00",
+          "what": "Metro: Haeundae → Nampo",
+          "detail": "Line 2 → Seomyeon → Line 1 → Nampo (~45 min).",
+          "link": ""
+        },
+        {
+          "time": "10:00",
+          "what": "Yeongdo: Samjin Eomuk main store",
+          "detail": "Original fish-cake shop since 1953; 09:00–19:00 daily. Walk across the bridge to Yeongdo.",
+          "link": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=231&lang_cd=ko"
+        },
+        {
+          "time": "11:30",
+          "what": "Huinnyeoul Culture Village (Yeongdo)",
+          "detail": "White cliffside village + Jeoryeong coastal boardwalk. Free.",
+          "link": "https://www.yeongdo.go.kr"
+        },
+        {
+          "time": "13:00",
+          "what": "Lunch — Nampo side",
+          "detail": "Nampo Samgyetang (11:00–20:50).",
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=102&lang_cd=ko"
+        },
+        {
+          "time": "13:45",
+          "what": "Yeongdo Bridge lift — 14:00–14:15",
+          "detail": "CONFIRMED Saturdays only, 14:00, 15 minutes. Watch from Yurari Square (Nampo end). Korea's only bascule bridge. Free. Cancelled in heavy wind/rain.",
+          "link": "https://www.busan.go.kr/news/snsbusan04/view?dataNo=48703&gugun=Prev"
+        },
+        {
+          "time": "14:30",
+          "what": "Jagalchi + Gukje + Kkangtong markets",
+          "detail": "Open (Jagalchi closed days are Nov 3/17 — not today).",
+          "link": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=69318"
+        },
+        {
+          "time": "16:30",
+          "what": "Busan Tower sunset (optional)",
+          "detail": "10:00–22:00, last ticket 21:30, ₩12,000.",
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=368&lang_cd=ko"
+        },
+        {
+          "time": "17:30",
+          "what": "Metro to Gwangalli",
+          "detail": "Line 1 Nampo → Seomyeon (7 stops) + Line 2 Seomyeon → Gwangan (10 stops) ≈ 35–40 min; Gwangan Station is a ~10-min walk to the beach.",
+          "link": ""
+        },
+        {
+          "time": "18:30",
+          "what": "Dinner on Gwangalli Beach",
+          "detail": "Gwangangukbap (24h) or Chilseong Hoetjip (12:00–22:00, sea-view raw fish) or 100.1.pyeongnaeng (17:00–19:00 dinner window).",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1123&lang_cd=en"
+        },
+        {
+          "time": "19:00",
+          "what": "Gwangalli M Drone Light Show (show 1)",
+          "detail": "CONFIRMED every Sat; winter schedule 19:00 & 21:00; ~12 min; 1,100+ drones over Gwangan Bridge; free; weather-dependent.",
+          "link": "https://www.gwangallimdrone.co.kr/"
+        },
+        {
+          "time": "21:00",
+          "what": "Drone show (show 2)",
+          "detail": "Second show at 21:00 if you want the full set; then Line 2 back to Haeundae (~12 min).",
+          "link": "https://www.nculture.org/cul/localCultureDetail.do?targetId=2786391&contentType=G"
+        }
+      ]
+    },
+    {
+      "id": "I7",
+      "title": "Gijang Coast — Temple, Park & Sea",
+      "days": "Sun Nov 15",
+      "difficulty": "Busy (one far destination day)",
+      "transit": "Taxi ~40 min each way to the Gijang coast (or bus) — a single-destination day; everything there is local. Alternative return: Gwangan is 5 stops from Haeundae on Line 2 for a Gwangalli evening.",
+      "steps": [
+        {
+          "time": "08:30",
+          "what": "Haedong Yonggungsa Temple",
+          "detail": "Seaside temple on the Gijang coast; go early to beat crowds; free grounds.",
+          "link": "https://korean.visitkorea.or.kr"
+        },
+        {
+          "time": "11:00",
+          "what": "Lotte World Adventure Busan (or Ahopsan Forest / Sciport)",
+          "detail": "⚠️ November hours are date-specific — check the park-schedule calendar first. Current hours 10:00–21:00. Alternatives: Ahopsan bamboo forest (closed Mon — open Sun) or Busan National Science Museum (closed Mon — open Sun).",
+          "link": "https://adventurebusan.lotteworld.com/"
+        },
+        {
+          "time": "14:00",
+          "what": "Lunch — Gijang seafood",
+          "detail": "Mujinjang Hoetjip (11:00–21:00, open all year) or Janganjip (duck hanok house, 11:00–20:30, closed Tue — open Sun).",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
+        },
+        {
+          "time": "16:00",
+          "what": "Café stop — PREST or Sea & Tree",
+          "detail": "PREST hanok café (Tue–Sun 12:00–21:00) or Sea & Tree ocean-view café (Sun 11:00–22:00).",
+          "link": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=2068"
+        },
+        {
+          "time": "18:00",
+          "what": "Return to Haeundae; Gwangalli sunset alternative",
+          "detail": "If energy remains: Gwangan Station is 2 stops from Haeundae for a bridge-lights dinner (Gwangangukbap 24h).",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1123&lang_cd=en"
+        }
+      ]
+    },
+    {
+      "id": "I8",
+      "title": "Rest & Spa Day (swap for any busy day)",
+      "days": "Flexible",
+      "difficulty": "Easy",
+      "transit": "Line 2 Haeundae→Centum City is only 3 stops (~8 min) — or a ~25-min beach-side walk; otherwise hotel-adjacent.",
+      "steps": [
+        {
+          "time": "10:00",
+          "what": "Dongbaekseom / Haeundae Beach slow morning",
+          "detail": "Free coastal walk.",
+          "link": "https://english.visitbusan.net"
+        },
+        {
+          "time": "12:00",
+          "what": "Shinsegae Centum City food hall lunch",
+          "detail": "3 stops on Line 2 from Haeundae (Dongbaek, BEXCO, Centum City) or a ~25-min walk along the beach road.",
+          "link": "https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008"
+        },
+        {
+          "time": "13:30",
+          "what": "Spa Land jjimjilbang (2–3 hours)",
+          "detail": "08:00–23:00 (last entry 22:00); ₩26,000 adult / ₩21,000 student. ⚠️ Ticket = 4 HOURS (+₩5,000/hr after; spend ₩10,000+ inside → 6 hours). Elementary age and up only.",
+          "link": "https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008"
+        },
+        {
+          "time": "17:00",
+          "what": "Busan Cinema Center plaza + LED roof",
+          "detail": "Free to walk under the world's largest LED ceiling at dusk.",
+          "link": "https://www.dureraum.org"
+        },
+        {
+          "time": "19:00",
+          "what": "Dinner — Millak/Gwangalli waterfront",
+          "detail": "ALOI THAI (Millak; closed Tue — pick a non-Tue day) or Gwangangukbap (24h).",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
+        }
+      ]
+    },
+    {
+      "id": "I9",
+      "title": "Departure Morning — Haeundae Send-off",
+      "days": "Mon Nov 16 (checkout before 11:00)",
+      "difficulty": "Easy",
+      "transit": "None — walking only",
+      "steps": [
+        {
+          "time": "07:00",
+          "what": "Haeundae Beach sunrise walk",
+          "detail": "Sunrise over the east coast; free.",
+          "link": "https://english.visitbusan.net"
+        },
+        {
+          "time": "08:30",
+          "what": "Breakfast — beachfront café / hotel option",
+          "detail": "The listed milmyeon restaurant opens at 10:00, after the planned breakfast slot; choose a breakfast option whose same-day hours you confirm before departure.",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
+        },
+        {
+          "time": "10:00",
+          "what": "SEA LIFE quick visit (optional, if time)",
+          "detail": "Mon–Fri 10:00–19:00, last entry 18:00.",
+          "link": "https://www.visitsealife.com/busan/plan-your-visit/before-you-visit/opening-hours/"
+        },
+        {
+          "time": "11:00",
+          "what": "Check out",
+          "detail": "Before 11:00 AM.",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}
