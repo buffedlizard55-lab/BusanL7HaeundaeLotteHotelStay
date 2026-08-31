@@ -4,7 +4,7 @@
     "address": "55 Haeun-daero 570beon-gil, Haeundae-gu, Busan 48094",
     "checkin": "Mon Nov 9, 2026 (after 3:00 PM)",
     "checkout": "Mon Nov 16, 2026 (before 11:00 AM)",
-    "location_notes": "1-min walk from Haeundae Beach; ~5-min walk to Haeundae Station (Busan Metro Line 2). Base for the Haeundae east-coast cluster.",
+    "location_notes": "1-min walk from Haeundae Beach; ~5-min walk to Haeundae Station (Busan Metro Line 2). Base for the Haeundae east-coast cluster. ☎ +82-51-771-1000.",
     "sources": [
       {
         "label": "L7 HAEUNDAE by LOTTE HOTELS — official site",
@@ -15,7 +15,7 @@
         "url": "https://www.lottehotel.com/haeundae-l7/en/rooms/superior-twin.html"
       },
       {
-        "label": "Lotte Hotels official (prerendered mirror, address/contact)",
+        "label": "Lotte Hotels official (prerendered mirror, address/contact; check-in 15:00 / check-out 11:00)",
         "url": "https://www.lottehotel.com/prerendered/haeundae-l7/en/index.html"
       }
     ]
@@ -308,8 +308,8 @@
       "id": "P8",
       "name": "Igidae Coastal Walk & Oryukdo Skywalk",
       "area": "Nam-gu",
-      "transit": "Line 2 to Kyungsung Univ·Pukyong Univ + bus 24/27/131",
-      "hours": "Winter (Oct–May) 09:00–18:00, last admission 17:50; open daily incl. Mondays",
+      "transit": "Line 2 to Kyungsung Univ·Pukyong Univ + local bus",
+      "hours": "Winter (Oct–May) 09:00–18:00; open daily incl. Mondays",
       "price": "Free",
       "status": "Verified; weather closures possible (call 051-607-6395)",
       "sources": [
@@ -407,17 +407,21 @@
       "name": "Gukje Market & Bupyeong Kkangtong Night Market",
       "area": "Nampo",
       "transit": "Walk from Jagalchi",
-      "hours": "Gukje stalls mostly 09:00–20:00, closed 1st & 3rd Sundays; Kkangtong night market 19:30–23:30 daily",
+      "hours": "Gukje stalls mostly 09:00–20:00, closed 1st & 3rd Sundays; Kkangtong night market 19:30–23:30 (KTO) / until 24:00 (Visit Busan), open all year",
       "price": "Free entry",
       "status": "Verified markets",
       "sources": [
         {
-          "label": "Gukje Market official",
-          "url": "http://www.gukjemarket.co.kr"
+          "label": "KTO — Gukje Market (hours, closed days)",
+          "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=92540"
         },
         {
-          "label": "Visit Busan",
-          "url": "https://english.visitbusan.net"
+          "label": "KTO — Bupyeong (Kkangtong) Market (night market 19:30–23:30, ☎ +82-51-243-1128)",
+          "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=78106"
+        },
+        {
+          "label": "Visit Busan — Kkangtong listing (until 24:00)",
+          "url": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=1861&lang_cd=en"
         }
       ]
     },
@@ -634,8 +638,8 @@
       "status": "Verified temple",
       "sources": [
         {
-          "label": "Visit Korea listing",
-          "url": "https://korean.visitkorea.or.kr"
+          "label": "KTO — Haedong Yonggungsa Temple (hours, free grounds)",
+          "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=108618"
         }
       ]
     },
@@ -674,7 +678,7 @@
       "name": "Busan National Science Museum (Sciport)",
       "area": "Gijang / Osiria",
       "transit": "Taxi/bus ~40 min",
-      "hours": "Closed Mondays",
+      "hours": "Tue–Sun 09:30–17:30 (last entry 16:30); closed Mondays, Jan 1, Seollal & Chuseok",
       "price": "Ticketed",
       "status": "Verified national museum",
       "sources": [
@@ -856,8 +860,15 @@
     "Several restaurants were removed from the source food guide because two official pages disagreed on hours (e.g., Shinbalwon, Nagahama Mangetsu, Haeundae Ilpum Hanwoo, Mori, LAB XXIV). If you go anyway, check hours on Naver Map the morning of.",
     "Prices/hours above were verified Aug 17–30, 2026 from official pages; re-confirm closer to travel as they can change.",
     "Weather risk in November: Igidae/Oryukdo, drone show, Yeongdo Bridge lift and the Songdo cable car can close/cancel in wind or rain.",
-    "Check-out time discrepancy: the official L7 page lists 12:00 check-out (11:00 Jul–Aug), but OTA listings (booking/trip.com) say before 11:00. This plan keeps the requested before-11:00 checkout — arrive ahead of 11:00 either way.",
-    "F1963 Othoniel exhibition is closed every Monday and last entry is 17:30 — it is a late-afternoon stop, not an evening one; the free garden installation (Gold Lotus) can be seen outside closing hours."
+    "F1963 Othoniel exhibition is closed every Monday and last entry is 17:30 — it is a late-afternoon stop, not an evening one; the free garden installation (Gold Lotus) can be seen outside closing hours.",
+    "Check-out time — RESOLVED (Aug 31, 2026): the official L7 site (prerendered mirror) lists check-in 15:00 / check-out 11:00 for all dates; the earlier 12:00 figure came from a stale page. This plan keeps before-11:00 checkout.",
+    "L7 B&B package page (2024-04) is dead; Floating (2F) serves breakfast 07:00–10:00 daily — book by phone ☎ +82-51-771-1000 (I9 departure morning).",
+    "ahopsan.com was unreachable during the Aug 31 re-verification — the KoreaFun-audited claims (open year-round, free entry) are kept; reconfirm before travel.",
+    "gukjemarket.co.kr returned HTTP 403 during re-verification — the Gukje source now points to the KTO listing (vcontsId=92540); closed 1st & 3rd Sundays (Nov 15 falls in the stay).",
+    "Bupyeong Kkangtong closing time: KTO prints 19:30–23:30, Visit Busan prints until 24:00 — both agree on the 19:30 opening, so the 20:30 plan is safe either way.",
+    "bnfmc.or.kr posts Igidae/Oryukdo winter hours 09:00–18:00; the previously cited \"last admission 17:50\" is not posted — removed.",
+    "Metro stop counts re-audited Aug 31, 2026 against official station numbers (namu.wiki Line 1 rev 2026-08-24, Line 2 rev 2026-08-23): Line 2 Seomyeon→Gwangan = 10 stops, Line 1 Seomyeon→Beomeosa = 14 stops (13.8 km) — I10 one-way transit corrected from \"8 stops/≈45 min\" to \"14 stops/≈55–60 min\"; I6 \"18 stops\" confirmed correct.",
+    "Shinsegae Spa Land official page prints two hours figures (store notice 08:00–23:00 last entry 22:00 vs detail panel 09:00–22:00) — prices (₩26,000/₩21,000, student born 2008–2019) confirmed on the same page; call 1668-2850."
   ],
   "food": [
     {
@@ -2086,7 +2097,7 @@
         }
       ],
       "cluster": "Daeyeon (UNMCK) & Centum City",
-      "sunset": "17:21 (Nov 11)",
+      "sunset": "17:20 (Nov 11)",
       "highlights": [
         "Turn Toward Busan 1-min tribute (11:00)",
         "UN Memorial Cemetery & Busan Museum",
@@ -2126,12 +2137,12 @@
           "time": "15:30",
           "what": "Gukje Market & Bosu-dong Book Alley",
           "detail": "Gukje Market: most stalls 09:00–20:00, closed 1st & 3rd Sundays (Nov 15 is the 3rd — not today, Thu Nov 12). Bosu-dong Book Alley is one block away.",
-          "link": "http://www.gukjemarket.co.kr"
+          "link": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=92540"
         },
         {
           "time": "17:30",
           "what": "Yongdusan Park & Busan Tower",
-          "detail": "Escalator up from Gwangbok-ro; tower 10:00–22:00 (last ticket 21:30), ₩12,000 adult / ₩9,000 child & senior. Sunset 17:20 on Nov 12 — time your climb and catch both.",
+          "detail": "Escalator up from Gwangbok-ro; tower 10:00–22:00 (last ticket 21:30), ₩12,000 adult / ₩9,000 child & senior. Sunset 17:19 on Nov 12 — time your climb and catch both.",
           "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=368&lang_cd=ko"
         },
         {
@@ -2143,12 +2154,12 @@
         {
           "time": "20:30",
           "what": "Bupyeong Kkangtong Night Market",
-          "detail": "Night market 19:30–23:30, open daily year-round, next to Gukje Market.",
-          "link": "https://english.visitbusan.net"
+          "detail": "Night market 19:30–23:30 (KTO) / until 24:00 (Visit Busan), open daily year-round, next to Gukje Market. Magic show + guitar performances twice a day (KTO).",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=1861&lang_cd=en"
         }
       ],
       "cluster": "Nampo & Jagalchi Old Town",
-      "sunset": "17:20 (Nov 12)",
+      "sunset": "17:19 (Nov 12)",
       "highlights": [
         "Jagalchi Fish Market & Rooftop",
         "Gukje Market & Bosu-dong Book Alley",
@@ -2238,7 +2249,7 @@
           "time": "10:00",
           "what": "Yeongdo: Samjin Eomuk main store",
           "detail": "Original fish-cake shop since 1953; 09:00–19:00 daily. Walk across the bridge to Yeongdo.",
-          "link": "https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000301002001000&uc_seq=231&lang_cd=ko"
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301002001000&uc_seq=1065&lang_cd=en"
         },
         {
           "time": "11:30",
@@ -2318,7 +2329,7 @@
           "time": "08:30",
           "what": "Haedong Yonggungsa Temple",
           "detail": "Seaside temple on the Gijang coast; free; open from 04:30–19:20 (entry closes ~18:50); go early to beat crowds.",
-          "link": "https://korean.visitkorea.or.kr"
+          "link": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=108618"
         },
         {
           "time": "11:00",
@@ -2341,12 +2352,12 @@
         {
           "time": "18:00",
           "what": "Return to Haeundae; Gwangalli sunset alternative",
-          "detail": "If energy remains: Line 2 six stops (roughly 12 min) back east to Gwangan for a bridge-lights dinner (Gwangangukbap 24h). Sunset on Nov 15 is 17:18 — the Gwangalli lights take over after that.",
+          "detail": "If energy remains: Line 2 six stops (roughly 12 min) back east to Gwangan for a bridge-lights dinner (Gwangangukbap 24h). Sunset on Nov 15 is 17:17 — the Gwangalli lights take over after that.",
           "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1123&lang_cd=en"
         }
       ],
       "cluster": "Gijang Coastal Strip",
-      "sunset": "17:18 (Nov 15)",
+      "sunset": "17:17 (Nov 15)",
       "highlights": [
         "Haedong Yonggungsa (seaside cliff temple)",
         "Lotte World Adventure Busan / Sciport",
@@ -2379,7 +2390,7 @@
         {
           "time": "13:30",
           "what": "Spa Land jjimjilbang (2–3 hours)",
-          "detail": "08:00–23:00 (last entry 22:00); ₩26,000 adult / ₩21,000 student (born 2008–2019). ⚠️ Ticket = 4 HOURS (+₩5,000/hr after; spend ₩10,000+ inside → 6 hours). Elementary age and up. Closed one weekday a month (department-store holiday). 1668-2850.",
+          "detail": "08:00–23:00 (last entry 22:00) per the store notice — the detail panel on the same official page prints 09:00–22:00, so call 1668-2850; a 13:30 start works either way. ₩26,000 adult / ₩21,000 student (born 2008–2019). ⚠️ Ticket = 4 HOURS (+₩5,000/hr after; spend ₩10,000+ inside → 6 hours). Elementary age and up. Closed one weekday a month (department-store holiday). 1668-2850.",
           "link": "https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008"
         },
         {
@@ -2396,7 +2407,7 @@
         }
       ],
       "cluster": "Centum City & Suyeong / Millak",
-      "sunset": "17:18 (Nov 15)",
+      "sunset": "17:17 (Nov 15)",
       "highlights": [
         "Dongbaekseom morning stroll",
         "Shinsegae Centum Spa Land (4-hour thermal bathhouse)",
@@ -2423,8 +2434,8 @@
         {
           "time": "08:30",
           "what": "Breakfast — beachfront café / hotel option",
-          "detail": "Hotel option: Floating on the 2nd floor serves breakfast buffet 07:00–10:00 daily (official L7 package pages; call or book a B&B package). Otherwise a beachfront café — note most proper breakfast options (e.g. Daeyeon Milmyeon) open at 10:00, too late for this slot.",
-          "link": "https://www.lottehotel.com/haeundae-l7/en/hotel-offers/packages/2024-04/Bed-Breakfast-Package.html"
+          "detail": "Hotel option: Floating on the 2nd floor serves breakfast buffet 07:00–10:00 daily (L7 official site; the 2024-04 B&B package page is dead — book by phone ☎ +82-51-771-1000). Otherwise a beachfront café — note most proper breakfast options (e.g. Daeyeon Milmyeon) open at 10:00, too late for this slot.",
+          "link": "https://www.lottehotel.com/haeundae-l7/en/"
         },
         {
           "time": "09:30",
@@ -2461,18 +2472,18 @@
       "title": "Dongnae Heritage & Hot Springs — Temple Foliage",
       "days": "Tue Nov 10 (alternative)",
       "difficulty": "Moderate",
-      "transit": "One metro ride: Line 2 Haeundae→Seomyeon (16 stops, ~28 min) + Line 1 Seomyeon→Beomeosa (8 stops, ~15 min). Then bus/taxi to temple. Afternoon: Line 1 Beomeosa→Oncheonjang (~6 stops, ~12 min). Everything at each stop is walkable.",
+      "transit": "One metro ride: Line 2 Haeundae→Seomyeon (16 stops, ~28 min) + Line 1 Seomyeon→Beomeosa (14 stops, ~25–28 min) ≈ 55–60 min one-way. Then bus/taxi ~10 min to the temple. Afternoon: Line 1 Beomeosa→Oncheonjang (6 stops, ~12 min). Everything at each stop is walkable.",
       "steps": [
         {
           "time": "08:30",
           "what": "Metro: Haeundae → Beomeosa Temple",
-          "detail": "Line 2 Haeundae→Seomyeon (16 stops) + Line 1 Seomyeon→Beomeosa (8 stops) ≈ 45 min. Then bus or taxi ~10 min to temple entrance.",
+          "detail": "Line 2 Haeundae→Seomyeon (16 stops) + Line 1 Seomyeon→Beomeosa (14 stops, 13.8 km) ≈ 55–60 min total. Then bus or taxi ~10 min to temple entrance.",
           "link": ""
         },
         {
-          "time": "09:30",
+          "time": "10:00",
           "what": "Beomeosa Temple — autumn foliage",
-          "detail": "One of Korea's great mountain temples; grounds open daily; free. Mid-November = peak foliage on Geumjeongsan. Main hall, Daeungjeon, and the three-story stone pagoda are highlights.",
+          "detail": "Arrive ~10:00. One of Korea's great mountain temples; grounds open daily; free. Mid-November = peak foliage on Geumjeongsan. Main hall, Daeungjeon, and the three-story stone pagoda are highlights.",
           "link": "https://www.beomeo.kr"
         },
         {
@@ -2496,7 +2507,7 @@
         {
           "time": "18:00",
           "what": "Return to Haeundae; dinner",
-          "detail": "Line 1 Oncheonjang→Seomyeon + Line 2 Seomyeon→Haeundae ≈ 40 min. Dinner at Haeundae: Haeundae Gaya Milmyeon (10:00–20:50, no closing day) or Matchandeul Wangsogeumgui (16:00–01:00, hanwoo BBQ).",
+          "detail": "Line 1 Oncheonjang→Seomyeon (8 stops) + Line 2 Seomyeon→Haeundae (16 stops) ≈ 50–55 min. Dinner ~19:30 at Haeundae: Haeundae Gaya Milmyeon (10:00–20:50, no closing day) or Matchandeul Wangsogeumgui (16:00–01:00, hanwoo BBQ).",
           "link": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=187036"
         }
       ],
@@ -2528,7 +2539,7 @@
         {
           "time": "10:00",
           "what": "Gamcheon Culture Village",
-          "detail": "The 'Machu Picchu of Busan'; colorful hillside houses, murals, and art installations. Open daily; stamp-map from info center. Taxi from Nampo ~10 min or bus from Toseong station. Residential area — keep noise down.",
+          "detail": "The 'Machu Picchu of Busan'; colorful hillside houses, murals, and art installations. Open daily; stamp-map from info center. Taxi from Nampo ~10 min or city bus. Residential area — keep noise down.",
           "link": "https://www.gamcheon.or.kr"
         },
         {
@@ -2552,7 +2563,7 @@
         {
           "time": "17:30",
           "what": "Busan Tower sunset",
-          "detail": "10:00–22:00, last ticket 21:30, ₩12,000. Sunset 17:20 on Nov 12. Yongdusan Park escalator from Gwangbok-ro.",
+          "detail": "10:00–22:00, last ticket 21:30, ₩12,000. Sunset 17:19 on Nov 12. Yongdusan Park escalator from Gwangbok-ro.",
           "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=368&lang_cd=ko"
         },
         {
@@ -2569,7 +2580,7 @@
         }
       ],
       "cluster": "Gamcheon, Songdo & Nampo (West Busan)",
-      "sunset": "17:20 (Nov 12)",
+      "sunset": "17:19 (Nov 12)",
       "highlights": [
         "Gamcheon Culture Village colorful alleys",
         "Songdo Marine Cable Car & Skywalk over the ocean",
@@ -2585,12 +2596,12 @@
       "title": "Igidae Coastal Walk & Gwangalli Evening",
       "days": "Wed Nov 11 (alternative) or any weekday",
       "difficulty": "Moderate",
-      "transit": "Line 2 Haeundae→Kyungsung Univ·Pukyong Univ (~8 stops, ~18 min) + bus 24/27/131 to Igidae entrance (~10 min). Afternoon: bus back to Gwangan station (Line 2, ~4 stops, ~8 min). All coastal walking once at Igidae.",
+      "transit": "Line 2 Haeundae→Kyungsung Univ·Pukyong Univ (9 stops, ~20 min) + local bus to the Igidae entrance (~10 min). Afternoon: Line 2 Kyungsung Univ·Pukyong Univ→Gwangan (3 stops, ~7 min). All coastal walking once at Igidae.",
       "steps": [
         {
           "time": "09:00",
           "what": "Metro to Igidae Coastal Walk",
-          "detail": "Line 2 Haeundae→Kyungsung Univ·Pukyong Univ (~8 stops, ~18 min) + bus 24/27/131 (~10 min). Igidae is open daily including Mondays; winter hours 09:00–18:00 (last admission 17:50).",
+          "detail": "Line 2 Haeundae→Kyungsung Univ·Pukyong Univ (9 stops, ~20 min) + local bus to the trail entrance (~10 min). Igidae is open daily including Mondays; winter hours 09:00–18:00.",
           "link": "https://bnfmc.or.kr/portal/contents.do?mId=0102010000"
         },
         {
@@ -2637,7 +2648,7 @@
         }
       ],
       "cluster": "Nam-gu (Igidae) & Gwangalli Beach",
-      "sunset": "17:21 (Nov 11)",
+      "sunset": "17:20 (Nov 11)",
       "highlights": [
         "Igidae Coastal Cliff Walk (3.6 km trail)",
         "Oryukdo Skywalk glass platform over the sea",
@@ -2844,6 +2855,136 @@
           "pace": "Easy"
         }
       ]
+    },
+    {
+      "id": "preset-easyses",
+      "name": "Easy Seas — Coastal & Slow Days",
+      "badge": "🐢 Slow Pace",
+      "description": "The coast-first version: six of eight days face the sea (Haeundae beachfront, Blueline, UNMCK's estuary views, Igidae cliffs, Gwangalli drone finale, Gijang temple coast). One cultural interlude, one spa day, and a sunrise departure — the single busy day is the unmissable Saturday bridge lift + drone show.",
+      "pace_breakdown": "3 Easy · 4 Moderate · 1 Busy",
+      "days": [
+        {
+          "day_num": 1,
+          "date": "Mon Nov 9",
+          "it_id": "I1",
+          "theme": "Arrival & Haeundae beachfront",
+          "pace": "Easy"
+        },
+        {
+          "day_num": 2,
+          "date": "Tue Nov 10",
+          "it_id": "I2",
+          "theme": "Blueline Sky Capsule & Cheongsapo coast",
+          "pace": "Moderate"
+        },
+        {
+          "day_num": 3,
+          "date": "Wed Nov 11",
+          "it_id": "I3",
+          "theme": "UNMCK Remembrance Day & Culture Day cinema",
+          "pace": "Moderate"
+        },
+        {
+          "day_num": 4,
+          "date": "Thu Nov 12",
+          "it_id": "I12",
+          "theme": "Igidae coastal cliff walk & Oryukdo skywalk",
+          "pace": "Moderate"
+        },
+        {
+          "day_num": 5,
+          "date": "Fri Nov 13",
+          "it_id": "I8",
+          "theme": "Rest & Shinsegae Spa Land thermal day",
+          "pace": "Easy"
+        },
+        {
+          "day_num": 6,
+          "date": "Sat Nov 14",
+          "it_id": "I6",
+          "theme": "Yeongdo bridge lift & Gwangalli drone show",
+          "pace": "Busy"
+        },
+        {
+          "day_num": 7,
+          "date": "Sun Nov 15",
+          "it_id": "I7",
+          "theme": "Gijang coast — Haedong Yonggungsa & temple park",
+          "pace": "Moderate"
+        },
+        {
+          "day_num": 8,
+          "date": "Mon Nov 16",
+          "it_id": "I9",
+          "theme": "Haeundae sunrise & departure (out by 11:00)",
+          "pace": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "preset-food",
+      "name": "Food First — Busan Eats Edition",
+      "badge": "🍜 Eats Focus",
+      "description": "Every day anchored by verified Busan tables: Woobong Shabu's 1++ paper-pot shabu, Haeundae Amso Galbijip (since 1964), Nampo's 1969 Buwondong kalguksu and Hwaguk Banjeom's Korean-Chinese dishes, Dongnae pajeon with temple foliage, the Seomyeon food street, Gwangalli raw fish under the drone show — plus Kkangtong night-market street food. The spa day doubles as a Shinsegae food-hall brunch stop.",
+      "pace_breakdown": "3 Easy · 1 Moderate · 4 Busy",
+      "days": [
+        {
+          "day_num": 1,
+          "date": "Mon Nov 9",
+          "it_id": "I1",
+          "theme": "Arrival & Haeundae classics (Geobukseon hoejip)",
+          "pace": "Easy"
+        },
+        {
+          "day_num": 2,
+          "date": "Tue Nov 10",
+          "it_id": "I2",
+          "theme": "Blueline + Woobong Shabu lunch, Amso Galbijip dinner",
+          "pace": "Busy"
+        },
+        {
+          "day_num": 3,
+          "date": "Wed Nov 11",
+          "it_id": "I4",
+          "theme": "Nampo food day — Jagalchi, Gukje, Kkangtong night market",
+          "pace": "Busy"
+        },
+        {
+          "day_num": 4,
+          "date": "Thu Nov 12",
+          "it_id": "I10",
+          "theme": "Beomeosa foliage + Dongnae pajeon & hanwoo BBQ",
+          "pace": "Moderate"
+        },
+        {
+          "day_num": 5,
+          "date": "Fri Nov 13",
+          "it_id": "I5",
+          "theme": "Seomyeon food street + TETE O NE dining bar",
+          "pace": "Busy"
+        },
+        {
+          "day_num": 6,
+          "date": "Sat Nov 14",
+          "it_id": "I6",
+          "theme": "Bridge lift + Gwangalli raw fish & drone show",
+          "pace": "Busy"
+        },
+        {
+          "day_num": 7,
+          "date": "Sun Nov 15",
+          "it_id": "I8",
+          "theme": "Spa Land + Shinsegae food hall, ALOI Thai dinner",
+          "pace": "Easy"
+        },
+        {
+          "day_num": 8,
+          "date": "Mon Nov 16",
+          "it_id": "I9",
+          "theme": "Haeundae sunrise & departure (out by 11:00)",
+          "pace": "Easy"
+        }
+      ]
     }
   ],
   "clusters": [
@@ -2997,56 +3138,56 @@
   "sunset_timetable": [
     {
       "date": "Mon Nov 9, 2026",
-      "sunrise": "06:53",
+      "sunrise": "06:51",
       "sunset": "17:22",
-      "photo_golden_hour": "16:45–17:35",
+      "photo_golden_hour": "16:42–17:22",
       "recommendation": "Haeundae Beach & Dongbaekseom sunset walk"
     },
     {
       "date": "Tue Nov 10, 2026",
-      "sunrise": "06:54",
+      "sunrise": "06:52",
       "sunset": "17:21",
-      "photo_golden_hour": "16:40–17:30",
+      "photo_golden_hour": "16:41–17:21",
       "recommendation": "Daritdol Observatory or Songjeong Beach dusk"
     },
     {
       "date": "Wed Nov 11, 2026",
-      "sunrise": "06:55",
-      "sunset": "17:21",
-      "photo_golden_hour": "16:40–17:30",
+      "sunrise": "06:53",
+      "sunset": "17:20",
+      "photo_golden_hour": "16:40–17:20",
       "recommendation": "Busan Cinema Center LED roof illumination"
     },
     {
       "date": "Thu Nov 12, 2026",
-      "sunrise": "06:56",
-      "sunset": "17:20",
-      "photo_golden_hour": "16:40–17:30",
+      "sunrise": "06:54",
+      "sunset": "17:19",
+      "photo_golden_hour": "16:39–17:19",
       "recommendation": "Busan Tower 120m observatory overlooking harbor"
     },
     {
       "date": "Fri Nov 13, 2026",
-      "sunrise": "06:57",
+      "sunrise": "06:55",
       "sunset": "17:19",
-      "photo_golden_hour": "16:40–17:30",
+      "photo_golden_hour": "16:38–17:19",
       "recommendation": "Busan Citizens Park lantern twilight before Gugak concert"
     },
     {
       "date": "Sat Nov 14, 2026",
-      "sunrise": "06:58",
+      "sunrise": "06:56",
       "sunset": "17:18",
-      "photo_golden_hour": "16:35–17:25",
+      "photo_golden_hour": "16:37–17:18",
       "recommendation": "Gwangalli Beach sunset before 19:00 drone show"
     },
     {
       "date": "Sun Nov 15, 2026",
-      "sunrise": "06:59",
-      "sunset": "17:18",
-      "photo_golden_hour": "16:35–17:25",
+      "sunrise": "06:57",
+      "sunset": "17:17",
+      "photo_golden_hour": "16:36–17:17",
       "recommendation": "F1963 Bamboo garden or Gijang coastal horizon"
     },
     {
       "date": "Mon Nov 16, 2026",
-      "sunrise": "06:59",
+      "sunrise": "06:58",
       "sunset": "17:17",
       "photo_golden_hour": "06:50–07:30 (Dawn)",
       "recommendation": "Haeundae sunrise send-off before 11:00 check-out"
