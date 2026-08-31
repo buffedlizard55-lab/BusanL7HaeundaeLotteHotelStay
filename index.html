@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Busan L7 Haeundae Stay — Verified Itineraries (Nov 9–16, 2026)</title>
+<meta name="description" content="Line-by-line verified itineraries for a 7-night stay at L7 HAEUNDAE by LOTTE HOTELS, Busan — Nov 9–16, 2026. Every activity linked to an official source.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Verified itinerary planner · no unverified claims</p>
+    <h1>Busan · L7 HAEUNDAE by LOTTE</h1>
+    <p class="stay-dates">Stay: <strong>Mon Nov 9, 2026</strong> (check-in after 3:00 PM) → <strong>Mon Nov 16, 2026</strong> (check-out before 11:00 AM)</p>
+    <p class="hotel-line" id="hotel-line"></p>
+    <div class="badges">
+      <span class="badge">9 itineraries</span>
+      <span class="badge">39 verified places</span>
+      <span class="badge">150 verified restaurants/cafés</span>
+      <span class="badge">5 dated in-window events</span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab active" data-tab="itineraries">🗓️ Itineraries</button>
+  <button class="tab" data-tab="events">📅 Confirmed Events</button>
+  <button class="tab" data-tab="places">📍 Activities &amp; Places</button>
+  <button class="tab" data-tab="food">🍜 Food &amp; Cafés</button>
+  <button class="tab" data-tab="sports">⚽ Sports</button>
+  <button class="tab" data-tab="flags">⚠️ Flags &amp; Re-checks</button>
+  <button class="tab" data-tab="sources">🔗 Sources &amp; Verification</button>
+</nav>
+
+<main>
+
+  <!-- ITINERARIES -->
+  <section id="tab-itineraries" class="tabpanel active">
+    <div class="itinerary-picker" id="itinerary-picker"></div>
+    <div id="itinerary-view"></div>
+  </section>
+
+  <!-- EVENTS -->
+  <section id="tab-events" class="tabpanel">
+    <h2>✅ Confirmed events inside the stay window</h2>
+    <p class="note">Each event below is dated in the stay window and sourced to the organizer's or an official city page. Reviewed Aug 17–30, 2026.</p>
+    <div id="events-list"></div>
+    <h3>Events <em>outside</em> the window (do not plan around these)</h3>
+    <div id="events-out-list"></div>
+  </section>
+
+  <!-- PLACES -->
+  <section id="tab-places" class="tabpanel">
+    <h2>📍 Verified activities &amp; places</h2>
+    <p class="note">Every entry was checked against an official/operator page (Visit Busan, operator sites, city districts). Hours &amp; prices were confirmed on the review dates shown in the source file. Anything marked ⚠️ needs a re-check before travel.</p>
+    <div class="filter-row">
+      <label for="area-filter">Filter by cluster:</label>
+      <select id="area-filter">
+        <option value="">All clusters</option>
+      </select>
+      <input type="text" id="place-search" placeholder="Search places…">
+    </div>
+    <div class="table-wrap">
+      <table class="data-table" id="places-table">
+        <thead>
+          <tr><th>Place</th><th>Cluster / area</th><th>Hours</th><th>Price</th><th>Status</th><th>Official source</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FOOD -->
+  <section id="tab-food" class="tabpanel">
+    <h2>🍜 Verified restaurants &amp; cafés</h2>
+    <p class="note">All rows verified against official sources (Visit Busan / VisitKorea / MICHELIN Guide 2026) in August 2026 by the <a href="https://github.com/karagemop466-tech/Koreafood" target="_blank" rel="noopener">Koreafood</a> project. No prices are listed — official portals don't maintain prices consistently. Entries whose hours could not be verified were removed from the source guide. If two official pages disagreed on hours, the entry was removed (see Flags).</p>
+    <div class="filter-row">
+      <label for="food-area-filter">Filter by area:</label>
+      <select id="food-area-filter">
+        <option value="">All areas</option>
+      </select>
+      <input type="text" id="food-search" placeholder="Search food…">
+    </div>
+    <div class="table-wrap">
+      <table class="data-table" id="food-table">
+        <thead>
+          <tr><th>Name</th><th>Area</th><th>Hours &amp; closures</th><th>Official source</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SPORTS -->
+  <section id="tab-sports" class="tabpanel">
+    <h2>⚽ Sports in the window</h2>
+    <div id="sports-list"></div>
+  </section>
+
+  <!-- FLAGS -->
+  <section id="tab-flags" class="tabpanel">
+    <h2>⚠️ Irregularities, flags &amp; re-checks</h2>
+    <ul class="flag-list" id="flags-list"></ul>
+  </section>
+
+  <!-- SOURCES -->
+  <section id="tab-sources" class="tabpanel">
+    <h2>🔗 Sources &amp; verification method</h2>
+    <p class="note">This page is built exclusively from two audited, source-linked repositories plus live re-verification performed on <strong>Aug 30, 2026</strong> (official pages fetched and checked). No unverified claim was included.</p>
+    <h3>Base verification repositories</h3>
+    <ul class="source-list">
+      <li><a href="https://github.com/karagemop466-tech/KoreaFun" target="_blank" rel="noopener">KoreaFun — verified events &amp; activities (Busan file: busan.md, 51 entries, line-by-line audit)</a></li>
+      <li><a href="https://github.com/karagemop466-tech/Koreafood" target="_blank" rel="noopener">Koreafood — verified restaurants &amp; cafés (Busan file: cities/busan.md, 109+ rows)</a></li>
+      <li><a href="https://karagemop466-tech.github.io/Koreafood/" target="_blank" rel="noopener">Koreafood live site</a></li>
+    </ul>
+    <h3>Live re-verification performed Aug 30, 2026</h3>
+    <div id="live-checks"></div>
+    <h3>Official source index (all links used in this planner)</h3>
+    <div class="table-wrap">
+      <table class="data-table" id="source-table">
+        <thead><tr><th>#</th><th>Source</th><th>Used for</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Built from official sources only. Reviewed Aug 17–30, 2026 · Re-verify sports fixtures, Lotte World hours and the BMA reopening in October 2026 before travel.</p>
+</footer>
+
+<script src="data.json" type="application/json" id="site-data"></script>
+<script src="app.js"></script>
+</body>
+</html>
