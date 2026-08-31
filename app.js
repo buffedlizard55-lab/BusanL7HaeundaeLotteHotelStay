@@ -6,9 +6,36 @@
 (function () {
   "use strict";
 
+  // Visible error banner — never fail silently (the "empty site" bug).
+  function showFatal(msg) {
+    const div = document.createElement("div");
+    div.id = "data-error-banner";
+    div.style.cssText =
+      "position:fixed;top:0;left:0;z-index:99999;background:#7f1d1d;color:#fff;" +
+      "padding:18px 22px;font:14px/1.5 sans-serif;max-width:760px;margin:16px;" +
+      "border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,.35)";
+    div.textContent = "⚠️ " + msg;
+    (document.body || document.documentElement).prepend(div);
+  }
+
+  // The full dataset is inlined in the page as a JSON data block
+  // (<script id="site-data" type="application/json">). External-script JSON
+  // would not populate textContent, so it must be inline (see tools/build-site.py).
   const DATA_EL = document.getElementById("site-data");
-  if (!DATA_EL) return;
-  const DATA = JSON.parse(DATA_EL.textContent);
+  if (!DATA_EL) {
+    showFatal("Data block (#site-data) not found — the page cannot render.");
+    return;
+  }
+  let DATA = null;
+  try {
+    DATA = JSON.parse((DATA_EL.textContent || "").trim());
+  } catch (err) {
+    DATA = null;
+  }
+  if (!DATA || typeof DATA !== "object" || !Array.isArray(DATA.itineraries) || !DATA.itineraries.length) {
+    showFatal("Itinerary data failed to load (the #site-data block is empty or invalid). Please refresh the page; if it persists, the site needs rebuilding via tools/build-site.py.");
+    return;
+  }
 
   // Helper selectors
   const $ = (sel, root) => (root || document).querySelector(sel);
