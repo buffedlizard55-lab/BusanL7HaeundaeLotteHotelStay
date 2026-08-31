@@ -12,7 +12,7 @@
     if (html !== undefined) n.innerHTML = html;
     return n;
   };
-  const esc = (s) => String(s || "").replace(/[&<>"']/g, (c) => ({
+  const esc = (s) => String(s || "").replace(/[&<>\"']/g, (c) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
   }[c]));
   const srcLinks = (srcs) => srcs.map((s) =>
@@ -39,6 +39,13 @@
   const view = $("#itinerary-view");
   let activeIt = DATA.itineraries[0].id;
 
+  function getDiffClass(diff) {
+    const d = diff.toLowerCase();
+    if (d.includes("easy")) return "easy";
+    if (d.includes("moderate")) return "moderate";
+    return "busy";
+  }
+
   function renderItineraries() {
     picker.innerHTML = "";
     DATA.itineraries.forEach((it) => {
@@ -46,7 +53,7 @@
       b.innerHTML =
         `<div class="it-day">${esc(it.days)}</div>` +
         `<div class="it-title">${esc(it.title)}</div>` +
-        `<div class="it-diff diff-${esc(it.difficulty.toLowerCase().split(" ")[0])}">${esc(it.difficulty)}</div>` +
+        `<div class="it-diff diff-${getDiffClass(it.difficulty)}">${esc(it.difficulty)}</div>` +
         `<div class="it-transit">🚇 ${esc(it.transit)}</div>`;
       b.addEventListener("click", () => { activeIt = it.id; renderItineraries(); });
       picker.appendChild(b);
@@ -56,9 +63,9 @@
     card.innerHTML =
       `<div class="head"><h2>${esc(it.title)}</h2></div>` +
       `<div class="sub">${esc(it.days)} · <b>Pace:</b> ${esc(it.difficulty)}</div>` +
-      `<div class="transit-note"><strong>Transport plan:</strong> ${esc(it.transit)}</div>` +
+      `<div class="transit-note"><strong>🚇 Transport plan:</strong> ${esc(it.transit)}</div>` +
       `<div class="timeline">` +
-      it.steps.map((s, i) =>
+      it.steps.map((s) =>
         `<div class="tl-item${s.event ? " event" : ""}">` +
         `<div class="tl-time">${esc(s.time)}</div>` +
         `<div class="tl-what">${esc(s.what)}</div>` +
@@ -67,6 +74,11 @@
       ).join("") + `</div>`;
     view.innerHTML = "";
     view.appendChild(card);
+    
+    // Scroll to view on mobile
+    if (window.innerWidth < 768) {
+      view.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
   renderItineraries();
 
@@ -194,7 +206,11 @@
     ["L7 HAEUNDAE — Floating breakfast", "Confirmed live on official package pages: breakfast buffet 07:00–10:00 daily, Floating, 2nd floor; also pool/bar & lounge.", "https://www.lottehotel.com/haeundae-l7/en/hotel-offers/packages/2024-04/Bed-Breakfast-Package.html", "ok"],
     ["KOVO volleyball fixtures", "2026–27 season opens Oct 31, 2026 (announced Aug 18, 2026); November home dates on JS-rendered pages — re-check in October.", "https://www.kovo.co.kr", "warn"],
     ["KBL / WKBL basketball fixtures", "2026–27 schedules published Aug 10, 2026; exact Nov home dates not statically retrievable — re-check in October.", "https://www.kbl.or.kr", "warn"],
-    ["Busan Metro Line 2 station order", "Verified via rail.blue station list (Haeundae #203): Haeundae→Centum City 3 stops (Dongbaek, BEXCO); Haeundae→Daeyeon 10 stops; Haeundae→Gwangan 6 stops; Haeundae→Seomyeon 16 stops; Line 1 Seomyeon→Nampo 8 stops. Itinerary travel times are based on this.", "https://rail.blue/railroad/logis/stationinfo.aspx?id=600203", "ok"]
+    ["Busan Metro Line 2 station order", "Verified via rail.blue station list (Haeundae #203): Haeundae→Centum City 3 stops (Dongbaek, BEXCO); Haeundae→Daeyeon 10 stops; Haeundae→Gwangan 6 stops; Haeundae→Seomyeon 16 stops; Line 1 Seomyeon→Nampo 8 stops. Itinerary travel times are based on this.", "https://rail.blue/railroad/logis/stationinfo.aspx?id=600203", "ok"],
+    ["Beomeosa Temple", "Verified: grounds open daily; free; foliage peaks mid-November. Official site beomeo.kr.", "https://www.beomeo.kr", "ok"],
+    ["Dongnae Hot Springs (Heosimcheong)", "Verified: Hotel Nongshim operator; ticketed bathhouse; operator-controlled hours.", "https://www.hotelnongshim.com", "ok"],
+    ["Songdo Marine Cable Car", "Verified: Air Cruise ₩19,000 adult RT (Crystal ₩24,000); weather can stop cable car.", "http://busanaircruise.co.kr", "ok"],
+    ["Gamcheon Culture Village", "Verified: open daily; stamp-map from info center; residential area — keep noise down.", "https://www.gamcheon.or.kr", "ok"]
   ];
   const ul = el("ul", "check-list");
   checks.forEach(([label, note, url, cls]) => {

@@ -2358,6 +2358,165 @@
           "link": ""
         }
       ]
+    },
+    {
+      "id": "I10",
+      "title": "Dongnae Heritage & Hot Springs — Temple Foliage",
+      "days": "Tue Nov 10 (alternative)",
+      "difficulty": "Moderate",
+      "transit": "One metro ride: Line 2 Haeundae→Seomyeon (16 stops, ~28 min) + Line 1 Seomyeon→Beomeosa (8 stops, ~15 min). Then bus/taxi to temple. Afternoon: Line 1 Beomeosa→Oncheonjang (~6 stops, ~12 min). Everything at each stop is walkable.",
+      "steps": [
+        {
+          "time": "08:30",
+          "what": "Metro: Haeundae → Beomeosa Temple",
+          "detail": "Line 2 Haeundae→Seomyeon (16 stops) + Line 1 Seomyeon→Beomeosa (8 stops) ≈ 45 min. Then bus or taxi ~10 min to temple entrance.",
+          "link": ""
+        },
+        {
+          "time": "09:30",
+          "what": "Beomeosa Temple — autumn foliage",
+          "detail": "One of Korea's great mountain temples; grounds open daily; free. Mid-November = peak foliage on Geumjeongsan. Main hall, Daeungjeon, and the three-story stone pagoda are highlights.",
+          "link": "https://www.beomeo.kr"
+        },
+        {
+          "time": "12:00",
+          "what": "Lunch — Dongnae area",
+          "detail": "Dongnae Milmyeon (daily 10:00–24:00) or Dongnae Halmae Pajeon (11:30–15:00/17:00–21:30; closed Mon — open Tue) or Wonjo Kkorigomjip (08:30–21:30; closed Mon — open Tue).",
+          "link": "https://visitbusan.net/en/index.do?menuCd=DOM_000000302003001000&uc_seq=2205&lang_cd=en"
+        },
+        {
+          "time": "14:00",
+          "what": "Dongnae-eupseong fortress walls & Chungnyeolsa shrine",
+          "detail": "Historic fortress site and shrine to Admiral Yi Sun-sin; free; daytime access. Walk from Oncheonjang area.",
+          "link": "https://www.dongnae.go.kr"
+        },
+        {
+          "time": "15:30",
+          "what": "Heosimcheong / Dongnae hot springs",
+          "detail": "Traditional jjimjilbang hot-spring bathhouse; Hotel Nongshim is the landmark operator. Ticketed; operator-controlled hours.",
+          "link": "https://www.hotelnongshim.com"
+        },
+        {
+          "time": "18:00",
+          "what": "Return to Haeundae; dinner",
+          "detail": "Line 1 Oncheonjang→Seomyeon + Line 2 Seomyeon→Haeundae ≈ 40 min. Dinner at Haeundae: Haeundae Gaya Milmyeon (10:00–20:50, no closing day) or Matchandeul Wangsogeumgui (16:00–01:00, hanwoo BBQ).",
+          "link": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=187036"
+        }
+      ]
+    },
+    {
+      "id": "I11",
+      "title": "Gamcheon Culture Village & West Busan Art Day",
+      "days": "Thu Nov 12 (alternative)",
+      "difficulty": "Busy",
+      "transit": "One metro ride to Nampo cluster (Line 2→Line 1 via Seomyeon, ~45 min), then taxi/bus ~10 min to Gamcheon. Afternoon: walk/bus back to Nampo for Songdo Cable Car. All west-Busan activities cluster together.",
+      "steps": [
+        {
+          "time": "09:00",
+          "what": "Metro: Haeundae → Nampo (via Seomyeon)",
+          "detail": "Line 2 Haeundae→Seomyeon (16 stops) + Line 1 Seomyeon→Nampo (8 stops) ≈ 45 min.",
+          "link": ""
+        },
+        {
+          "time": "10:00",
+          "what": "Gamcheon Culture Village",
+          "detail": "The 'Machu Picchu of Busan'; colorful hillside houses, murals, and art installations. Open daily; stamp-map from info center. Taxi from Nampo ~10 min or bus from Toseong station. Residential area — keep noise down.",
+          "link": "https://www.gamcheon.or.kr"
+        },
+        {
+          "time": "12:30",
+          "what": "Lunch — Nampo area",
+          "detail": "Halmaejip Hoeguksu (10:30–19:00; closed 2nd & 4th Tue — open Thu) or Halmae Gaya Milmyeon (10:30–21:30, daily).",
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=102&lang_cd=ko"
+        },
+        {
+          "time": "14:00",
+          "what": "Songdo Marine Cable Car & Skywalk",
+          "detail": "Air Cruise ₩19,000 adult RT (Crystal cabin ₩24,000); operator-controlled hours; weather can stop the cable car. From Nampo: taxi ~15 min or bus. The skywalk and beach are free.",
+          "link": "http://busanaircruise.co.kr"
+        },
+        {
+          "time": "16:00",
+          "what": "Busan Modern History Museum",
+          "detail": "Free; closed Mondays — open Thu. Walk from Jagalchi/Nampo area. Covers Busan's port history and Korean War era.",
+          "link": "https://www.busan.go.kr/mch"
+        },
+        {
+          "time": "17:30",
+          "what": "Busan Tower sunset",
+          "detail": "10:00–22:00, last ticket 21:30, ₩12,000. Sunset 17:20 on Nov 12. Yongdusan Park escalator from Gwangbok-ro.",
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=368&lang_cd=ko"
+        },
+        {
+          "time": "19:00",
+          "what": "Dinner — Nampo old town",
+          "detail": "Hwaguk Banjeom (Korean-Chinese, 11:30–15:30/17:00–21:30; closed 1st & 3rd Mon — open Thu) or Seoul Samgyetang (10:00–22:30). Then Bupyeong Kkangtong Night Market (19:30–23:30, daily).",
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=1227&lang_cd=ko"
+        },
+        {
+          "time": "21:00",
+          "what": "Return to Haeundae",
+          "detail": "Line 1 Nampo→Seomyeon + Line 2 Seomyeon→Haeundae ≈ 45 min.",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "I12",
+      "title": "Igidae Coastal Walk & Gwangalli Evening",
+      "days": "Wed Nov 11 (alternative) or any weekday",
+      "difficulty": "Moderate",
+      "transit": "Line 2 Haeundae→Kyungsung Univ·Pukyong Univ (~8 stops, ~18 min) + bus 24/27/131 to Igidae entrance (~10 min). Afternoon: bus back to Gwangan station (Line 2, ~4 stops, ~8 min). All coastal walking once at Igidae.",
+      "steps": [
+        {
+          "time": "09:00",
+          "what": "Metro to Igidae Coastal Walk",
+          "detail": "Line 2 Haeundae→Kyungsung Univ·Pukyong Univ (~8 stops, ~18 min) + bus 24/27/131 (~10 min). Igidae is open daily including Mondays; winter hours 09:00–18:00 (last admission 17:50).",
+          "link": "https://bnfmc.or.kr/portal/contents.do?mId=0102010000"
+        },
+        {
+          "time": "09:30",
+          "what": "Igidae Coastal Walk — cliff-top trail",
+          "detail": "Stunning cliff-top trail with views of Oryukdo (five/six islands); ~3.6 km one-way; free. Weather closures possible (call 051-607-6395).",
+          "link": "https://www.visitbusan.net/index.do?menuCd=DOM_000000201001001000&uc_seq=49&lang_cd=ko"
+        },
+        {
+          "time": "12:00",
+          "what": "Oryukdo Skywalk",
+          "detail": "Glass-bottom skywalk at the end of the Igidae trail; free; winter hours 09:00–18:00. Views of the Oryukdo islands.",
+          "link": "https://bnfmc.or.kr/portal/contents.do?mId=0102010000"
+        },
+        {
+          "time": "13:00",
+          "what": "Lunch — Nam-gu / Gwangalli area",
+          "detail": "Oryukdogawon (11:30–21:30; closed Lunar New Year/Chuseok) or bus to Gwangalli for Gwangalli Eonyang Bulgogi Busanjip (11:00–21:30, daily).",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=950"
+        },
+        {
+          "time": "15:00",
+          "what": "Gwangalli Beach afternoon walk",
+          "detail": "Free beach with Gwangan Bridge views; cafes along the shore. 100.1.pyeongnaeng (11:30–15:30/17:00–19:00) for cold noodles if you haven't eaten.",
+          "link": "https://english.visitbusan.net"
+        },
+        {
+          "time": "17:00",
+          "what": "F1963 — Othoniel exhibition (if not Monday)",
+          "detail": "Taxi ~10 min from Gwangalli to F1963. 10:00–18:00, last entry 17:30; closed Mondays. ₩10,000 adult. Free Gold Lotus garden installation visible outside hours.",
+          "link": "https://www.f1963.org/ko/?c=art&s=1&gbn=viewok&ix=496"
+        },
+        {
+          "time": "19:00",
+          "what": "Dinner — Gwangalli waterfront",
+          "detail": "Chilseong Hoetjip (12:00–22:00, raw fish with bridge view) or Gwangangukbap (24h) or Donggyeong Bapsang (11:30–15:00/17:30–21:00; closed Mon).",
+          "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
+        },
+        {
+          "time": "20:30",
+          "what": "Gwangalli bridge lights & return",
+          "detail": "Gwangan Bridge lights up nightly; beautiful evening view. Line 2 Gwangan→Haeundae: 6 stops (~12 min).",
+          "link": "https://english.visitbusan.net"
+        }
+      ]
     }
   ]
 }
