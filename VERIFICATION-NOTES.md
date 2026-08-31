@@ -140,3 +140,71 @@ Cluster card food lists and I7 meals now use the exact verified names from Korea
 
 ### 8.4 Remaining pre-travel re-checks (unchanged from section 7)
 KOVO/KBL/WKBL November fixtures · Lotte World Adventure Busan November calendar · BMA main building reopening · MoCA de-installation · Turn Toward Busan ceremony · Dureraum Culture Day screening times · drone show / bridge-lift weather cancellations.
+
+---
+
+## 9. Third-pass audit — Aug 31, 2026 (metro line audit, sunset times, source-link fixes)
+
+### 9.1 Metro stop counts — audited against official station numbers
+
+Sources (fetched Aug 31, 2026): namu.wiki **부산 도시철도 1호선/역 목록** (rev 2026-08-24) and **부산 도시철도 2호선/역 목록** (rev 2026-08-23), cross-checked with ko.wikipedia Line 2 distances-from-Jangsan.
+
+| Route | Stops (official numbers) | Audit result |
+|---|---|---|
+| Line 2 Haeundae 203 → Daeyeon 213 | 10 | ✅ I3 correct |
+| Line 2 Haeundae 203 → Seomyeon 219 | 16 | ✅ I5/I10 correct |
+| Line 2 Seomyeon 219 → Gwangan 209 (via Jeonpo 218, IFC 217, Munhyeon 216, Jigegol 215, Motgol 214, Daeyeon 213, Kyungsung 212, Namcheon 211, Geumnyeonsan 210) | **10** | ✅ I6 "18 stops total" (8 Line 1 + 10 Line 2) confirmed correct — an earlier ledger note of "11" was a miscount |
+| Line 2 Haeundae 203 → Kyungsung Univ·Pukyong Univ 212 | **9** | ❌ I12 said "~8" → corrected to 9 stops, ~20 min |
+| Line 2 Kyungsung Univ 212 → Gwangan 209 | **3** | ❌ I12 said "~4" → corrected to 3 stops, ~7 min (also: it is the metro, not a "bus back") |
+| Line 1 Nampo 111 → Seomyeon 119 | 8 | ✅ I4/I6/I11 correct |
+| Line 1 Seomyeon 119 → Beomeosa 133 (13.8 km) | **14** | ❌ I10 said "8 stops, ~15 min" → corrected to 14 stops, ~25–28 min; one-way ≈ 55–60 min; temple arrival 09:30 → **10:00**; return ≈ 50–55 min, dinner ~19:30 |
+| Line 1 Beomeosa 133 → Oncheonjang 127 | 6 | ✅ I10 correct |
+| Line 1 Oncheonjang 127 → Seomyeon 119 | 8 | ✅ (combined with 16 Line 2 stops for the I10 return) |
+
+All station **numbers** used in data.json (203/205/206/209/212/213/216/218/219, 111/119/127/133) verified correct on both lines.
+
+### 9.2 Sunset / sunrise — timeanddate.com for the hotel's exact coordinates
+
+Fetched Aug 31, 2026: https://www.timeanddate.com/sun/@35.1601,129.1601?month=11&year=2026 (35°09'36"N 129°09'36"E = L7 Haeundae; includes refraction).
+
+| Date | Sunrise | Sunset | Change in data.json |
+|---|---|---|---|
+| Mon Nov 9 | 06:51 | 17:22 | sunrise 06:53 → 06:51 |
+| Tue Nov 10 | 06:52 | 17:21 | sunrise 06:54 → 06:52 |
+| Wed Nov 11 | 06:53 | 17:20 | sunrise 06:55 → 06:53; sunset 17:21 → 17:20 (I3 field) |
+| Thu Nov 12 | 06:54 | 17:19 | sunrise 06:56 → 06:54; sunset 17:20 → 17:19 (I4 field + step) |
+| Fri Nov 13 | 06:55 | 17:19 | sunrise 06:57 → 06:55 |
+| Sat Nov 14 | 06:56 | 17:18 | sunrise 06:58 → 06:56 |
+| Sun Nov 15 | 06:57 | 17:17 | sunrise 06:59 → 06:57; sunset 17:18 → 17:17 (I7/I8 fields + step) |
+| Mon Nov 16 | 06:58 | 17:17 | sunrise 06:59 → 06:58 |
+
+Golden-hour windows now end at the verified sunset time (they previously ran up to 13 min past sunset). I1/I2/I5/I6/I9/I10 sunset fields already matched.
+
+### 9.3 Source-link & claim fixes applied in data.json (this pass)
+
+| Item | Fix | Source |
+|---|---|---|
+| I6 10:00 Samjin Eomuk link | `uc_seq=231` → **`uc_seq=1065`** (correct Visit Busan listing) | visitbusan.net (Koreafood cross-check) |
+| I9 08:30 L7 breakfast link | Dead 2024-04 B&B package URL → main hotel site; note "book by phone ☎ +82-51-771-1000" | lottehotel.com (prerendered mirror) |
+| I4 15:30 Gukje Market link | `gukjemarket.co.kr` (HTTP 403) → **KTO vcontsId=92540** | english.visitkorea.or.kr |
+| I7 08:30 + P28 Haedong Yonggungsa source | Generic korean.visitkorea.or.kr → **KTO vcontsId=108618** (open 04:30–19:20, free grounds) | english.visitkorea.or.kr (supersedes the 8.2 "Trazy-vs-KTO" corroboration — KTO page is now the cited source) |
+| I4 20:30 + P14 Kkangtong | Visit Busan uc_seq=1861 + **KTO vcontsId=78106** (night market 19:30–23:30, open all year, ☎ +82-51-243-1128, 110 m street, magic show + guitar 2×/day); hours note now carries both figures (KTO 23:30 / Visit Busan 24:00) | english.visitkorea.or.kr + visitbusan.net |
+| P8 Igidae/Oryukdo | "last admission 17:50" removed (not posted); transit "bus 24/27/131" → "local bus" (route numbers not in verified sources) | bnfmc.or.kr |
+| I12 09:00 | Same: removed "(last admission 17:50)", bus route numbers → "local bus"; stop counts per 9.1 | bnfmc.or.kr + namu.wiki |
+| I11 10:00 Gamcheon | "bus from Toseong station" → "city bus" (no Toseong station exists on Busan metro; access not in verified sources) | gamcheon.or.kr |
+| I8 13:30 Spa Land | Official page prints **two** hours figures (store notice 08:00–23:00 last entry 22:00 vs detail panel 09:00–22:00) — flagged; **prices re-confirmed on the same official page**: ₩26,000 adult / ₩21,000 student, student = **born 2008–2019**, elementary age and up, 4-hour ticket (+₩5,000/hr; ₩10,000+ spend → 6 h), 1668-2850 | shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008 |
+| P31 Sciport hours | "Closed Mondays" → **Tue–Sun 09:30–17:30 (last entry 16:30); closed Mondays, Jan 1, Seollal & Chuseok** | sciport.or.kr |
+| stay block | Added ☎ +82-51-771-1000; source label now states check-in 15:00 / check-out 11:00 (prerendered mirror) | lottehotel.com |
+| Flag: checkout discrepancy | **Resolved** — official site lists 15:00/11:00 for all dates; stale 12:00 figure dropped | lottehotel.com (prerendered mirror) |
+| Sunset in-step mentions | I4 17:30 (17:19), I7 18:00 (17:17), I11 17:30 (17:19) updated to 9.2 values | timeanddate.com |
+
+### 9.4 Day-of-week closure audit (all 5 presets)
+
+Every restaurant/venue in every itinerary step was checked against its closing day from Koreafood `cities/busan.md` (150 rows, all with official sources) for **each day it lands on across the 5 presets**: I2 Tue (Woobong Shabu open Tue; La ConTi closed Tue — already marked "avoid"; Amso Galbijip break is weekends-only), I3 Wed (Daeyeon Milmyeon closed Tue — open Wed; Space Lee Ufan Tue–Sun; Culture Day = Wed Nov 11 ✓), I4 Wed/Thu (Hwaguk closed 1st & 3rd Mon; Bugwang closed Sun; Jagalchi closed 1st & 3rd Tue = Nov 3/17; Gukje closed 1st & 3rd Sun = Nov 1/15), I5 Fri (TETE O NE closed Mon/Tue — open Fri; Gugak Center Mon–Sat), I6 Sat (Nampo Samgyetang Mon–Fri **and** Sat–Sun 11:00–20:50 ✓; 100.1.pyeongnaeng daily, kitchen closes 19:00 — "go early" note kept), I7 Sun (Janganjip closed Tue — open Sun; PREST Tue–Sun; Sea & Tree Wed–Sun 11:00–22:00; Ahopsan closed Mon — open Sun), I8 Thu/Fri/Sun (Spa Land open; F1963 closed Mon; ALOI closed Tue), I9 Mon (Gwangangukbap 24 h/365 d; L7 breakfast 07:00–10:00 daily), I10 Tue/Thu (Dongnae Halmae Pajeon + Wonjo Kkorigomjip closed Mon — open Tue/Thu), I11 Thu (Halmaejip Hoeguksu closed 2nd & 4th Tue; Halmae Gaya Milmyeon daily; Modern History Museum closed Mon). **No step lands on a closed day in any preset.**
+
+### 9.5 New presets added (data.json `trip_presets` now 5)
+
+- **preset-easyses — "Easy Seas — Coastal & Slow Days"** (3 Easy · 4 Moderate · 1 Busy): I1, I2, I3, I12, I8, I6, I7, I9 — six of eight days face the sea; I3 stays on Wed Nov 11 (Culture Day is day-fixed); the single busy day is the Sat Nov 14 drone show.
+- **preset-food — "Food First — Busan Eats Edition"** (3 Easy · 1 Moderate · 4 Busy): I1, I2, I4, I10, I5, I6, I8, I9 — each day anchored by verified tables (Woobong Shabu, Amso Galbijip, 1969 Buwondong kalguksu, Hwaguk Banjeom, Dongnae pajeon, Seomyeon food street, TETE O NE, Gwangalli raw fish, Kkangtong street food, ALOI). I5 stays on Fri Nov 13 (concert is day-fixed).
+
+Both presets pass the 9.4 closure audit; every step links only to verified items.

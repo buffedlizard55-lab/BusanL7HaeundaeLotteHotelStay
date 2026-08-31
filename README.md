@@ -9,17 +9,20 @@ A line-by-line verified, interactive travel planner and vlog guide for a **7-nig
 ## 🌟 Highlights & Key Features
 
 - **12 Verified Daily Itineraries** — Formulated with strict neighborhood clustering ("One Cluster per Day = Zero Backtracking") so travelers never waste hours in transit.
-- **3 Curated 7-Day Complete Route Presets for Two Travelers**:
+- **5 Curated 7-Day Complete Route Presets for Two Travelers**:
   1. **The Balanced Classic (Recommended)** — Harmonious alternation of high-energy exploration (Nampo, Seomyeon live concert, Saturday Yeongdo Bridge lift + Gwangalli Drone Show) and restorative beach / Spa Land days (3 Easy, 1 Moderate, 4 Busy).
   2. **Scenic Coastline & Ocean Vistas** — Emphasizes ocean cliff walks (Igidae, Oryukdo), seaside temples (Haedong Yonggungsa), marine cable cars (Songdo), and Blueline Sky Capsules.
   3. **Autumn Foliage, Heritage & Arts** — Anchored on mid-November peak autumn leaves at Beomeosa Mountain Temple, thousand-year Dongnae hot springs, traditional music concert at the National Gugak Center, and contemporary art exhibitions.
+  4. **Easy Seas — Coastal & Slow Days** — Six of eight days face the sea (Haeundae, Blueline, Igidae, Gwangalli, Gijang) with one spa day and a sunrise departure (3 Easy, 4 Moderate, 1 Busy).
+  5. **Food First — Busan Eats Edition** — Every day anchored by verified tables: paper-pot shabu, 1964 galbi, Nampo kalguksu, Dongnae pajeon, the Seomyeon food street, Gwangalli raw fish, and Kkangtong night-market street food.
 - **Interactive 7-Day Custom Trip Builder** — Allows the two travelers to customize their daily itinerary for each of the 8 stay dates, monitor the pace balance in real time, and print or export their tailored schedule.
 - **Master Itinerary Comparison Table** — Searchable and filterable overview with pace tags, transit modes, cluster zones, highlights, and direct timeline triggers.
 - **6 Verified In-Window Events** — 100% confirmed for Nov 9–16, 2026 (Turn Toward Busan ceremony, Culture Day cinema rates, Gugak concert, Yeongdo Bridge lift, Gwangalli Drone Show, F1963 Othoniel exhibition).
 - **39 Verified Places & Activities** — Verified with operating hours, admission costs, subway exits, and direct official operator links.
 - **150 Verified Restaurants & Cafés** — Sourced from the Koreafood verified database across 5 cuisine categories, verified against Visit Busan, VisitKorea, and the MICHELIN Guide 2026.
-- **Duo Traveler Tools** — Daily sunset & golden hour timetable (Nov 9: 17:22 to Nov 16: 17:17), interactive 2-person admission budget estimator (KRW/USD), transit guidelines (T-Money, Naver Map), and emergency contacts.
-- **Zero-Hallucination Verification Ledger** — 22+ live verification checks logged with timestamps and manual review links.
+- **Duo Traveler Tools** — Daily sunset & golden hour timetable (Nov 9: 17:22 to Nov 16: 17:17; sunrise 06:51 → 06:58) for the hotel's exact coordinates, interactive 2-person admission budget estimator (KRW/USD), transit guidelines (T-Money, Naver Map), and emergency contacts.
+- **Metro stop counts audited against official station numbers** — Every ride in the plan was counted on the official Busan Metro Line 1/Line 2 station lists (e.g. Haeundae→Seomyeon 16 stops, Seomyeon→Beomeosa 14 stops/13.8 km, Seomyeon→Gwangan 10 stops).
+- **Zero-Hallucination Verification Ledger** — 30+ live verification checks logged across three audit passes with timestamps and manual review links.
 - **Print & PDF Mode** — Dedicated `@media print` styling for printing crisp, distraction-free travel booklets or saving to offline PDFs on mobile devices.
 
 ---
@@ -33,9 +36,12 @@ Every single itinerary, venue, transit estimate, opening hour, and event was ver
    - [Koreafood — Restaurants & Cafés](https://github.com/karagemop466-tech/Koreafood) (`cities/busan.md`, 109+ verified rows; **150 eateries** in this planner's directory, audited August 2026)
    - [Koreafood Live Portal](https://karagemop466-tech.github.io/Koreafood/)
 2. **Live Operator Re-Verification (Aug 30–31, 2026)**:
-   - Official municipal pages fetched and verified for Busan X the Sky, SEA LIFE Busan, Blueline Park, UN Memorial Cemetery, National Gugak Center, Gwangalli M Drone Light Show, Yeongdo Bridge lift, Shinsegae Spa Land, and F1963.
-3. **Transparent Flags**:
-   - Unreleased sports fixtures (KOVO, KBL, WKBL) and date-specific park calendars (Lotte World Adventure Busan) are explicitly flagged for re-checking in October 2026 rather than hallucinated.
+   - Official municipal pages fetched and verified for Busan X the Sky, SEA LIFE Busan, Blueline Park, UN Memorial Cemetery, National Gugak Center, Gwangalli M Drone Light Show, Yeongdo Bridge lift, Shinsegae Spa Land (incl. the student-fare definition and its two printed hours figures), and F1963.
+3. **Metro & Astronomy Audit (Aug 31, 2026)**:
+   - Every metro ride re-counted against the official Line 1 / Line 2 station-number lists (namu.wiki, rev 2026-08-23/24); I10's Beomeosa leg corrected from 8 → 14 stops, I12's Igidae leg from ~8 → 9 stops, I6's 18-stop day confirmed.
+   - Sunrise/sunset for all 8 days taken from timeanddate.com at the hotel's exact coordinates (35°09'36"N, 129°09'36"E); golden-hour windows now end at the verified sunset.
+4. **Transparent Flags**:
+   - Unreleased sports fixtures (KOVO, KBL, WKBL), date-specific park calendars (Lotte World Adventure Busan), and two documented official-page discrepancies (Spa Land hours; Kkangtong closing time) are explicitly flagged rather than papered over.
 
 See [`VERIFICATION-NOTES.md`](VERIFICATION-NOTES.md) for the complete line-by-line ledger.
 
@@ -50,6 +56,7 @@ See [`VERIFICATION-NOTES.md`](VERIFICATION-NOTES.md) for the complete line-by-li
 ├── data.json             # Complete verified dataset (itineraries, places, food, events, clusters)
 ├── VERIFICATION-NOTES.md # Detailed line-by-line verification log & official URLs
 ├── README.md             # Project documentation & travel guide overview
+├── tools/                # build-site.py + index.template.html (regenerate index.html from data.json)
 └── .nojekyll             # GitHub Pages static routing marker
 ```
 
@@ -65,7 +72,7 @@ Eight neighborhood clusters — one cluster per day means zero backtracking:
 - **Cluster 4: Daeyeon & Nam-gu (UNMCK / Igidae)** — 8–10 stops on Metro Line 2 (~20–25 min).
 - **Cluster 5: Seomyeon & Jeonpo (Central Busan)** — 16 stops on Metro Line 2 (~28 min direct).
 - **Cluster 6: Nampo, Jagalchi & Yeongdo (Old Town)** — Line 2 to Seomyeon + Line 1 to Nampo (~45 min).
-- **Cluster 7: Dongnae & Geumjeongsan (Beomeosa)** — Line 2 to Seomyeon + Line 1 North (~45–50 min).
+- **Cluster 7: Dongnae & Geumjeongsan (Beomeosa)** — Line 2 to Seomyeon (16 stops) + Line 1 north to Beomeosa (14 stops, 13.8 km) ≈ 55–60 min total, then a ~10-min bus/taxi to the temple gate.
 - **Cluster 8: Gijang Coast (Osiria & Temple)** — Express Bus 1001 / Bus 181 or taxi (~25–35 min).
 
 > West-Busan days (Gamcheon, Songdo, Eulsukdo, Dadaepo) are covered by itineraries I11 / the place directory and are reached via the Nampo cluster's Line 2 + Line 1 ride plus a short bus/taxi hop — they are route days, not separate clusters.
@@ -103,3 +110,6 @@ python3 -m http.server 8080 --bind 0.0.0.0
 - **F1963 Cultural Complex (Othoniel Exhibition):** <https://www.f1963.org/ko/?c=art&s=1&gbn=viewok&ix=496>
 - **Songdo Marine Cable Car:** <http://busanaircruise.co.kr>
 - **Beomeosa Temple:** <https://www.beomeo.kr>
+- **KTO — Gukje Market / Kkangtong Market / Haedong Yonggungsa:** <https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=92540> · <https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=78106> · <https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=108618>
+- **Sunrise/Sunset (hotel coordinates, Nov 2026):** <https://www.timeanddate.com/sun/@35.1601,129.1601?month=11&year=2026>
+- **Metro Line 1 / Line 2 station lists (stop-count audit):** <https://namu.wiki/w/%EB%B6%80%EC%82%B0%20%EB%8F%99%EC%8B%9C%EC%B2%B4%EB%8F%99%201%ED%98%B8%EC%84%A0/%EC%97%AD%20%EB%A5%BC%EB%A7%9B> · <https://namu.wiki/w/%EB%B6%80%EC%82%B0%20%EB%8F%99%EC%8B%9C%EC%B2%B4%EB%8F%99%202%ED%98%B8%EC%84%A0/%EC%97%AD%20%EB%A5%BC%EB%A7%9B>
