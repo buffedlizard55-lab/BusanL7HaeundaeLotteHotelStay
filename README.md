@@ -30,7 +30,7 @@ Every single itinerary, venue, transit estimate, opening hour, and event was ver
 
 1. **Base Verification Repositories**:
    - [KoreaFun — Events & Activities](https://github.com/karagemop466-tech/KoreaFun) (`busan.md`, 51 entries, audited August 2026)
-   - [Koreafood — Restaurants & Cafés](https://github.com/karagemop466-tech/Koreafood) (`cities/busan.md`, 150 entries, audited August 2026)
+   - [Koreafood — Restaurants & Cafés](https://github.com/karagemop466-tech/Koreafood) (`cities/busan.md`, 109+ verified rows; **150 eateries** in this planner's directory, audited August 2026)
    - [Koreafood Live Portal](https://karagemop466-tech.github.io/Koreafood/)
 2. **Live Operator Re-Verification (Aug 30–31, 2026)**:
    - Official municipal pages fetched and verified for Busan X the Sky, SEA LIFE Busan, Blueline Park, UN Memorial Cemetery, National Gugak Center, Gwangalli M Drone Light Show, Yeongdo Bridge lift, Shinsegae Spa Land, and F1963.
@@ -57,25 +57,36 @@ See [`VERIFICATION-NOTES.md`](VERIFICATION-NOTES.md) for the complete line-by-li
 
 ## 🚇 Neighborhood Transit Summary (From L7 Haeundae Base)
 
+Eight neighborhood clusters — one cluster per day means zero backtracking:
+
 - **Cluster 1: Haeundae Beach & Mipo** — 0–15 min walk from hotel.
 - **Cluster 2: Centum City & BEXCO** — 3 stops on Metro Line 2 (~8 min).
-- **Cluster 3: Gwangalli Beach & Millak** — 6 stops on Metro Line 2 (~12 min).
+- **Cluster 3: Gwangalli Beach & Suyeong / Millak** — 6 stops on Metro Line 2 (~12 min).
 - **Cluster 4: Daeyeon & Nam-gu (UNMCK / Igidae)** — 8–10 stops on Metro Line 2 (~20–25 min).
 - **Cluster 5: Seomyeon & Jeonpo (Central Busan)** — 16 stops on Metro Line 2 (~28 min direct).
 - **Cluster 6: Nampo, Jagalchi & Yeongdo (Old Town)** — Line 2 to Seomyeon + Line 1 to Nampo (~45 min).
-- **Cluster 7: Songdo & Gamcheon (West Busan)** — Line 2 + Line 1 to Nampo + 10-min bus/taxi (~55 min).
-- **Cluster 8: Dongnae & Beomeosa Temple** — Line 2 to Seomyeon + Line 1 North (~45–50 min).
-- **Cluster 9: Gijang Coast (Haedong Yonggungsa)** — Express Bus 1001 / Bus 181 or taxi (~25–35 min).
+- **Cluster 7: Dongnae & Geumjeongsan (Beomeosa)** — Line 2 to Seomyeon + Line 1 North (~45–50 min).
+- **Cluster 8: Gijang Coast (Osiria & Temple)** — Express Bus 1001 / Bus 181 or taxi (~25–35 min).
+
+> West-Busan days (Gamcheon, Songdo, Eulsukdo, Dadaepo) are covered by itineraries I11 / the place directory and are reached via the Nampo cluster's Line 2 + Line 1 ride plus a short bus/taxi hop — they are route days, not separate clusters.
 
 ---
 
 ## 💻 Local Development
 
 ```bash
-# Serve locally
+# 1) (After editing data.json) rebuild index.html with the inline dataset:
+python3 tools/build-site.py
+
+# 2) Serve locally
 python3 -m http.server 8080 --bind 0.0.0.0
 # Open http://localhost:8080 in your browser
 ```
+
+> **Why the dataset is inline:** the app reads its data from `<script id="site-data" type="application/json">`.
+> It MUST be inline — an external `<script src="data.json" type="application/json">` never exposes its
+> fetched content via `textContent`, which previously crashed `app.js` (`JSON.parse("")`) and left the
+> whole page blank. `tools/build-site.py` keeps `index.html` and `data.json` in sync.
 
 ---
 

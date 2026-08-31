@@ -629,7 +629,7 @@
       "name": "Haedong Yonggungsa Temple",
       "area": "Gijang coast",
       "transit": "Taxi/bus ~40 min from Haeundae",
-      "hours": "Open daily; go early",
+      "hours": "Open daily 04:30–19:20 (last entry ~18:50); go early",
       "price": "Free grounds (paid parking)",
       "status": "Verified temple",
       "sources": [
@@ -2353,7 +2353,7 @@
         "Ahopsan Bamboo Forest"
       ],
       "meals": [
-        "Bonga Hanok House (Jangan-eup)",
+        "Janganjip (장안집)",
         "PREST Hanok Café or Sea & Tree ocean-view café"
       ]
     },
@@ -2988,9 +2988,9 @@
         "Ahopsan Bamboo Forest"
       ],
       "verified_food": [
-        "Bonga Hanok House (Jangan-eup)",
-        "PREST Hanok Café",
-        "Sea & Tree Ocean View Café"
+        "Janganjip (장안집)",
+        "PREST",
+        "Sea & Tree"
       ]
     }
   ],

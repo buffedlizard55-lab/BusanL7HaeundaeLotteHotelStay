@@ -99,3 +99,44 @@ All 150 rows in `data.json` (restaurants & cafés) come from the Koreafood proje
 | Turn Toward Busan ceremony confirmation | Visit Busan events page / unmck.or.kr |
 | Culture Day screening times at Dureraum | dureraum.org calendar |
 | Drone show / Yeongdo Bridge weather cancellation | Same-day check (051-610-6518 / busan.go.kr notice) |
+
+---
+
+## 8. Second-pass audit — Aug 31, 2026 (site deployment + remaining claims)
+
+### 8.1 Critical bug found and fixed: the deployed site rendered blank tables
+
+**Symptom:** the live GitHub Pages page showed the styled header but every data table and card list was empty — matching the report that the site "is basically empty".
+
+**Root cause (confirmed by DOM-level test):** `index.html` loaded the dataset as an *external* script:
+`<script src="data.json" type="application/json" id="site-data"></script>`. Per the HTML spec, an external script whose type is not a JavaScript MIME type is a *data block*: the browser fetches the file but **does not insert the fetched text into the DOM**, so `document.getElementById("site-data").textContent` is empty. `app.js` then ran `JSON.parse("")` → `SyntaxError: Unexpected end of JSON input` → the whole app aborted and every JS-rendered region stayed empty.
+
+**Reproduction:** jsdom (`resources: "usable"`, `runScripts: "dangerously"`, served over HTTP) against the old page: `SyntaxError: Unexpected end of JSON input at app.js:11`, `window.app === undefined`, 0 rows in all tables.
+
+**Fix:**
+- `tools/index.template.html` + `tools/build-site.py` — the full `data.json` (128 KB) is now **inlined** into `index.html` as `<script id="site-data" type="application/json">…</script>` (a true data block whose textContent is guaranteed). `</` inside strings is escaped to `<\/` so the block cannot be terminated early. `data.json` remains the canonical dataset; `python3 tools/build-site.py` regenerates `index.html` from it.
+- `app.js` now parses defensively and, on failure, shows a visible red error banner instead of silently dying.
+
+**Post-fix DOM test (jsdom, local server):** `window.app` defined; master itinerary table 12 rows; presets 3 cards; daily picker 12; trip builder 8 slots; in-window events 6; out-of-window events 6; cluster cards 8; places 39; food 150; sports 4; flags 14; source index 168 links; budget estimator computed ₩212,000 for the default selection; I1 detail timeline 5 nodes. No error banner.
+
+### 8.2 Claims re-verified beyond the base repos (all pass)
+
+| Claim | Result | Source |
+|---|---|---|
+| Songdo Air Cruise fares: Air ₩19,000 adult RT / Crystal ₩24,000 | ✅ Matches official VisitKorea facility-fee table | https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=60283 |
+| Haedong Yonggungsa: open daily 04:30–19:20, last entry ~18:50 | ✅ Corroborated by multiple 2026 guides; P28 updated | VisitKorea listing (korean.visitkorea.or.kr) + breezekorea/globaltripplan/way4i 2026 guides |
+| UNMCK Wall of Remembrance: 40,896 names | ✅ Names of 40,896 UN casualties (killed & missing) on 140 marble panels, completed 2006 | koreanwarmemorials.com; military-history.fandom.com |
+| F1963 "Gold Lotus" garden installation | ✅ Othoniel's 황금 연꽃 (Gold Lotus) installed in the outdoor Moonlight Garden (달빛가든) for "In the Labyrinth of Love" (Aug 28–Dec 31, 2026) | imaeil.com 2026-08-28 article |
+
+### 8.3 Name-fidelity corrections in data.json (cluster cards / itinerary meals)
+
+Cluster card food lists and I7 meals now use the exact verified names from Koreafood `cities/busan.md`:
+
+- `Bonga Hanok House (Jangan-eup)` → **Janganjip (장안집)** — 365 Jangan-ro, Jangan-eup; duck house; 11:00–20:30, closed Tue (Visit Busan uc_seq=1525).
+- `PREST Hanok Café` → **PREST** — 28 Chaseong-ro 451beon-gil, Gijang-eup; hanok café; Tue–Sun 12:00–21:00, closed Mon (Visit Busan uc_seq=2068).
+- `Sea & Tree Ocean View Café` → **Sea & Tree** — 808 Ilgwang-ro, Ilgwang-eup; Mon&Tue 12:00–20:00 / Wed–Sun 11:00–22:00 (Visit Busan uc_seq=1966).
+
+`Goraesa Eomuk` (Haeundae cluster, I2 night walk) is kept: it is not in Koreafood, but is a **verified operator in KoreaFun `busan.md` entry #48** ("Samjin Eomuk and Goraesa flagship bakeries — Yeongdo / Haeundae"), sourced to samjinfood.com + Visit Busan food listings.
+
+### 8.4 Remaining pre-travel re-checks (unchanged from section 7)
+KOVO/KBL/WKBL November fixtures · Lotte World Adventure Busan November calendar · BMA main building reopening · MoCA de-installation · Turn Toward Busan ceremony · Dureraum Culture Day screening times · drone show / bridge-lift weather cancellations.
