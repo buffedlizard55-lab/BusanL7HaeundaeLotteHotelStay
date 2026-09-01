@@ -22,7 +22,7 @@ A line-by-line verified, interactive travel planner and vlog guide for a **7-nig
 - **150 Verified Restaurants & Cafés** — Sourced from the Koreafood verified database across 5 cuisine categories, verified against Visit Busan, VisitKorea, and the MICHELIN Guide 2026.
 - **Duo Traveler Tools** — Daily sunset & golden hour timetable (Nov 9: 17:22 to Nov 16: 17:17; sunrise 06:51 → 06:58) for the hotel's exact coordinates, interactive 2-person admission budget estimator (KRW/USD), transit guidelines (T-Money, Naver Map), and emergency contacts.
 - **Metro stop counts audited against official station numbers** — Every ride in the plan was counted on the official Busan Metro Line 1/Line 2 station lists (e.g. Haeundae→Seomyeon 16 stops, Seomyeon→Beomeosa 14 stops/13.8 km, Seomyeon→Gwangan 10 stops).
-- **Zero-Hallucination Verification Ledger** — 30+ live verification checks logged across four audit passes with timestamps and manual review links (incl. an independent Sep 1, 2026 re-verification of the date-critical events against live official/major sources).
+- **Zero-Hallucination Verification Ledger** — 60+ live verification checks logged across five audit passes with timestamps and manual review links (incl. two independent re-verifications of all date-critical events against live official/major sources, most recently Sep 1, 2026: drone show, bridge lift, Gugak concert, Culture Day, Turn Toward Busan, UNMCK, F1963, Blueline, X the Sky, SEA LIFE, Spa Land, L7 FAQ).
 - **Print & PDF Mode** — Dedicated `@media print` styling for printing crisp, distraction-free travel booklets or saving to offline PDFs on mobile devices.
 
 ---
@@ -41,7 +41,7 @@ Every single itinerary, venue, transit estimate, opening hour, and event was ver
    - Every metro ride re-counted against the official Line 1 / Line 2 station-number lists (namu.wiki, rev 2026-08-23/24); I10's Beomeosa leg corrected from 8 → 14 stops, I12's Igidae leg from ~8 → 9 stops, I6's 18-stop day confirmed.
    - Sunrise/sunset for all 8 days taken from timeanddate.com at the hotel's exact coordinates (35°09'36"N, 129°09'36"E); golden-hour windows now end at the verified sunset.
 4. **Transparent Flags**:
-   - Unreleased sports fixtures (KOVO, KBL, WKBL), date-specific park calendars (Lotte World Adventure Busan), and two documented official-page discrepancies (Spa Land hours; Kkangtong closing time) are explicitly flagged rather than papered over.
+   - Unreleased sports fixtures (KOVO, KBL, WKBL), date-specific park calendars (Lotte World Adventure Busan), and documented official-page nuances (Kkangtong closing time; Spa Land hours — resolved to the 09:00–22:00 detail panel in the Sep 1, 2026 fifth pass; L7 checkout 11:00-vs-12:00 FAQ nuance) are explicitly flagged rather than papered over.
 
 See [`VERIFICATION-NOTES.md`](VERIFICATION-NOTES.md) for the complete line-by-line ledger.
 

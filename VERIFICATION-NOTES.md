@@ -244,3 +244,47 @@ Conducted on the session branch before hand-off. The two base repositories were 
 ### 10.5 Remaining pre-travel re-checks (unchanged)
 
 KOVO/KBL/WKBL November fixtures · Lotte World Adventure Busan November calendar · Busan Museum of Art main-building reopening · Busan MoCA de-installation closure · drone show / bridge-lift weather cancellations · Turn Toward Busan ceremony timing confirmation closer to the date.
+
+---
+
+## 11. Fifth-pass audit — Sep 1, 2026 (session re-verification & UI consistency)
+
+Independent verification run on a fresh session branch. Every date-critical claim was re-checked against live official sources (no cache), the full dataset was re-tested in a DOM harness (jsdom + local HTTP server, every tab/subview exercised), and every preset day-mapping was re-audited for weekday closures.
+
+### 11.1 Live official-source re-verification (Sep 1, 2026)
+
+| Claim | Live source | Result |
+|---|---|---|
+| Gwangalli M Drone Light Show — every Saturday, 2 shows, winter (Oct–Feb) 19:00 & 21:00, ~12+ min, Gwangalli Beach, ☎ 051-610-6518/6514 | **Official gwangallimdrone.co.kr /overview** (fetched directly) | ✅ Confirmed verbatim: "매주 토요일 2회 공연 (12분 이상) · 동절기(10월~2월) 19시, 21시" |
+| Yeongdo Bridge lift — Saturdays only, 14:00, 15 minutes, pedestrian passage | **Busan Metropolitan City official English portal** busan.go.kr/eng/the-seven-bridges-of-busan (Yeongdodaegyo section) | ✅ Confirmed verbatim: "lifts once for 15 minutes at 2 p.m., every Saturday" |
+| Gugak "Korea in Sound" — Fri Nov 13, 19:30 & Sat Nov 14, 15:00, Yeji-dang | Yonhap (AKR20260605126100051) + 국악신문 kukak21.com | ✅ Confirmed: 공연 11월 13일~14일 예지당; 금요일 오후 7시 30분 / 토요일 오후 3시 — planner uses Fri 19:30 (avoids Sat conflict) |
+| Culture Day cinema — 2nd & last Wednesday, screenings 17:00–21:00, ₩10,000 adult / ₩8,000 youth | MBC News (2026-04-01), Yonhap AKR20260401118800005, Maeil (2026-04-02), Chosun (2026-04-02) | ✅ Confirmed policy (in effect from May 2026); Nov 11 = 2nd Wednesday |
+| Turn Toward Busan — annual Nov 11, ~11:00, UNMCK | DVIDS (2024 ceremony), korea.net (2025), **busan.go.kr press release** (2025-11-11: ceremony 10:50, silence at 11:00), busan.go.kr wartime-capital page | ✅ Annual since 2007; national memorial day since 2020; the 20th edition falls Wed Nov 11, 2026 — inside stay |
+| UNMCK — free, open 365 days, Oct–Apr 09:00–17:00; Wall of Remembrance 40,896 names | **unmck.or.kr/eng/main** (fetched directly) | ✅ Confirmed. A one-day Aug 6, 2026 repaving closure notice exists — long over, no impact on Nov 11 |
+| F1963 — Othoniel "In the Labyrinth of Love" (사랑 안의 미로), Aug 28–Dec 31, 2026, Sukcheon Hall + Moonlight Garden; largest Korean Othoniel solo; first official WDC 2028 Busan partner exhibition | The CEN News / mhns.co.kr (2026-08-27, city-provided) | ✅ Confirmed; inside stay; closed Mondays (presets route it on Wed/Fri/Sun) |
+| Blueline Park fares — Sky Capsule ₩50,000/₩55,000/₩60,000 per car (2/3/4 pax); Beach Train ₩10,000/₩14,000/₩16,000; packages ₩73,000/₩92,000/₩111,000 | **bluelinepark.com/fare.do** (fetched directly) | ✅ All figures match data.json P-rates |
+| Blueline winter (Nov–Feb) operation — Sky Capsule 08:30 first entry (~18:00 last), Beach Train from ~09:00/09:30; open year-round | KTO-sourced nadleon listing + Trip.com 2026 guide + official New-Year train notice | ✅ I2 "first capsule entry 08:30" matches; year-round no-closure confirmed |
+| Busan X the Sky — daily 10:00–21:00 (all days equal); adult (13+) ₩29,000 / child (36 mo–12) & 65+ ₩26,000; under 36 mo free; last on-site ticket 30 min before close | **busanxthesky.com official mobile page** (fetched directly) | ✅ Confirmed incl. corrected child band (36 mo–12); ☎ 051-731-0098 |
+| SEA LIFE Busan — Mon–Fri 10:00–19:00 (last entry 18:00); Sat–Sun 10:00–20:00 (last entry 19:00) | **visitsealife.com/busan official hours page** (fetched directly) | ✅ Matches I1/I9 |
+| Shinsegae Spa Land — **09:00–22:00, last entry 21:00**; ₩26,000 adult / ₩21,000 student (born 2008–2019); 4-h ticket (+₩5,000/h; ₩10,000+ spend → 6 h); ☎ 1668-2850 | **shinsegae.com Centum Spaland detail panel** (fetched directly) | ⚠️→✅ The earlier "two printed hours figures" discrepancy is now resolved: the operative Spa Land detail panel states 09:00–22:00 / 입장 마감 21:00. P9, flag #21 and the I8 13:30 step were updated to this; the stale store-notice 08:00–23:00 figure retained only as a caution |
+| L7 Haeundae check-in/out — booking says 15:00 / before 11:00 | **lottehotel.com/haeundae-l7/ko/FAQ.html** (fetched directly) + Trip.com/Yanolja listings | ⚠️ Nuance found & flagged: live official Korean FAQ prints check-in 15:00, check-out 12:00 (11:00 in Jul–Aug peak); English mirror & all booking platforms print 15:00/11:00. The reservation's before-11:00 rule is kept as binding. FAQ also confirms: mobile/kiosk check-in from 14:00, free 3F self luggage lockers before/after check-in, no shuttle bus — added to stay notes + sources |
+| Busan Museum of Art — main hall reopening targeted Sep 17, 2026 after the Dec 2023–Sep 2026 renovation; Space Lee Ufan annex open throughout (Tue–Sun 10:00–18:00, closed Mon) | civicnews (2026-01-13), kookje (2026-01-12), CEN (Aug 2026) | ✅ Reopening precedes the stay (Nov); P11 status updated — Space Lee Ufan hours unchanged, post-reopening admission policy to be checked on art.busan.go.kr |
+| Gugak Experience Hall (I5, 16:00 step) — Mon–Sat 09:00–21:00, closed Sundays, ☎ 051-811-0114 | Visit Busan official listing uc_seq=2067 | ✅ Friday Nov 13 visit open |
+
+### 11.2 Weekday/closure re-audit (all 5 presets × 8 days)
+
+Re-run programmatically: each preset day slot was mapped to its weekday (Nov 9 Mon … Nov 16 Mon) and every food/venue closure token in the cited step text was checked against that weekday. Result: **no step lands on a closed day in any preset.** Notable confirmations: Woobong Shabu (Visit Busan: closed Mondays — open for the Tue Nov 10 lunch; I2 text corrected to state the closure day explicitly), La ConTi (closed Tue — explicitly "avoid" on I2), Janganjip (closed Tue — open Sun Nov 15 in I7), PREST (closed Mon — open Sun), TETE O NE (closed Mon/Tue — open Fri Nov 13 in I5), Space Lee Ufan/F1963/Busan Modern History Museum (closed Mon — never placed on the two Mondays), Gukje Market 1st&3rd Sunday closure (3rd Sunday = Nov 15; I4 is Thu, I6 is Sat — safe), Jagalchi 1st&3rd Tuesday closure (Nov 3/17 — outside window).
+
+### 11.3 Fixes applied this pass
+
+1. **Hero stat pill said "3 Curated 7-Day Plans" while the dataset renders 5 presets** → template corrected to 5 (data-driven jsdom counts confirmed 5 cards).
+2. **"Flags & Re-checks" tab badge said 14 while data.json holds 21 flags** → badge corrected to 21 (jsdom: 21 list items render).
+3. **Spa Land hours discrepancy resolved** → P9 + flag #21 + I8 13:30 step updated to the official detail-panel hours 09:00–22:00 / last entry 21:00 (re-checked live); prices and 4-hour rule re-confirmed on the same page.
+4. **I1 Busan X the Sky at 20:30 was exactly the last-ticket deadline** → moved to a 20:00 arrival with explicit "last on-site ticket ~20:30, entry by printed timed slot; book ~20:00 online" guidance.
+5. **I9 Monday SEA LIFE stop** → clarified that checkout (before 11:00, free 3F lockers) comes first; aquarium only if time truly allows.
+6. **Stay block** → added the official Korean FAQ as a source and its verified facts (mobile check-in 14:00; free 3F lockers; no shuttle); flag #14 rewritten to present the 12:00-vs-11:00 checkout nuance transparently while keeping the booking's 11:00 as binding.
+7. **P11 Space Lee Ufan** → status text updated for the confirmed Sep 17, 2026 BMA reopening (annex hours unchanged; post-reopening fee policy TBC).
+
+### 11.4 Post-fix DOM smoke test (jsdom, local server, Sep 1 2026)
+
+`window.app` defined; no error banner; 5 preset cards; 12 master-table rows; 12 daily-picker cards; I1 timeline 8 nodes; I6 timeline 14 nodes; 6 in-window event cards; 6 out-of-window items; 8 cluster cards; 39 place rows; 150 food rows; 6 food category pills; 21 flags; 4 sports; 170 source-index rows; 8 sunset rows; preset day chips show full dates ("Day 1 · Nov 9 …"); hero pills read 12 itineraries / 5 plans / 39 places / 150 eateries / 6 events / 8 zones; flags badge reads 21. Only environment-artifact warnings (scrollIntoView/scrollTo stubs, Google Fonts network in jsdom).
