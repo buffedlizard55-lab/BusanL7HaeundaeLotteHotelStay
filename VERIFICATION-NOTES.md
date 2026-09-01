@@ -208,3 +208,39 @@ Every restaurant/venue in every itinerary step was checked against its closing d
 - **preset-food — "Food First — Busan Eats Edition"** (3 Easy · 1 Moderate · 4 Busy): I1, I2, I4, I10, I5, I6, I8, I9 — each day anchored by verified tables (Woobong Shabu, Amso Galbijip, 1969 Buwondong kalguksu, Hwaguk Banjeom, Dongnae pajeon, Seomyeon food street, TETE O NE, Gwangalli raw fish, Kkangtong street food, ALOI). I5 stays on Fri Nov 13 (concert is day-fixed).
 
 Both presets pass the 9.4 closure audit; every step links only to verified items.
+
+---
+
+## 10. Fourth-pass audit — Sep 1, 2026 (independent re-verification of date-critical claims)
+
+Conducted on the session branch before hand-off. The two base repositories were re-fetched via the GitHub API (not cached) and the five date-critical in-window events were independently re-verified against live official / major-outlet sources. No hallucinations found; two presentation inaccuracies were found and fixed.
+
+### 10.1 Base repositories re-confirmed current
+
+| Repo | File | Content checked | Result |
+|---|---|---|---|
+| KoreaFun | `busan.md` (339 lines, rebuilt Aug 17 / re-verified Aug 18, Pass 34) | 51 entries; all in-window events, X the Sky fares, Blueline fares, Spa Land, Yeongdo Bridge (Saturdays-only), drone show (winter 19:00/21:00), Gugak series (to Nov 14), Othoniel exhibition | ✅ Matches data.json |
+| Koreafood | `cities/busan.md` (233 lines) | 150 Busan eateries; every restaurant named in the 12 itineraries present (Geobukseon, Pyeongan-do, Woobong Shabu, Amso Galbijip, Daeyeon Milmyeon, Ssangdungi, Nampo Samgyetang, Gwangangukbap, 100.1.pyeongnaeng, Chilseong, Dongnae Halmae Pajeon, Wonjo Kkorigomjip, Gaya/Halmae Gaya Milmyeon, Matchandeul, TETE O NE, ALOI, Cor Pasta, Hwaguk, Bugwang, 1969 Buwondong, Samjin, Songjeong Samdae, Brown Hands) | ✅ All present |
+
+### 10.2 Date-critical events — independent live re-verification (Sep 1, 2026)
+
+| Claim | Independent source | Result |
+|---|---|---|
+| Gwangalli M Drone Light Show — every Saturday, 2 shows; winter (Oct–Feb) 19:00 & 21:00 | Visit Busan official schedule page (boardId=BBS_0000010 dataSid=3359) + Visit Busan feature (uc_seq=1769) | ✅ Confirmed |
+| Yeongdo Bridge lift — Saturdays only, 14:00–14:15 | VISITKOREA official listing (vcontsId=74605) "Operating hours [Bridge lift] Saturdays 14:00–14:15" | ✅ Confirmed |
+| Gugak: Korea in Sound — Fri Nov 13 19:30 & Sat Nov 14 15:00, Yeji-dang, ₩10,000 all seats | Yonhap (yna.co.kr AKR20260605126100051) + 국악신문 kukak21.com; busan.gugak.go.kr schedule shows series 2026-05-19–2026-11-14 | ✅ Confirmed (planner uses Fri Nov 13 19:30 — correct, avoids Sat Nov 14 conflict with the bridge lift + drone show) |
+| F1963 — Othoniel "In the Labyrinth of Love", Aug 28–Dec 31, 2026, Sukcheon Hall + Moonlight Garden "Gold Lotus", ~100 works | French Embassy Korea culture page (kr.ambafrance-culture.org) + The CEN News + Herald Economy | ✅ Confirmed (inside the stay window) |
+| Turn Toward Busan — annual Nov 11, 11:00, UNMCK | UNMCK official + KoreaFun busan.md #4 | ✅ Confirmed (annual; cemetery open 365 days) |
+
+### 10.3 Fixes applied (this pass)
+
+1. **Preset day-chip dropped the day-of-month** — `app.js` rendered `d.date.split(' ')[1]` (only the month), so every preset card read "Day 1 · Nov" instead of "Day 1 · Nov 9". Fixed to `d.date.split(' ').slice(1).join(' ')`. Verified in jsdom: chips now read "Day 1 · Nov 9 … Day 8 · Nov 16".
+2. **Busan X the Sky child age band misprinted** — `data.json` P2 read "child (36mo–13)"; the operator page (per KoreaFun busan.md #16) states adult 13+ / child 36 months–12. Corrected to "₩29,000 adult (13+) / ₩26,000 child (36 months–12) & senior 65+; under 36 months free", then `index.html` regenerated via `tools/build-site.py`.
+
+### 10.4 Post-fix DOM smoke test (jsdom)
+
+`window.app` defined; 5 preset cards; 12 master-table rows; 39 place rows; 150 food rows; 8 sunset rows; 170 source rows; preset chips show full dates; no error banner. (jsdom-only `scrollIntoView` and Google Fonts fetch warnings are environment artifacts, not app defects.)
+
+### 10.5 Remaining pre-travel re-checks (unchanged)
+
+KOVO/KBL/WKBL November fixtures · Lotte World Adventure Busan November calendar · Busan Museum of Art main-building reopening · Busan MoCA de-installation closure · drone show / bridge-lift weather cancellations · Turn Toward Busan ceremony timing confirmation closer to the date.

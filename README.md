@@ -22,7 +22,7 @@ A line-by-line verified, interactive travel planner and vlog guide for a **7-nig
 - **150 Verified Restaurants & Cafés** — Sourced from the Koreafood verified database across 5 cuisine categories, verified against Visit Busan, VisitKorea, and the MICHELIN Guide 2026.
 - **Duo Traveler Tools** — Daily sunset & golden hour timetable (Nov 9: 17:22 to Nov 16: 17:17; sunrise 06:51 → 06:58) for the hotel's exact coordinates, interactive 2-person admission budget estimator (KRW/USD), transit guidelines (T-Money, Naver Map), and emergency contacts.
 - **Metro stop counts audited against official station numbers** — Every ride in the plan was counted on the official Busan Metro Line 1/Line 2 station lists (e.g. Haeundae→Seomyeon 16 stops, Seomyeon→Beomeosa 14 stops/13.8 km, Seomyeon→Gwangan 10 stops).
-- **Zero-Hallucination Verification Ledger** — 30+ live verification checks logged across three audit passes with timestamps and manual review links.
+- **Zero-Hallucination Verification Ledger** — 30+ live verification checks logged across four audit passes with timestamps and manual review links (incl. an independent Sep 1, 2026 re-verification of the date-critical events against live official/major sources).
 - **Print & PDF Mode** — Dedicated `@media print` styling for printing crisp, distraction-free travel booklets or saving to offline PDFs on mobile devices.
 
 ---
