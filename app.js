@@ -191,7 +191,7 @@
         const paceCls = getPaceClass(d.pace);
         return `
           <div class="preset-day-chip" onclick="app.selectItinerary('${d.it_id}')" title="Click to view full timeline">
-            <div class="chip-day-num">Day ${d.day_num} · ${esc(d.date.split(' ')[1])}</div>
+            <div class="chip-day-num">Day ${d.day_num} · ${esc(d.date.split(' ').slice(1).join(' '))}</div>
             <div class="chip-theme">${esc(d.theme)}</div>
             <span class="chip-pace ${paceCls}">${esc(d.pace)}</span>
           </div>
