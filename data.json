@@ -4,7 +4,7 @@
     "address": "55 Haeun-daero 570beon-gil, Haeundae-gu, Busan 48094",
     "checkin": "Mon Nov 9, 2026 (after 3:00 PM)",
     "checkout": "Mon Nov 16, 2026 (before 11:00 AM)",
-    "location_notes": "1-min walk from Haeundae Beach; ~5-min walk to Haeundae Station (Busan Metro Line 2). Base for the Haeundae east-coast cluster. ☎ +82-51-771-1000.",
+    "location_notes": "1-min walk from Haeundae Beach; ~5-min walk to Haeundae Station (Busan Metro Line 2). Base for the Haeundae east-coast cluster. Official FAQ: mobile/kiosk check-in available from 14:00; free self-service luggage lockers on 3F for use before check-in / after check-out; no shuttle bus. ☎ +82-51-771-1000.",
     "sources": [
       {
         "label": "L7 HAEUNDAE by LOTTE HOTELS — official site",
@@ -17,6 +17,10 @@
       {
         "label": "Lotte Hotels official (prerendered mirror, address/contact; check-in 15:00 / check-out 11:00)",
         "url": "https://www.lottehotel.com/prerendered/haeundae-l7/en/index.html"
+      },
+      {
+        "label": "L7 Haeundae official FAQ (Korean) — check-in 15:00, check-out 12:00 / 11:00 peak season; mobile check-in 14:00; free 3F lockers; no shuttle",
+        "url": "https://www.lottehotel.com/haeundae-l7/ko/FAQ.html"
       }
     ]
   },
@@ -328,9 +332,9 @@
       "name": "Shinsegae Centum City & Spa Land",
       "area": "Centum City",
       "transit": "Line 2 to Centum City (3 stops from Haeundae, ~8 min) or a ~25-min beach-side walk",
-      "hours": "Spa Land 08:00–23:00, last entry 22:00",
-      "price": "Spa Land ₩26,000 adult / ₩21,000 student (4-hour ticket; +₩5,000/hr after; elementary age and up)",
-      "status": "Verified operator page",
+      "hours": "Spa Land 09:00–22:00, last admission 21:00 (official detail panel; re-confirmed Sep 1, 2026)",
+      "price": "Spa Land ₩26,000 adult / ₩21,000 student (born 2008–2019); 4-hour ticket (+₩5,000/hr; ₩10,000+ in-spa spend → 6 h); elementary age and up; ☎ 1668-2850",
+      "status": "Verified operator page (re-checked Sep 1, 2026). NOTE: a store-level notice elsewhere on the site still prints 08:00–23:00/last entry 22:00; the Spa Land detail panel (the operative one) states 09:00–22:00, last entry 21:00 — plan entry by 20:30.",
       "sources": [
         {
           "label": "Shinsegae official (Spa Land)",
@@ -364,7 +368,7 @@
       "transit": "Line 2 to BEXCO/Centum City",
       "hours": "Tue–Sun 10:00–18:00, last entry 17:30; closed Mondays",
       "price": "Free during the main-building closure; the ₩3,000/₩2,000 pre-closure fee may return with the Sep 17, 2026 reopening",
-      "status": "VERIFIED live Aug 30, 2026. Main BMA building still closed for renovation (docent/parking suspended until Sep 16, 2026; reopening date TBA).",
+      "status": "VERIFIED live Aug 30, 2026; re-checked Sep 1, 2026. Main BMA building was closed for renovation from Dec 18, 2023; the museum announced a September 2026 reopening (reporting: CEN News Aug 26, 2026 → Sep 17, 2026; civicnews/kookje coverage of Sep 17 target). Space Lee Ufan (annex) stayed open throughout: Tue–Sun 10:00–18:00, last entry 17:30, closed Mondays, free during the closure — admission policy after reopening should be checked at art.busan.go.kr before visiting (Nov dates).",
       "sources": [
         {
           "label": "Busan Museum of Art official",
@@ -861,14 +865,14 @@
     "Prices/hours above were verified Aug 17–30, 2026 from official pages; re-confirm closer to travel as they can change.",
     "Weather risk in November: Igidae/Oryukdo, drone show, Yeongdo Bridge lift and the Songdo cable car can close/cancel in wind or rain.",
     "F1963 Othoniel exhibition is closed every Monday and last entry is 17:30 — it is a late-afternoon stop, not an evening one; the free garden installation (Gold Lotus) can be seen outside closing hours.",
-    "Check-out time — RESOLVED (Aug 31, 2026): the official L7 site (prerendered mirror) lists check-in 15:00 / check-out 11:00 for all dates; the earlier 12:00 figure came from a stale page. This plan keeps before-11:00 checkout.",
+    "Check-out time — booking is authoritative; flag an official-site nuance (re-checked Sep 1, 2026): your reservation states check-out before 11:00 AM and this plan respects that. The live official Korean FAQ (lottehotel.com/haeundae-l7/ko/FAQ.html) still prints check-in 15:00 / check-out 12:00 (11:00 in the Jul–Aug peak season), while the English prerendered mirror and all major booking platforms (Trip.com, Yanolja) list 15:00 / 11:00. Mobile/kiosk check-in opens from 14:00; self luggage lockers are free on 3F before/after check-in. Treat 11:00 as the binding time on your booking — ask the front desk about late checkout the night before.",
     "L7 B&B package page (2024-04) is dead; Floating (2F) serves breakfast 07:00–10:00 daily — book by phone ☎ +82-51-771-1000 (I9 departure morning).",
     "ahopsan.com was unreachable during the Aug 31 re-verification — the KoreaFun-audited claims (open year-round, free entry) are kept; reconfirm before travel.",
     "gukjemarket.co.kr returned HTTP 403 during re-verification — the Gukje source now points to the KTO listing (vcontsId=92540); closed 1st & 3rd Sundays (Nov 15 falls in the stay).",
     "Bupyeong Kkangtong closing time: KTO prints 19:30–23:30, Visit Busan prints until 24:00 — both agree on the 19:30 opening, so the 20:30 plan is safe either way.",
     "bnfmc.or.kr posts Igidae/Oryukdo winter hours 09:00–18:00; the previously cited \"last admission 17:50\" is not posted — removed.",
     "Metro stop counts re-audited Aug 31, 2026 against official station numbers (namu.wiki Line 1 rev 2026-08-24, Line 2 rev 2026-08-23): Line 2 Seomyeon→Gwangan = 10 stops, Line 1 Seomyeon→Beomeosa = 14 stops (13.8 km) — I10 one-way transit corrected from \"8 stops/≈45 min\" to \"14 stops/≈55–60 min\"; I6 \"18 stops\" confirmed correct.",
-    "Shinsegae Spa Land official page prints two hours figures (store notice 08:00–23:00 last entry 22:00 vs detail panel 09:00–22:00) — prices (₩26,000/₩21,000, student born 2008–2019) confirmed on the same page; call 1668-2850."
+    "Shinsegae Spa Land hours — re-checked Sep 1, 2026: the official detail panel (shinsegae.com Centum City Spaland page) now clearly states 운영시간 09:00–22:00 with last admission (입장 마감) 21:00. Prices confirmed on the same page: adult ₩26,000 / student ₩21,000 (student = birth years 2008–2019; elementary age and up), 4-hour ticket (+₩5,000/hour; ₩10,000+ in-spa spend extends to 6 h), ☎ 1668-2850, free 4 h parking. Plan spa entry by 20:30 to be safe; the earlier two-figures discrepancy is resolved in favor of the 09:00–22:00 / last entry 21:00 panel."
   ],
   "food": [
     {
@@ -1955,9 +1959,9 @@
           "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002002000"
         },
         {
-          "time": "20:30",
+          "time": "20:00",
           "what": "Busan X the Sky — night view from LCT 100F",
-          "detail": "Open daily 10:00–21:00, last ticket 20:30. ₩29,000 adult / ₩26,000 child & senior. 411.6 m — highest view in Busan; queue late on busy nights.",
+          "detail": "Open daily 10:00–21:00 (weekdays/weekends/holidays same); on-site ticket desk closes 30 min before close (last ticket ~20:30) and entry is by printed date/time only. Aim to arrive by 20:00–20:15 (or book a ~20:00 timed ticket online). ₩29,000 adult (13+) / ₩26,000 child (36 mo–12) & senior 65+; under 36 months free. 411.6 m LCT tower — highest view in Busan; queues on busy nights. ☎ 051-731-0098.",
           "link": "https://www.busanxthesky.com/xthesky/xthesky.php"
         }
       ],
@@ -1994,7 +1998,7 @@
         {
           "time": "12:00",
           "what": "Lunch at Cheongsapo — Woobong Shabu",
-          "detail": "1++ hanwoo shabu in a paper pot; 11:00–15:00 / 17:00–21:00; open Tuesdays. (La ConTi is closed Tuesdays — avoid.)",
+          "detail": "1++ hanwoo shabu in a paper pot; 11:00–15:00 / 17:00–21:00; Visit Busan lists it CLOSED MONDAYS — open for our Tuesday Nov 10 lunch. (La ConTi is closed Tuesdays — avoid.)",
           "link": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301002001000&uc_seq=1849&lang_cd=en"
         },
         {
@@ -2390,7 +2394,7 @@
         {
           "time": "13:30",
           "what": "Spa Land jjimjilbang (2–3 hours)",
-          "detail": "08:00–23:00 (last entry 22:00) per the store notice — the detail panel on the same official page prints 09:00–22:00, so call 1668-2850; a 13:30 start works either way. ₩26,000 adult / ₩21,000 student (born 2008–2019). ⚠️ Ticket = 4 HOURS (+₩5,000/hr after; spend ₩10,000+ inside → 6 hours). Elementary age and up. Closed one weekday a month (department-store holiday). 1668-2850.",
+          "detail": "Official detail panel (re-confirmed Sep 1, 2026): 09:00–22:00, last entry 21:00 — a store-level notice elsewhere on the page still prints 08:00–23:00/last entry 22:00, but 13:30 entry is safe under either. ☎ 1668-2850. ₩26,000 adult / ₩21,000 student (born 2008–2019). ⚠️ Ticket = 4 HOURS (+₩5,000/hr after; spend ₩10,000+ inside → 6 hours). Elementary age and up. Closed one weekday a month (department-store holiday — check before going).",
           "link": "https://www.shinsegae.com/store/entertainment/centum-spaland.do?storeCd=SC00008"
         },
         {
@@ -2446,7 +2450,7 @@
         {
           "time": "10:00",
           "what": "SEA LIFE quick visit (optional, if time)",
-          "detail": "SEA LIFE is under Haeundae Beach, 1 min from the hotel: Mon–Fri 10:00–19:00, last entry 18:00. A 10:00–10:45 hop is realistic only if you're fully packed first.",
+          "detail": "SEA LIFE is under Haeundae Beach, 1 min from the hotel: Mon–Fri 10:00–19:00 (last entry 18:00), Sat–Sun 10:00–20:00 (last entry 19:00). On this Monday check-out morning: check out by 11:00 first (free self luggage lockers on 3F), then a 10:00–10:45 visit only if time allows before travel — do not risk an aquarium stop if you have a fixed departure.",
           "link": "https://www.visitsealife.com/busan/plan-your-visit/before-you-visit/opening-hours/"
         },
         {
